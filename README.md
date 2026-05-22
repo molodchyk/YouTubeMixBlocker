@@ -1,7 +1,9 @@
 # YouTube Mix Blocker
 
 <p align="center">
-  <img src="src/icons/icon-128.png" alt="YouTube Mix Blocker icon" width="96" height="96">
+  <a href="https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga">
+    <img src="src/icons/icon-128.png" alt="YouTube Mix Blocker icon" width="96" height="96">
+  </a>
 </p>
 
 A small browser extension that removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.
