@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "npm run build:chrome",
+    "build:chrome": "node scripts/build-content.mjs chrome",
+    "build:firefox": "node scripts/build-content.mjs firefox",
+    "build:all": "npm run build:chrome && npm run build:firefox",
+    "check": "npm run build:all && node --check scripts/build-content.mjs && node --check dist/content.js && node --check dist/background.js && node --check dist/popup/popup.js && node --check dist-firefox/content.js && node --check dist-firefox/background.js && node --check dist-firefox/popup/popup.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

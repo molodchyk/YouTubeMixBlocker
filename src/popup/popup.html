@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title data-i18n="popupTitle">YouTube Mix Blocker</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 data-i18n="popupTitle">YouTube Mix Blocker</h1>
+        <p id="status" data-i18n="popupStatus">Quietly active</p>
+      </header>
+
+      <section class="summary" aria-label="Summary">
+        <div>
+          <span class="label" data-i18n="popupMixCardsBlocked">Mix cards blocked</span>
+          <strong id="totalBlocked">0</strong>
+        </div>
+        <div>
+          <span class="label" data-i18n="popupMixUrlsCleaned">Mix URLs cleaned</span>
+          <strong id="urlsCleaned">0</strong>
+        </div>
+        <div>
+          <span class="label" data-i18n="popupThisPage">This page</span>
+          <strong id="currentPageBlocked">0</strong>
+        </div>
+      </section>
+
+      <section id="details" class="details" aria-label="Breakdown">
+        <div>
+          <span data-i18n="popupRecommendations">Recommendations</span>
+          <strong id="recommendationsBlocked">0</strong>
+        </div>
+        <div>
+          <span data-i18n="popupSearchResults">Search results</span>
+          <strong id="searchBlocked">0</strong>
+        </div>
+        <div>
+          <span data-i18n="popupWatchSidebar">Watch sidebar</span>
+          <strong id="watchSidebarBlocked">0</strong>
+        </div>
+      </section>
+
+      <section class="settings" aria-label="Settings">
+        <label class="select-row">
+          <span data-i18n="popupTheme">Theme</span>
+          <select id="theme">
+            <option value="system" data-i18n="popupThemeSystem">System</option>
+            <option value="light" data-i18n="popupThemeLight">Light</option>
+            <option value="dark" data-i18n="popupThemeDark">Dark</option>
+          </select>
+        </label>
+        <label>
+          <input id="showBadge" type="checkbox">
+          <span data-i18n="popupShowBadge">Show badge count for this page</span>
+        </label>
+        <label>
+          <input id="showDetailedCounters" type="checkbox">
+          <span data-i18n="popupShowDetails">Show detailed breakdown</span>
+        </label>
+      </section>
+
+      <button id="resetCounters" type="button" data-i18n="popupResetCounters">Reset counters</button>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

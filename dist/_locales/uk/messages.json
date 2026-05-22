@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Назва розширення."
+  },
+  "appDescription": {
+    "message": "Блокує YouTube Mixes і очищає URL-адреси перегляду Mix.",
+    "description": "Короткий опис розширення для Chrome і Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Заголовок popup-вікна."
+  },
+  "popupStatus": {
+    "message": "Тихо активний",
+    "description": "Текст статусу в popup-вікні."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Карток Mix заблоковано",
+    "description": "Підпис лічильника заблокованих карток Mix."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URL-адрес Mix очищено",
+    "description": "Підпис лічильника очищених URL-адрес Mix."
+  },
+  "popupThisPage": {
+    "message": "Ця сторінка",
+    "description": "Підпис лічильника поточної сторінки."
+  },
+  "popupRecommendations": {
+    "message": "Рекомендації",
+    "description": "Підпис лічильника рекомендацій."
+  },
+  "popupSearchResults": {
+    "message": "Результати пошуку",
+    "description": "Підпис лічильника результатів пошуку."
+  },
+  "popupWatchSidebar": {
+    "message": "Бічна панель перегляду",
+    "description": "Підпис лічильника бічної панелі на сторінці перегляду."
+  },
+  "popupShowBadge": {
+    "message": "Показувати badge-лічильник для цієї сторінки",
+    "description": "Налаштування необов'язкового badge-лічильника."
+  },
+  "popupTheme": {
+    "message": "Тема",
+    "description": "Підпис налаштування теми."
+  },
+  "popupThemeSystem": {
+    "message": "Системна",
+    "description": "Використовувати системну тему."
+  },
+  "popupThemeLight": {
+    "message": "Світла",
+    "description": "Використовувати світлу тему."
+  },
+  "popupThemeDark": {
+    "message": "Темна",
+    "description": "Використовувати темну тему."
+  },
+  "popupShowDetails": {
+    "message": "Показувати детальну статистику",
+    "description": "Налаштування детальних лічильників."
+  },
+  "popupResetCounters": {
+    "message": "Скинути лічильники",
+    "description": "Кнопка скидання всіх лічильників."
+  },
+  "popupResetConfirm": {
+    "message": "Скинути всі лічильники YouTube Mix Blocker?",
+    "description": "Підтвердження перед скиданням лічильників."
+  },
+  "popupStatsUnavailable": {
+    "message": "Статистика недоступна",
+    "description": "Показується, коли статистику popup-вікна не вдалося завантажити."
+  }
+}
