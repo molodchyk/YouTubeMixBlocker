@@ -1,28 +1,91 @@
-# YouTubeMixBlocker
+# YouTube Mix Blocker
 
-A simple Chrome extension to block YouTube Mixes and clean Mix watch URLs.
+A small browser extension that removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.
 
-Works on recommendation pages, YouTube search results, and watch-page sidebar recommendations. The popup shows optional counters for blocked Mix cards and cleaned Mix watch URLs, while the badge counter stays off by default.
+[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hcjmmaealhemocjdjfajldoneaidkaga.svg?label=Chrome%20Web%20Store&color=blue)](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga)
+[![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE.txt)
 
-## Get it on Chrome Web Store
-[![Get it on Chrome Store](https://img.shields.io/chrome-web-store/v/hcjmmaealhemocjdjfajldoneaidkaga.svg?label=Chrome%20Web%20Store&color=blue)](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga)
+## Features
+
+- Blocks YouTube Mix cards in recommendations.
+- Blocks YouTube Mix cards in search results.
+- Blocks YouTube Mix cards in watch-page sidebar recommendations.
+- Cleans Mix watch URLs by removing Mix playlist parameters.
+- Includes an optional popup with counters for blocked Mixes and cleaned URLs.
+- Keeps the badge counter disabled by default.
+- Supports English, German, and Ukrainian.
+
+## Install
+
+### Chrome Web Store
+
+Install the published extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga).
+
+### From Source
+
+1. Install dependencies:
+
+   ```powershell
+   npm install
+   ```
+
+2. Build the Chrome extension:
+
+   ```powershell
+   npm run build:chrome
+   ```
+
+3. Open `chrome://extensions`, enable **Developer mode**, choose **Load unpacked**, and select the generated `dist/` directory.
 
 ## Development
-Edit source files in `src/`, then run `npm run build`.
 
-- `npm run build:chrome` generates `dist/` for Chrome and Chrome Web Store.
-- `npm run build:firefox` generates `dist-firefox/` as the Firefox/AMO build target.
-- `npm run build:all` generates both browser targets.
+Source files live in `src/`. Build output is generated into `dist/` for Chrome and `dist-firefox/` for Firefox.
 
-The browser-specific manifest is generated during the build. Chrome uses a Manifest V3 service worker background; Firefox uses the shared background script as a Manifest V3 background script.
+Useful commands:
 
-Chrome Web Store listing text is kept in `store-listing/chrome-web-store/` as paste-ready plain text files, one per locale.
+```powershell
+npm run build:chrome
+npm run build:firefox
+npm run build:all
+npm run check
+```
+
+`npm run check` builds both targets and runs syntax checks on the generated JavaScript files.
+
+The browser-specific manifest is generated during the build:
+
+- Chrome uses a Manifest V3 service worker background.
+- Firefox uses the shared background script as a Manifest V3 background script.
+
+## Project Structure
+
+- `src/` - extension source files.
+- `src/content/` - YouTube page detection, blocking, URL cleanup, and SPA event handling.
+- `src/popup/` - extension popup UI.
+- `src/_locales/` - extension localization messages.
+- `dist/` - generated Chrome build.
+- `dist-firefox/` - generated Firefox build.
+- `store-listing/` - Chrome Web Store listing text, screenshots, promo images, and review justifications.
+- `release/` - locally generated upload packages.
+
+## Privacy
+
+YouTube Mix Blocker does not collect, transmit, sell, or share personal data or browsing data. Settings and counters are stored locally in the browser and are used only to provide the extension's features.
+
+See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
+
+## Release Notes
+
+See [CHANGELOG.md](CHANGELOG.md).
 
 ## Feedback
-Any feedback is welcomed! Leave a review on the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga), or open an issue here, or write me an email at [molodchykr@gmail.com](mailto:molodchykr@gmail.com).
+
+Feedback is welcome. You can leave a review on the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga), open an issue on GitHub, or write to [molodchykr@gmail.com](mailto:molodchykr@gmail.com).
 
 ## Support
+
 If this extension saves you time and you want to support its development, you can [buy me a coffee](https://buymeacoffee.com/molodchyk) or support me on [Patreon](https://www.patreon.com/OMolodchyk).
 
 ## License
+
 Licensed under GPL-3.0-or-later. See [LICENSE.txt](LICENSE.txt).
