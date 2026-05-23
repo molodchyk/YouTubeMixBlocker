@@ -12,6 +12,8 @@ This folder stores paste-ready listing text, review notes, and upload assets for
 Chrome Web Store screenshots can be localized per listing language, so they live beside the listing text for that locale.
 Only English, German, and Ukrainian screenshots are included for now. The other locale folders intentionally contain listing text only.
 
+Note: the extension source uses Chrome's current Hebrew locale code `he` under `src/_locales/`, while the Chrome Web Store dashboard may label Hebrew as `iw`. The store listing folder uses `iw/` to match the dashboard.
+
 ## Global Assets
 
 - `global/promo/` - global small and marquee promo tiles.
