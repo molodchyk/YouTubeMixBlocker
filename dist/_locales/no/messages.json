@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Blokkerer YouTube-mikser og renser Mix-ur-adresser.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Stille aktiv",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Blandekort er blokkert",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Mix URL-er renset",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Denne siden",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Anbefalinger",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Søkeresultater",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Se sidefelt",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Vis merketelling for denne siden",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "System",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Lys",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Mørkt",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Vis detaljert oversikt",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Tilbakestill tellere",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Vil du tilbakestille alle YouTube Mix Blocker-tellere?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Statistikk utilgjengelig",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

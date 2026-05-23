@@ -19,7 +19,7 @@ A small browser extension that removes YouTube Mix recommendations from YouTube 
 - Cleans Mix watch URLs by removing Mix playlist parameters.
 - Includes an optional popup with counters for blocked Mixes and cleaned URLs.
 - Keeps the badge counter disabled by default.
-- Supports English, German, and Ukrainian.
+- Supports 50 localized extension UI languages.
 
 ## Install
 

@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Huzuia Mchanganyiko wa YouTube na kusafisha URL za saa za Mseto.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Inatumika kimya kimya",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Kadi za mchanganyiko zimezuiwa",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URL za mchanganyiko zimesafishwa",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Ukurasa huu",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Mapendekezo",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Matokeo ya utafutaji",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Upau wa kutazama",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Onyesha idadi ya beji kwa ukurasa huu",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Mandhari",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Mfumo",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Mwanga",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Giza",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Onyesha uchanganuzi wa kina",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Weka upya vihesabio",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Ungependa kuweka upya vihesabu vyote vya YouTube Mix Blocker?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Takwimu hazipatikani",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

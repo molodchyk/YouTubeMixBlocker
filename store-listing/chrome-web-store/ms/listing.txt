@@ -1,0 +1,30 @@
+YouTube Mix Blocker mengalih keluar cadangan YouTube Mix daripada halaman YouTube dan membersihkan URL tontonan Mix supaya video dibuka sebagai pautan video biasa.
+
+Ia direka bentuk untuk kekal senyap dan minimum: tiada penggantian suapan, tiada pengesyoran sendiri dan tiada UI yang menarik perhatian melainkan anda memilih untuk membuka pop timbul.
+
+Ciri-ciri
+
+- Menyekat kad YouTube Mix dalam cadangan.
+- Menyekat kad YouTube Mix dalam hasil carian.
+- Menyekat kad YouTube Mix dalam cadangan bar sisi halaman tontonan.
+- Membersihkan URL tontonan Campuran dengan mengalih keluar parameter senarai main Campur.
+- Termasuk kaunter pilihan untuk Campuran yang disekat dan URL yang dibersihkan.
+- Memastikan kaunter lencana dilumpuhkan secara lalai.
+
+Privasi
+
+Sambungan ini hanya berjalan pada halaman YouTube. Ia tidak mengumpul, menjual atau menghantar data penyemakan imbas anda.
+
+Sumber terbuka
+
+Kod sumber:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Maklum balas adalah dialu-alukan. Anda boleh meninggalkan ulasan, membuka isu di GitHub, atau menulis kepada:
+molodchykr@gmail.com
+
+Apa yang baharu dalam versi 1.5.1
+
+- Menambah penyetempatan UI sambungan 50 bahasa.
+- Susun atur pop timbul yang dipertingkatkan untuk label terjemahan yang lebih panjang.
+- Termasuk semua peningkatan kebolehpercayaan daripada versi 1.5: Campurkan pembersihan URL, penyekatan bar sisi jam dan pembilang pilihan.

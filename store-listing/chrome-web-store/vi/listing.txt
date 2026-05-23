@@ -1,0 +1,30 @@
+Trình chặn kết hợp YouTube xóa đề xuất Kết hợp YouTube khỏi các trang YouTube và xóa URL xem Kết hợp để video mở dưới dạng liên kết video thông thường.
+
+Nó được thiết kế để giữ im lặng và tối thiểu: không thay thế nguồn cấp dữ liệu, không có đề xuất riêng và không có giao diện người dùng thu hút sự chú ý trừ khi bạn chọn mở cửa sổ bật lên.
+
+Tính năng
+
+- Chặn thẻ YouTube Mix trong đề xuất.
+- Chặn thẻ YouTube Mix trong kết quả tìm kiếm.
+- Chặn thẻ YouTube Mix trong đề xuất thanh bên của trang xem.
+- Làm sạch URL xem Mix bằng cách xóa tham số danh sách Mix.
+- Bao gồm các bộ đếm tùy chọn cho các Danh sách kết hợp bị chặn và các URL đã được làm sạch.
+- Giữ bộ đếm huy hiệu bị tắt theo mặc định.
+
+Quyền riêng tư
+
+Tiện ích mở rộng này chỉ chạy trên các trang YouTube. Nó không thu thập, bán hoặc truyền dữ liệu duyệt web của bạn.
+
+Nguồn mở
+
+Mã nguồn:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Phản hồi được chào đón. Bạn có thể để lại đánh giá, mở một vấn đề trên GitHub hoặc viết thư cho:
+molodchykr@gmail.com
+
+Có gì mới trong phiên bản 1.5.1
+
+- Đã thêm bản địa hóa giao diện người dùng mở rộng 50 ngôn ngữ.
+- Cải thiện bố cục cửa sổ bật lên cho các nhãn được dịch dài hơn.
+- Bao gồm tất cả các cải tiến về độ tin cậy từ phiên bản 1.5: Dọn dẹp URL kết hợp, chặn thanh bên xem và bộ đếm tùy chọn.

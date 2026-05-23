@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Memblokir YouTube Mixes dan membersihkan URL tonton Mix.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Aktif diam-diam",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Kartu Mix diblokir",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URL Mix dibersihkan",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Halaman ini",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Rekomendasi",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Hasil penelusuran",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Sidebar tontonan",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Tampilkan hitungan badge halaman ini",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Sistem",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Terang",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Gelap",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Tampilkan rincian detail",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Reset penghitung",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Reset semua penghitung YouTube Mix Blocker?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Statistik tidak tersedia",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

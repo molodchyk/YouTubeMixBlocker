@@ -54,7 +54,7 @@ function createManifest(buildTarget) {
   const manifest = {
     manifest_version: 3,
     name: "__MSG_appName__",
-    version: "1.5",
+    version: "1.5.1",
     default_locale: "en",
     permissions: [
       "activeTab",

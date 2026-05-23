@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube ಮಿಕ್ಸ್ ಬ್ಲಾಕರ್",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube ಮಿಕ್ಸ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ ಮತ್ತು ಮಿಕ್ಸ್ ವಾಚ್ URL ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸುತ್ತದೆ.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube ಮಿಕ್ಸ್ ಬ್ಲಾಕರ್",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "ಸದ್ದಿಲ್ಲದೆ ಸಕ್ರಿಯ",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "ಮಿಕ್ಸ್ ಕಾರ್ಡ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "ಮಿಕ್ಸ್ URL ಗಳನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸಲಾಗಿದೆ",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "ಈ ಪುಟ",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "ಶಿಫಾರಸುಗಳು",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "ಹುಡುಕಾಟ ಫಲಿತಾಂಶಗಳು",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "ಸೈಡ್‌ಬಾರ್ ವೀಕ್ಷಿಸಿ",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "ಈ ಪುಟಕ್ಕಾಗಿ ಬ್ಯಾಡ್ಜ್ ಎಣಿಕೆಯನ್ನು ತೋರಿಸಿ",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "ಥೀಮ್",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "ವ್ಯವಸ್ಥೆ",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "ಬೆಳಕು",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "ಕತ್ತಲು",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "ವಿವರವಾದ ಸ್ಥಗಿತವನ್ನು ತೋರಿಸಿ",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "ಕೌಂಟರ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "ಎಲ್ಲಾ YouTube ಮಿಕ್ಸ್ ಬ್ಲಾಕರ್ ಕೌಂಟರ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸುವುದೇ?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "ಅಂಕಿಅಂಶಗಳು ಲಭ್ಯವಿಲ್ಲ",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

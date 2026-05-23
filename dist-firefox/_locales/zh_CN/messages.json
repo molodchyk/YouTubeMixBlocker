@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "屏蔽 YouTube Mixes，并清理 Mix 观看网址。",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "静默运行中",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "已屏蔽的 Mix 卡片",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "已清理的 Mix 网址",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "此页面",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "推荐内容",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "搜索结果",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "观看页侧边栏",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "显示此页面的徽章计数",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "主题",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "系统",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "浅色",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "深色",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "显示详细分类",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "重置计数器",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "要重置所有 YouTube Mix Blocker 计数器吗？",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "统计不可用",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

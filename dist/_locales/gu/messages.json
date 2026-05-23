@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube મિક્સ બ્લોકર",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube મિક્સને બ્લૉક કરે છે અને મિક્સ વૉચ URL ને સાફ કરે છે.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube મિક્સ બ્લોકર",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "શાંતિથી સક્રિય",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "મિક્સ કાર્ડ્સ અવરોધિત",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "મિક્સ URL સાફ",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "આ પૃષ્ઠ",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "ભલામણો",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "શોધ પરિણામો",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "સાઇડબાર જુઓ",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "આ પૃષ્ઠ માટે બેજની સંખ્યા બતાવો",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "થીમ",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "સિસ્ટમ",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "પ્રકાશ",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "શ્યામ",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "વિગતવાર ભંગાણ બતાવો",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "કાઉન્ટર્સ રીસેટ કરો",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "બધા YouTube મિક્સ બ્લોકર કાઉન્ટર્સ રીસેટ કરીએ?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "આંકડા ઉપલબ્ધ નથી",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

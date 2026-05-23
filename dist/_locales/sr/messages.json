@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "ИоуТубе Мик Блоцкер",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Блокира ИоуТубе миксове и чисти УРЛ-ове за гледање Микса.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "ИоуТубе Мик Блоцкер",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Тихо активан",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Мик карте су блокиране",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Комбиновани УРЛ-ови су очишћени",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Ова страница",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Препоруке",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Резултати претраге",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Гледајте бочну траку",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Прикажи број значки за ову страницу",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Тема",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Систем",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Светлост",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Дарк",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Прикажите детаљан преглед",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Ресетујте бројаче",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Ресетовати све бројаче ИоуТубе Мик Блоцкер-а?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Статистика није доступна",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

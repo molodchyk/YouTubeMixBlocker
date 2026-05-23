@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Chặn YouTube Mixes và làm sạch URL xem Mix.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Hoạt động âm thầm",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Thẻ Mix đã chặn",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URL Mix đã làm sạch",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Trang này",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Đề xuất",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Kết quả tìm kiếm",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Thanh bên trang xem",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Hiện số huy hiệu cho trang này",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Giao diện",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Hệ thống",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Sáng",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Tối",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Hiện phân tích chi tiết",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Đặt lại bộ đếm",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Đặt lại tất cả bộ đếm YouTube Mix Blocker?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Không có thống kê",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

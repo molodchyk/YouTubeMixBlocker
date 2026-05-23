@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.5.1
+
+- Adds 50-language extension UI localization.
+- Improves popup layout resilience for longer localized labels.
+
 ## Version 1.5
 
 - Adds automatic cleanup of YouTube Mix watch URLs.

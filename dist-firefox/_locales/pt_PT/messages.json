@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Bloqueia YouTube Mixes e limpa URLs de visualização Mix.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Ativo silenciosamente",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Cartões Mix bloqueados",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URLs Mix limpos",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Esta página",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Recomendações",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Resultados da pesquisa",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Barra lateral de visualização",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Mostrar contador nesta página",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Sistema",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Claro",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Escuro",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Mostrar detalhe",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Repor contadores",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Repor todos os contadores do YouTube Mix Blocker?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Estatísticas indisponíveis",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

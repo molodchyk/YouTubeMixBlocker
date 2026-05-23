@@ -1,0 +1,30 @@
+YouTube Mix Blocker huondoa mapendekezo ya Mseto wa YouTube kutoka kwa kurasa za YouTube na kusafisha URL za kutazama za Mchanganyiko ili video zifunguke kama viungo vya kawaida vya video.
+
+Imeundwa ili kukaa kimya na kwa kiwango kidogo: hakuna uingizwaji wa mipasho, hakuna mapendekezo yake yenyewe, na hakuna UI ya kuvutia isipokuwa ukichagua kufungua dirisha ibukizi.
+
+Vipengele
+
+- Huzuia kadi za YouTube Mix katika mapendekezo.
+- Huzuia kadi za YouTube Mix katika matokeo ya utafutaji.
+- Huzuia kadi za YouTube Mix katika mapendekezo ya utepe wa ukurasa wa kutazama.
+- Husafisha URL za saa za Mchanganyiko kwa kuondoa vigezo vya orodha ya kucheza.
+- Inajumuisha vihesabio vya hiari vya Mchanganyiko uliozuiwa na URL zilizosafishwa.
+- Huweka kihesabu cha beji kimezimwa kwa chaguomsingi.
+
+Faragha
+
+Kiendelezi hiki kinatumia kurasa za YouTube pekee. Haikusanyi, kuuza, au kusambaza data yako ya kuvinjari.
+
+Chanzo wazi
+
+Msimbo wa chanzo:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Maoni yanakaribishwa. Unaweza kuacha ukaguzi, kufungua suala kwenye GitHub, au kuandika kwa:
+molodchykr@gmail.com
+
+Nini kipya katika toleo la 1.5.1
+
+- Imeongeza ujanibishaji wa UI wa lugha 50.
+- Mpangilio wa ibukizi ulioboreshwa kwa lebo zilizotafsiriwa kwa muda mrefu.
+- Inajumuisha maboresho yote ya kutegemewa kutoka kwa toleo la 1.5: Changanya usafishaji wa URL, uzuiaji wa upau wa saa, na vihesabio vya hiari.

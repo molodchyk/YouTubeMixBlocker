@@ -1,78 +1,78 @@
 {
   "appName": {
     "message": "YouTube Mix Blocker",
-    "description": "Назва розширення."
+    "description": "Extension name."
   },
   "appDescription": {
     "message": "Блокує YouTube Mixes і очищає URL-адреси перегляду Mix.",
-    "description": "Короткий опис розширення для Chrome і Chrome Web Store."
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
   },
   "popupTitle": {
     "message": "YouTube Mix Blocker",
-    "description": "Заголовок popup-вікна."
+    "description": "Popup heading."
   },
   "popupStatus": {
     "message": "Тихо активний",
-    "description": "Текст статусу в popup-вікні."
+    "description": "Popup status text."
   },
   "popupMixCardsBlocked": {
     "message": "Карток Mix заблоковано",
-    "description": "Підпис лічильника заблокованих карток Mix."
+    "description": "Total blocked Mix card counter label."
   },
   "popupMixUrlsCleaned": {
     "message": "URL-адрес Mix очищено",
-    "description": "Підпис лічильника очищених URL-адрес Mix."
+    "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
     "message": "Ця сторінка",
-    "description": "Підпис лічильника поточної сторінки."
+    "description": "Current page counter label."
   },
   "popupRecommendations": {
     "message": "Рекомендації",
-    "description": "Підпис лічильника рекомендацій."
+    "description": "Recommendations counter label."
   },
   "popupSearchResults": {
     "message": "Результати пошуку",
-    "description": "Підпис лічильника результатів пошуку."
+    "description": "Search results counter label."
   },
   "popupWatchSidebar": {
     "message": "Бічна панель перегляду",
-    "description": "Підпис лічильника бічної панелі на сторінці перегляду."
+    "description": "Watch page sidebar counter label."
   },
   "popupShowBadge": {
     "message": "Показувати badge-лічильник для цієї сторінки",
-    "description": "Налаштування необов'язкового badge-лічильника."
+    "description": "Setting label for optional badge counter."
   },
   "popupTheme": {
     "message": "Тема",
-    "description": "Підпис налаштування теми."
+    "description": "Theme setting label."
   },
   "popupThemeSystem": {
     "message": "Системна",
-    "description": "Використовувати системну тему."
+    "description": "Use the system theme."
   },
   "popupThemeLight": {
     "message": "Світла",
-    "description": "Використовувати світлу тему."
+    "description": "Use light theme."
   },
   "popupThemeDark": {
     "message": "Темна",
-    "description": "Використовувати темну тему."
+    "description": "Use dark theme."
   },
   "popupShowDetails": {
     "message": "Показувати детальну статистику",
-    "description": "Налаштування детальних лічильників."
+    "description": "Setting label for detailed counters."
   },
   "popupResetCounters": {
     "message": "Скинути лічильники",
-    "description": "Кнопка скидання всіх лічильників."
+    "description": "Button label for resetting all counters."
   },
   "popupResetConfirm": {
     "message": "Скинути всі лічильники YouTube Mix Blocker?",
-    "description": "Підтвердження перед скиданням лічильників."
+    "description": "Confirmation message before resetting counters."
   },
   "popupStatsUnavailable": {
     "message": "Статистика недоступна",
-    "description": "Показується, коли статистику popup-вікна не вдалося завантажити."
+    "description": "Shown when popup stats cannot be loaded."
   }
 }

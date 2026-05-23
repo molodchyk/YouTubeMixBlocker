@@ -1,0 +1,30 @@
+YouTube Mix Blocker poistaa YouTube Mix -suositukset YouTube-sivuilta ja puhdistaa Mixin katselu-URL-osoitteet, jotta videot avautuvat tavallisina videolinkkeinä.
+
+Se on suunniteltu pysymään hiljaisena ja minimaalisena: ei syötteen vaihtoa, ei omia suosituksia eikä huomiota herättävää käyttöliittymää, ellet päätä avata ponnahdusikkunaa.
+
+Ominaisuudet
+
+- Estää YouTube Mix -kortit suosituksissa.
+- Estää YouTube Mix -kortit hakutuloksissa.
+- Estää YouTube Mix -kortit katselusivun sivupalkin suosituksista.
+- Puhdistaa Mix-katselun URL-osoitteet poistamalla Mix-soittolistan parametrit.
+- Sisältää valinnaiset laskurit estetyille sekoituksille ja puhdistetuille URL-osoitteille.
+- Pitää merkkilaskurin oletuksena pois käytöstä.
+
+Yksityisyys
+
+Tämä laajennus toimii vain YouTube-sivuilla. Se ei kerää, myy tai lähetä selaustietojasi.
+
+Avoin lähdekoodi
+
+Lähdekoodi:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Palaute on tervetullutta. Voit jättää arvostelun, avata ongelman GitHubissa tai kirjoittaa osoitteeseen:
+molodchykr@gmail.com
+
+Mitä uutta versiossa 1.5.1
+
+- Lisätty 50-kielinen laajennuskäyttöliittymän lokalisointi.
+- Parannettu ponnahdusikkuna-asettelu pidempiä käännettyjä tarroja varten.
+- Sisältää kaikki luotettavuuden parannukset versiosta 1.5: Sekoita URL-osoitteen puhdistus, kellon sivupalkin esto ja valinnaiset laskurit.

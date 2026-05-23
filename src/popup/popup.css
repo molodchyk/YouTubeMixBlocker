@@ -3,7 +3,7 @@
 }
 
 body {
-  width: 320px;
+  width: 340px;
   margin: 0;
   color: var(--text-primary);
   background: var(--background);
@@ -83,7 +83,7 @@ p {
 .summary > div,
 .details > div {
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
   min-height: 28px;
@@ -91,10 +91,13 @@ p {
 
 .label,
 .details span {
+  min-width: 0;
   color: var(--text-secondary);
+  overflow-wrap: anywhere;
 }
 
 strong {
+  flex: 0 0 auto;
   font-size: 16px;
 }
 
@@ -105,8 +108,14 @@ strong {
 
 label {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
+}
+
+label span,
+.select-row span {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 input {
@@ -125,6 +134,7 @@ select {
 }
 
 .select-row {
+  align-items: center;
   justify-content: space-between;
 }
 

@@ -1,0 +1,30 @@
+YouTube Mix Blocker elimina les recomanacions de YouTube Mix de les pàgines de YouTube i neteja els URL de visualització de Mix perquè els vídeos s'obrin com a enllaços de vídeo habituals.
+
+Està dissenyat per mantenir-se silenciós i mínim: sense substitució de fonts, cap recomanació pròpia i sense una interfície d'usuari que cridi l'atenció, tret que trieu obrir la finestra emergent.
+
+Característiques
+
+- Bloqueja les targetes YouTube Mix a les recomanacions.
+- Bloqueja les targetes YouTube Mix als resultats de la cerca.
+- Bloqueja les targetes YouTube Mix a les recomanacions de la barra lateral de la pàgina de visualització.
+- Neteja els URL de visualització de Mix eliminant els paràmetres de la llista de reproducció Mix.
+- Inclou comptadors opcionals per a barreges bloquejades i URL netejats.
+- Manté el comptador de la insígnia desactivat per defecte.
+
+Privadesa
+
+Aquesta extensió només s'executa a les pàgines de YouTube. No recull, ven ni transmet les vostres dades de navegació.
+
+codi obert
+
+Codi font:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Els comentaris són benvinguts. Pots deixar una ressenya, obrir un problema a GitHub o escriure a:
+molodchykr@gmail.com
+
+Novetats a la versió 1.5.1
+
+- S'ha afegit la localització de la interfície d'usuari en 50 idiomes.
+- Disseny emergent millorat per a etiquetes traduïdes més llargues.
+- Inclou totes les millores de fiabilitat de la versió 1.5: neteja d'URL de barreja, bloqueig de la barra lateral del rellotge i comptadors opcionals.

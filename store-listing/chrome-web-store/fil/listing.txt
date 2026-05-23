@@ -1,0 +1,30 @@
+Inaalis ng YouTube Mix Blocker ang mga rekomendasyon sa YouTube Mix mula sa mga page sa YouTube at nililinis ang mga URL ng panonood ng Mix upang mabuksan ang mga video bilang mga regular na link ng video.
+
+Idinisenyo ito upang manatiling tahimik at minimal: walang pagpapalit ng feed, walang sariling rekomendasyon, at walang UI na nakakaakit ng pansin maliban kung pipiliin mong buksan ang popup.
+
+Mga tampok
+
+- Bina-block ang mga card ng YouTube Mix sa mga rekomendasyon.
+- Bina-block ang mga card ng YouTube Mix sa mga resulta ng paghahanap.
+- Bina-block ang mga card ng YouTube Mix sa mga rekomendasyon sa sidebar ng pahina sa panonood.
+- Nililinis ang Mix ng mga URL ng panonood sa pamamagitan ng pag-alis ng mga parameter ng Mix playlist.
+- Kasama ang mga opsyonal na counter para sa mga naka-block na Mix at nilinis na mga URL.
+- Pinapanatiling naka-disable ang badge counter bilang default.
+
+Pagkapribado
+
+Gumagana lang ang extension na ito sa mga page sa YouTube. Hindi ito nangongolekta, nagbebenta, o nagpapadala ng iyong data sa pagba-browse.
+
+Open source
+
+Source code:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Maligayang pagdating ang feedback. Maaari kang mag-iwan ng review, magbukas ng isyu sa GitHub, o sumulat sa:
+molodchykr@gmail.com
+
+Ano ang bago sa bersyon 1.5.1
+
+- Nagdagdag ng 50-language extension UI localization.
+- Pinahusay na layout ng popup para sa mas mahabang isinalin na mga label.
+- Kasama ang lahat ng mga pagpapahusay sa pagiging maaasahan mula sa bersyon 1.5: Mix URL cleanup, watch-sidebar blocking, at mga opsyonal na counter.

@@ -1,0 +1,30 @@
+YouTube Mix Blocker odstrani priporočila YouTube Mix s strani YouTube in očisti URL-je za ogled Mixa, tako da se videoposnetki odprejo kot običajne video povezave.
+
+Zasnovan je tako, da ostane tih in minimalen: brez zamenjave vira, brez lastnih priporočil in brez uporabniškega vmesnika, ki pritegne pozornost, razen če se odločite odpreti pojavno okno.
+
+Lastnosti
+
+- Blokira kartice YouTube Mix v priporočilih.
+- Blokira kartice YouTube Mix v rezultatih iskanja.
+- Blokira kartice YouTube Mix v priporočilih stranske vrstice strani za ogled.
+- Očisti URL-je za ogled Miksa z odstranitvijo parametrov seznama predvajanja Miksa.
+- Vključuje neobvezne števce za blokirane mešanice in očiščene URL-je.
+- Števec značk ostane privzeto onemogočen.
+
+Zasebnost
+
+Ta razširitev deluje samo na straneh YouTube. Ne zbira, prodaja ali prenaša vaših podatkov o brskanju.
+
+Odprta koda
+
+Izvorna koda:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Povratne informacije so dobrodošle. Lahko pustite mnenje, odprete vprašanje na GitHubu ali pišete na:
+molodchykr@gmail.com
+
+Kaj je novega v različici 1.5.1
+
+- Dodana lokalizacija uporabniškega vmesnika razširitve v 50 jezikih.
+- Izboljšana postavitev pojavnih oken za daljše prevedene oznake.
+- Vključuje vse izboljšave zanesljivosti od različice 1.5: mešano čiščenje URL-jev, blokiranje stranske vrstice in izbirni števci.

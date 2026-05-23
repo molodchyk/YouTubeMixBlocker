@@ -1,0 +1,30 @@
+YouTube Mix Blocker supprime les recommandations YouTube Mix des pages YouTube et nettoie les URL de lecture Mix afin que les vidéos s'ouvrent sous forme de liens vidéo normaux.
+
+Il est conçu pour rester silencieux et minimal : pas de remplacement de flux, pas de recommandations propres et pas d'interface utilisateur accrocheuse à moins que vous ne choisissiez d'ouvrir la fenêtre contextuelle.
+
+Caractéristiques
+
+- Bloque les cartes YouTube Mix dans les recommandations.
+- Bloque les cartes YouTube Mix dans les résultats de recherche.
+- Bloque les cartes YouTube Mix dans les recommandations de la barre latérale de la page de lecture.
+- Nettoie les URL de montre Mix en supprimant les paramètres de playlist Mix.
+- Comprend des compteurs facultatifs pour les mix bloqués et les URL nettoyées.
+- Maintient le compteur de badges désactivé par défaut.
+
+Confidentialité
+
+Cette extension ne fonctionne que sur les pages YouTube. Il ne collecte, ne vend ni ne transmet vos données de navigation.
+
+Source ouverte
+
+Code source :
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Les commentaires sont les bienvenus. Vous pouvez laisser un avis, ouvrir un ticket sur GitHub ou écrire à :
+molodchykr@gmail.com
+
+Quoi de neuf dans la version 1.5.1
+
+- Ajout de la localisation de l'interface utilisateur de l'extension en 50 langues.
+- Mise en page contextuelle améliorée pour les étiquettes traduites plus longues.
+- Inclut toutes les améliorations de fiabilité de la version 1.5 : mélangez le nettoyage d'URL, le blocage de la barre latérale de surveillance et les compteurs facultatifs.
