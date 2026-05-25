@@ -27,6 +27,16 @@ A small browser extension that removes YouTube Mix recommendations from YouTube 
 
 Install the published extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga).
 
+### Firefox Add-ons
+
+The Firefox build is prepared for submission to Mozilla Add-ons. Build and package it with:
+
+```powershell
+npm run package:firefox
+```
+
+Upload the generated `release/youtube-mix-blocker-firefox-1.5.1.zip` package in the [Firefox Add-ons Developer Hub](https://addons.mozilla.org/en-US/developers/).
+
 ### From Source
 
 1. Install dependencies:
@@ -53,10 +63,13 @@ Useful commands:
 npm run build:chrome
 npm run build:firefox
 npm run build:all
+npm run lint:firefox
+npm run package:firefox
 npm run check
 ```
 
 `npm run check` builds both targets and runs syntax checks on the generated JavaScript files.
+`npm run lint:firefox` validates the Firefox build with Mozilla's `web-ext` linter.
 
 The browser-specific manifest is generated during the build:
 
@@ -71,7 +84,8 @@ The browser-specific manifest is generated during the build:
 - `src/_locales/` - extension localization messages.
 - `dist/` - generated Chrome build.
 - `dist-firefox/` - generated Firefox build.
-- `store-listing/` - Chrome Web Store listing text, screenshots, promo images, and review justifications.
+- `EXTENSION_SPEC.md` - browser-specific behavior notes and release rules.
+- `store-listing/` - Chrome Web Store and Firefox Add-ons listing text, screenshots, promo images, and review notes.
 - `release/` - locally generated upload packages.
 
 ## Privacy

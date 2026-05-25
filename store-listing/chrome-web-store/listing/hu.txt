@@ -1,0 +1,29 @@
+A YouTube Mix Blocker eltávolítja a YouTube Mix ajánlásokat a YouTube-oldalakról, és megtisztítja a Mix megtekintési URL-jeit, így a videók normál videólinkként nyílnak meg.
+
+Úgy tervezték, hogy csendes és minimális maradjon: nincs hírcsatorna csere, nincsenek saját ajánlások, és nincs figyelemfelkeltő felhasználói felület, hacsak nem nyitja meg az előugró ablakot.
+
+Jellemzők
+
+- Letiltja a YouTube Mix kártyákat az ajánlásokban.
+- Letiltja a YouTube Mix kártyákat a keresési eredmények között.
+- Letiltja a YouTube Mix kártyákat a videóoldali oldalsáv ajánlásaiban.
+- Megtisztítja a Mix megtekintési URL-jeit a Mix lejátszási lista paramétereinek eltávolításával.
+- Opcionális számlálókat tartalmaz a blokkolt keverékekhez és a tisztított URL-ekhez.
+- Alapértelmezés szerint letiltja a jelvényszámlálót.
+
+Adatvédelem
+
+Ez a bővítmény csak a YouTube-oldalakon fut. Nem gyűjti, értékesíti vagy továbbítja az Ön böngészési adatait.
+
+Nyílt forráskódú
+
+Forráskód:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+A visszajelzéseket szívesen fogadjuk. Írhat véleményt, megnyithat egy problémát a GitHubon, vagy írhat a következő címre:
+molodchykr@gmail.com
+
+Az 1.5.2-es verzió újdonságai
+
+- Javítva egy Chrome-hiba, amelynél a YouTube betöltésjelzője beragadhatott az újonnan betöltött oldalsáv-ajánlások görgetése után.
+- A Chrome megtekintési oldalának oldalsávjában lévő Mixek mostantól úgy rejtődnek el, hogy nem zavarják a YouTube folyamatos betöltési állapotát.

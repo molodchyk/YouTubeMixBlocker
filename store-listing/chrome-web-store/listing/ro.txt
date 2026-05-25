@@ -1,0 +1,29 @@
+YouTube Mix Blocker elimină recomandările YouTube Mix din paginile YouTube și curăță adresele URL de vizionare Mix, astfel încât videoclipurile să se deschidă ca linkuri video obișnuite.
+
+Este proiectat să rămână liniștit și minim: fără înlocuire de feed, fără recomandări proprii și fără interfață de utilizare care să atragă atenția, cu excepția cazului în care alegeți să deschideți fereastra pop-up.
+
+Caracteristici
+
+- Blochează cardurile YouTube Mix în recomandări.
+- Blochează cardurile YouTube Mix în rezultatele căutării.
+- Blochează cardurile YouTube Mix în recomandările din bara laterală a paginii de vizionare.
+- Curăță URL-urile de vizionare Mix prin eliminarea parametrilor listei de redare Mix.
+- Include contoare opționale pentru mixuri blocate și URL-uri curățate.
+- Menține contorul de insigna dezactivat în mod implicit.
+
+Confidențialitate
+
+Această extensie rulează numai pe paginile YouTube. Nu colectează, vinde și nu transmite datele dumneavoastră de navigare.
+
+Sursă deschisă
+
+Cod sursă:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Feedback-ul este binevenit. Puteți lăsa o recenzie, puteți deschide o problemă pe GitHub sau puteți scrie la:
+molodchykr@gmail.com
+
+Ce este nou în versiunea 1.5.2
+
+- S-a remediat o problemă în Chrome în care indicatorul de încărcare YouTube putea rămâne blocat după derularea recomandărilor nou încărcate din bara laterală.
+- Mixes din bara laterală a paginii de vizionare în Chrome sunt acum ascunse fără a perturba starea de încărcare continuă a YouTube.

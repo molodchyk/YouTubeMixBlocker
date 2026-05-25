@@ -1,0 +1,29 @@
+YouTube Mix Blocker noņem YouTube Mix ieteikumus no YouTube lapām un notīra Mix skatīšanās URL, lai videoklipi tiktu atvērti kā parastas video saites.
+
+Tas ir izstrādāts tā, lai tas būtu kluss un minimāls: bez plūsmas nomaiņas, bez paša ieteikumiem un bez uzmanību piesaistoša lietotāja interfeisa, ja vien neizvēlaties atvērt uznirstošo logu.
+
+Funkcijas
+
+- Ieteikumos tiek bloķētas YouTube Mix kartītes.
+- Meklēšanas rezultātos bloķē YouTube Mix kartītes.
+- Skatīšanās lapas sānjoslas ieteikumos bloķē YouTube Mix kartītes.
+- Notīra Mix skatīšanās URL, noņemot Mix atskaņošanas saraksta parametrus.
+- Ietver izvēles skaitītājus bloķētajiem maisījumiem un notīrītajiem URL.
+- Pēc noklusējuma tiek atspējots emblēmu skaitītājs.
+
+Privātums
+
+Šis paplašinājums darbojas tikai YouTube lapās. Tas neapkopo, nepārdod un nepārsūta jūsu pārlūkošanas datus.
+
+Atvērtais avots
+
+Avota kods:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Atsauksmes ir apsveicamas. Varat atstāt atsauksmi, atvērt problēmu vietnē GitHub vai rakstīt uz:
+molodchykr@gmail.com
+
+Kas jauns versijā 1.5.2
+
+- Novērsta Chrome problēma, kuras dēļ YouTube ielādes indikators varēja palikt iestrēdzis pēc jaunu sānu joslas ieteikumu ritināšanas.
+- Mixes Chrome skatīšanās lapas sānu joslā tagad tiek paslēpti, netraucējot YouTube turpinātās ielādes stāvokli.

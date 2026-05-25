@@ -1,0 +1,29 @@
+Nástroj na blokovanie mixu YouTube odstraňuje odporúčania mixu YouTube zo stránok YouTube a čistí adresy URL prezerania mixu, aby sa videá otvárali ako bežné odkazy na videá.
+
+Je navrhnutý tak, aby zostal tichý a minimálny: žiadna výmena krmiva, žiadne vlastné odporúčania a žiadne používateľské rozhranie priťahujúce pozornosť, pokiaľ sa nerozhodnete otvoriť kontextové okno.
+
+Vlastnosti
+
+- Blokuje karty YouTube Mix v odporúčaniach.
+- Blokuje karty YouTube Mix vo výsledkoch vyhľadávania.
+– Blokuje karty YouTube Mix v odporúčaniach na bočnom paneli stránky pozerania videa.
+- Čistí adresy URL sledovania Mix odstránením parametrov zoznamu videí Mix.
+- Obsahuje voliteľné počítadlá pre zablokované mixy a vyčistené adresy URL.
+- Predvolene ponecháva počítadlo odznakov vypnuté.
+
+Ochrana osobných údajov
+
+Toto rozšírenie funguje iba na stránkach YouTube. Nezhromažďuje, nepredáva ani neprenáša vaše údaje o prehliadaní.
+
+Open source
+
+Zdrojový kód:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Spätná väzba je vítaná. Môžete zanechať recenziu, otvoriť problém na GitHub alebo napísať na:
+molodchykr@gmail.com
+
+Čo je nové vo verzii 1.5.2
+
+- Opravený problém v Chrome, pri ktorom mohol indikátor načítania YouTube zostať zaseknutý po posúvaní novo načítaných odporúčaní v bočnom paneli.
+- Mixy v bočnom paneli stránky sledovania v Chrome sa teraz skrývajú bez narušenia priebežného načítania YouTube.

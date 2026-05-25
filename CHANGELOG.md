@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.5.2
+
+- Fixes a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling sidebar recommendations.
+- Changes Chrome watch-sidebar Mix blocking to soft-collapse Mix renderers instead of removing them, preserving YouTube's continuation loading state.
+
 ## Version 1.5.1
 
 - Adds 50-language extension UI localization.

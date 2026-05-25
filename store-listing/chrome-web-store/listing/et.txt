@@ -1,0 +1,29 @@
+YouTube Mix Blocker eemaldab YouTube'i lehtedelt YouTube'i Mixi soovitused ja puhastab Mixi vaatamise URL-id, et videod avaneksid tavaliste videolinkidena.
+
+See on loodud nii, et see jääks vaikseks ja minimaalseks: voogu ei asendata, eraldi soovitusi pole ega tähelepanu köitvat kasutajaliidest, välja arvatud juhul, kui otsustate hüpikakna avada.
+
+Omadused
+
+- Blokeerib soovitustes YouTube Mixi kaardid.
+- blokeerib otsingutulemustes YouTube Mixi kaardid.
+- Blokeerib vaatamislehe külgriba soovitustes YouTube Mixi kaardid.
+- Puhastab Mixi vaatamise URL-id, eemaldades Mixi esitusloendi parameetrid.
+- Sisaldab blokeeritud segude ja puhastatud URL-ide valikulisi loendureid.
+- Hoiab märkide loenduri vaikimisi keelatud.
+
+Privaatsus
+
+See laiendus töötab ainult YouTube'i lehtedel. See ei kogu, müü ega edasta teie sirvimisandmeid.
+
+Avatud lähtekoodiga
+
+Lähtekood:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Tagasiside on teretulnud. Saate jätta arvustuse, avada probleemi GitHubis või kirjutada aadressile:
+molodchykr@gmail.com
+
+Mis on uut versioonis 1.5.2?
+
+- Parandatud Chrome’i probleem, kus YouTube’i laadimisnäidik võis pärast külgriba uute soovituste kerimist kinni jääda.
+- Chrome’i vaatamislehe külgriba Mixid peidetakse nüüd nii, et YouTube’i jätkuv laadimine ei häiri.

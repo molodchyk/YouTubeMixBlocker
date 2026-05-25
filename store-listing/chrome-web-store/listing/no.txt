@@ -1,0 +1,29 @@
+YouTube Mix Blocker fjerner YouTube Mix-anbefalinger fra YouTube-sider og renser Mix-se-URL-er slik at videoer åpnes som vanlige videolenker.
+
+Den er designet for å være stille og minimal: ingen feederstatning, ingen egne anbefalinger og ingen oppmerksomhetsfangende brukergrensesnitt med mindre du velger å åpne popup-vinduet.
+
+Funksjoner
+
+- Blokkerer YouTube Mix-kort i anbefalinger.
+- Blokkerer YouTube Mix-kort i søkeresultater.
+- Blokkerer YouTube Mix-kort i anbefalinger på sidepanelet på visningssiden.
+- Renser Mix-klokke-URL-er ved å fjerne Mix-spillelisteparametere.
+- Inkluderer valgfrie tellere for blokkerte blandinger og rensede URL-er.
+- Holder merketelleren deaktivert som standard.
+
+Personvern
+
+Denne utvidelsen kjører bare på YouTube-sider. Den samler ikke inn, selger eller overfører nettleserdataene dine.
+
+Åpen kildekode
+
+Kildekode:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Tilbakemelding er velkommen. Du kan legge igjen en anmeldelse, åpne et problem på GitHub eller skrive til:
+molodchykr@gmail.com
+
+Hva er nytt i versjon 1.5.2
+
+- Rettet et Chrome-problem der YouTubes lasteindikator kunne bli stående fast etter rulling gjennom nylig lastede anbefalinger i sidefeltet.
+- Mixes i Chrome-sidefeltet på avspillingssiden skjules nå uten å forstyrre YouTubes videre innlasting.

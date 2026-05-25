@@ -1,0 +1,29 @@
+YouTube Mix Blocker 會從 YouTube 頁面中刪除 YouTube Mix 推薦，並清理 Mix 觀看 URL，以便影片作為常規影片連結開啟。
+
+它的設計目的是保持安靜和最小化：沒有提要替換，沒有自己的推薦，也沒有引人注目的用戶介面，除非您選擇打開彈出視窗。
+
+特點
+
+- 阻止推薦中的 YouTube Mix 卡。
+- 阻止搜尋結果中的 YouTube Mix 卡。
+- 阻止觀看頁面側邊欄推薦中的 YouTube Mix 卡。
+- 透過刪除 Mix 播放清單參數來清理 Mix 觀看 URL。
+- 包括用於阻止混合和清理 URL 的可選計數器。
+- 預設情況下停用徽章計數器。
+
+隱私
+
+此擴充功能僅在 YouTube 頁面上運行。它不會收集、出售或傳輸您的瀏覽資料。
+
+開源
+
+原始碼：
+https://github.com/molodchyk/YouTubeMixBlocker
+
+歡迎反饋。您可以發表評論、在 GitHub 上提出問題或寫信至：
+molodchykr@gmail.com
+
+1.5.2 版本的新增內容
+
+- 修正 Chrome 中的問題：捲動新載入的側邊欄推薦後，YouTube 載入指示器可能會卡住。
+- Chrome 觀看頁側邊欄中的 Mixes 現在會被隱藏，同時不會干擾 YouTube 的連續載入狀態。

@@ -90,8 +90,18 @@ function findRendererContainer(element) {
 }
 
 function shouldSoftCollapse(element) {
-  return window.location.pathname === "/" &&
-    element.tagName.toLowerCase() === "ytd-rich-item-renderer";
+  const tagName = element.tagName.toLowerCase();
+
+  if (window.location.pathname === "/" && tagName === "ytd-rich-item-renderer") {
+    return true;
+  }
+
+  return isWatchPage() && [
+    "ytd-compact-video-renderer",
+    "ytd-video-renderer",
+    "yt-lockup-view-model",
+    "ytd-compact-radio-renderer"
+  ].includes(tagName);
 }
 
 function isEmptyRichGridSlot(element) {

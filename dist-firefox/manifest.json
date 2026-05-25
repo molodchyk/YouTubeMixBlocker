@@ -32,12 +32,21 @@
   "description": "__MSG_appDescription__",
   "icons": {
     "16": "icon-16.png",
-    "48": "icon-64.png",
+    "48": "icon-48.png",
     "128": "icon-128.png"
   },
   "browser_specific_settings": {
     "gecko": {
-      "strict_min_version": "109.0"
+      "id": "youtube-mix-blocker@molodchyk.dev",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      },
+      "strict_min_version": "140.0"
+    },
+    "gecko_android": {
+      "strict_min_version": "142.0"
     }
   }
 }

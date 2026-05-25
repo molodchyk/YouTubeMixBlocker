@@ -1,0 +1,29 @@
+Pemblokir Campuran YouTube menghapus rekomendasi Campuran YouTube dari laman YouTube dan membersihkan URL tontonan Campuran sehingga video dapat dibuka sebagai tautan video biasa.
+
+Ini dirancang agar tetap senyap dan minimal: tidak ada penggantian feed, tidak ada rekomendasi sendiri, dan tidak ada UI yang menarik perhatian kecuali Anda memilih untuk membuka popup.
+
+Fitur
+
+- Memblokir kartu Campuran YouTube dalam rekomendasi.
+- Memblokir kartu Campuran YouTube di hasil pencarian.
+- Memblokir kartu Campuran YouTube di rekomendasi bilah sisi laman tontonan.
+- Membersihkan URL tontonan Campuran dengan menghapus parameter daftar putar Campuran.
+- Termasuk penghitung opsional untuk Campuran yang diblokir dan URL yang dibersihkan.
+- Membuat penghitung lencana tetap dinonaktifkan secara default.
+
+Privasi
+
+Ekstensi ini hanya berjalan di halaman YouTube. Itu tidak mengumpulkan, menjual, atau mengirimkan data penelusuran Anda.
+
+Sumber terbuka
+
+Kode sumber:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Umpan balik diterima. Anda dapat memberikan ulasan, membuka terbitan di GitHub, atau menulis ke:
+molodchykr@gmail.com
+
+Apa yang baru di versi 1.5.2
+
+- Memperbaiki masalah Chrome ketika indikator pemuatan YouTube dapat tetap macet setelah menggulir rekomendasi sidebar yang baru dimuat.
+- Mixes di sidebar halaman tonton Chrome kini disembunyikan tanpa mengganggu status pemuatan lanjutan YouTube.

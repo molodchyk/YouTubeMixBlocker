@@ -1,0 +1,29 @@
+YouTube Mix Engelleyici, YouTube Mix önerilerini YouTube sayfalarından kaldırır ve Mix izleme URL'lerini temizleyerek videoların normal video bağlantıları olarak açılmasını sağlar.
+
+Sessiz ve minimum düzeyde kalacak şekilde tasarlanmıştır: Açılır pencereyi açmayı seçmediğiniz sürece besleme değişimi yok, kendine ait öneri yok ve dikkat çekici kullanıcı arayüzü yok.
+
+Özellikler
+
+- Önerilerdeki YouTube Mix kartlarını engeller.
+- Arama sonuçlarında YouTube Mix kartlarını engeller.
+- İzleme sayfası kenar çubuğu önerilerindeki YouTube Mix kartlarını engeller.
+- Mix çalma listesi parametrelerini kaldırarak Mix izleme URL'lerini temizler.
+- Engellenen Karışımlar ve temizlenen URL'ler için isteğe bağlı sayaçlar içerir.
+- Rozet sayacını varsayılan olarak devre dışı bırakır.
+
+Gizlilik
+
+Bu uzantı yalnızca YouTube sayfalarında çalışır. Tarama verilerinizi toplamaz, satmaz veya iletmez.
+
+Açık kaynak
+
+Kaynak kodu:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Geri bildirim memnuniyetle karşılanır. GitHub'da bir inceleme bırakabilir, bir sayı açabilir veya şu adrese yazabilirsiniz:
+molodchykr@gmail.com
+
+1.5.2 sürümündeki yenilikler
+
+- Chrome’da, yeni yüklenen kenar çubuğu önerileri kaydırıldıktan sonra YouTube yükleme simgesinin takılı kalabildiği bir sorun düzeltildi.
+- Chrome izleme sayfası kenar çubuğundaki Mixes artık YouTube’un devam eden yükleme durumunu bozmadan gizleniyor.

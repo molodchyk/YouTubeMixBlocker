@@ -11,6 +11,17 @@ function isMixURL(url) {
   return /[?&]list=RD/.test(url);
 }
 
+function isSingleVideoRadioURL(url) {
+  try {
+    const parsedURL = new URL(url, window.location.href);
+    const videoId = parsedURL.searchParams.get("v");
+    const listId = parsedURL.searchParams.get("list");
+
+    return Boolean(videoId && listId === `RD${videoId}`);
+  } catch (_error) {
+    return false;
+  }
+}
 function getMixKey(url) {
   try {
     const parsedURL = new URL(url, window.location.href);
@@ -155,6 +166,7 @@ function markAndRemove(el, debugURL, surface, mixKey) {
 
 function handleMixLink(link) {
   if (!isMixURL(link.href)) return false;
+  if (isSingleVideoRadioURL(link.href)) return false;
 
   const mixKey = getMixKey(link.href);
 

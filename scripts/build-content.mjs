@@ -14,6 +14,10 @@ if (!["chrome", "firefox"].includes(target)) {
 }
 
 const outputDirectory = target === "firefox" ? "dist-firefox" : "dist";
+const versions = {
+  chrome: "1.5.2",
+  firefox: "1.5.1"
+};
 
 const entryFile = "src/content/index.js";
 const featureFiles = [
@@ -41,6 +45,56 @@ const features = await Promise.all(
   featureFiles.map(file => readFile(path.join(root, file), "utf8"))
 );
 
+function applyFirefoxContentFixes(source) {
+  const singleVideoRadioGuard = [
+    "function isSingleVideoRadioURL(url) {",
+    "  try {",
+    "    const parsedURL = new URL(url, window.location.href);",
+    "    const videoId = parsedURL.searchParams.get(\"v\");",
+    "    const listId = parsedURL.searchParams.get(\"list\");",
+    "",
+    "    return Boolean(videoId && listId === `RD${videoId}`);",
+    "  } catch (_error) {",
+    "    return false;",
+    "  }",
+    "}",
+    ""
+  ].join("\n");
+
+  return source
+    .replace(
+      "function getMixKey(url) {",
+      `${singleVideoRadioGuard}function getMixKey(url) {`
+    )
+    .replace(
+      /function handleMixLink\(link\) \{\r?\n  if \(!isMixURL\(link\.href\)\) return false;\r?\n/,
+      "function handleMixLink(link) {\n  if (!isMixURL(link.href)) return false;\n  if (isSingleVideoRadioURL(link.href)) return false;\n"
+    );
+}
+
+function applyChromeContentFixes(source) {
+  return source
+    .replace(
+      /function shouldSoftCollapse\(element\) \{\r?\n  return window\.location\.pathname === "\/" &&\r?\n    element\.tagName\.toLowerCase\(\) === "ytd-rich-item-renderer";\r?\n\}/,
+      [
+        "function shouldSoftCollapse(element) {",
+        "  const tagName = element.tagName.toLowerCase();",
+        "",
+        "  if (window.location.pathname === \"/\" && tagName === \"ytd-rich-item-renderer\") {",
+        "    return true;",
+        "  }",
+        "",
+        "  return isWatchPage() && [",
+        "    \"ytd-compact-video-renderer\",",
+        "    \"ytd-video-renderer\",",
+        "    \"yt-lockup-view-model\",",
+        "    \"ytd-compact-radio-renderer\"",
+        "  ].includes(tagName);",
+        "}"
+      ].join("\n")
+    );
+}
+
 const generatedNotice = "// Generated from src/content/. Do not edit dist/content.js directly.";
 const outputParts = [
   copyrightHeader,
@@ -48,13 +102,18 @@ const outputParts = [
   ...features.map(stripSourceHeader),
   entryBody
 ].filter(Boolean);
-const output = `${outputParts.join("\n\n")}\n`;
+const sharedOutput = outputParts.join("\n\n");
+const contentOutput = target === "firefox"
+  ? applyFirefoxContentFixes(sharedOutput)
+  : applyChromeContentFixes(sharedOutput);
+const output = `${contentOutput}\n`;
 
 function createManifest(buildTarget) {
+  const icon48 = buildTarget === "firefox" ? "icon-48.png" : "icon-64.png";
   const manifest = {
     manifest_version: 3,
     name: "__MSG_appName__",
-    version: "1.5.1",
+    version: versions[buildTarget],
     default_locale: "en",
     permissions: [
       "activeTab",
@@ -79,7 +138,7 @@ function createManifest(buildTarget) {
     description: "__MSG_appDescription__",
     icons: {
       16: "icon-16.png",
-      48: "icon-64.png",
+      48: icon48,
       128: "icon-128.png"
     }
   };
@@ -87,7 +146,14 @@ function createManifest(buildTarget) {
   if (buildTarget === "firefox") {
     manifest.browser_specific_settings = {
       gecko: {
-        strict_min_version: "109.0"
+        id: "youtube-mix-blocker@molodchyk.dev",
+        data_collection_permissions: {
+          required: ["none"]
+        },
+        strict_min_version: "140.0"
+      },
+      gecko_android: {
+        strict_min_version: "142.0"
       }
     };
   }
@@ -105,6 +171,9 @@ await cp(path.join(root, "src/background.js"), path.join(outputPath, "background
 await cp(path.join(root, "src/icons"), outputPath, {
   recursive: true
 });
+if (target === "chrome") {
+  await rm(path.join(outputPath, "icon-48.png"), { force: true });
+}
 await cp(path.join(root, "src/popup"), path.join(outputPath, "popup"), {
   recursive: true
 });

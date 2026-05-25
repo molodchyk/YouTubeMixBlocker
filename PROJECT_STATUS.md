@@ -22,7 +22,7 @@ The extension is intended to:
 |---|---:|---:|---:|---|
 | Block Mix cards on search results | Yes | Yes | Needs retest | Detects links containing `list=RD`. |
 | Block Mix cards on recommendations | Yes | Yes | Needs retest | Soft-collapses the outer `ytd-rich-item-renderer` on the home grid to avoid blank slots without triggering aggressive grid refills. |
-| Block Mix cards in watch-page sidebar | Yes | Yes | Needs retest | Targets sidebar recommendation containers such as `yt-lockup-view-model`; broad fallback removal is disabled on `/watch`. |
+| Block Mix cards in watch-page sidebar | Yes | Yes | Chrome manually verified | Chrome soft-collapses sidebar Mix renderers instead of removing them so YouTube continuation loading does not leave stuck spinners. |
 | Remove empty recommendation grid slots | Yes | Yes | Needs retest | On the home page, removes empty `ytd-rich-item-renderer` slots left behind after Mix removal. |
 | Block Mix cards added after page load | Yes | Yes | Needs retest | Uses a `MutationObserver` because YouTube is a SPA. |
 | Clean watch URLs | Yes | Yes | Needs retest | Redirects direct Mix watch URLs to the plain video URL and sanitizes YouTube SPA history writes. |
@@ -37,6 +37,7 @@ The extension is intended to:
 
 ## Confirmed Working
 
+- Chrome watch-page sidebar Mix blocking no longer leaves a stuck continuation spinner after scrolling newly loaded sidebar videos.
 - Source modularization builds into `dist/content.js`.
 - `dist/content.js`, `dist/background.js`, and `scripts/build-content.mjs` pass syntax checks.
 - `dist/manifest.json` parses as valid JSON.
