@@ -63,12 +63,63 @@ function applyFirefoxContentFixes(source) {
 
   return source
     .replace(
+      /function shouldSoftCollapse\(element\) \{\r?\n  return window\.location\.pathname === "\/" &&\r?\n    element\.tagName\.toLowerCase\(\) === "ytd-rich-item-renderer";\r?\n\}/,
+      [
+        "function shouldSoftCollapse(element) {",
+        "  const tagName = element.tagName.toLowerCase();",
+        "",
+        "  if (window.location.pathname === \"/\" && tagName === \"ytd-rich-item-renderer\") {",
+        "    return true;",
+        "  }",
+        "",
+        "  return isWatchPage() && [",
+        "    \"ytd-compact-video-renderer\",",
+        "    \"ytd-video-renderer\",",
+        "    \"yt-lockup-view-model\",",
+        "    \"ytd-compact-radio-renderer\"",
+        "  ].includes(tagName);",
+        "}"
+      ].join("\n")
+    )
+    .replace(
+      /function reportPageChanged\(\) \{\r?\n  if \(window\.location\.href === lastPageURL\) return;\r?\n\r?\n  lastPageURL = window\.location\.href;\r?\n  resetBlockedMixKeys\(\);\r?\n  sendRuntimeMessage\(\{\r?\n    type: "page-changed"\r?\n  \}\);\r?\n\}/,
+      [
+        "function reportPageChanged(nextURL = window.location.href) {",
+        "  let pageURL = window.location.href;",
+        "",
+        "  try {",
+        "    pageURL = nextURL ? new URL(nextURL, window.location.href).href : window.location.href;",
+        "  } catch (_error) {",
+        "    pageURL = window.location.href;",
+        "  }",
+        "",
+        "  if (pageURL === lastPageURL) return;",
+        "",
+        "  lastPageURL = pageURL;",
+        "  resetBlockedMixKeys();",
+        "  sendRuntimeMessage({",
+        "    type: \"page-changed\"",
+        "  });",
+        "}"
+      ].join("\n")
+    )
+    .replace(
+      "watchNavigation(onNavigation, getCleanMixURLValue);",
+      [
+        "watchNavigation(onNavigation, getCleanMixURLValue);",
+        "window.addEventListener(\"yt-navigate-start\", event => {",
+        "  reportPageChanged(event.detail && event.detail.url);",
+        "});",
+        "window.addEventListener(\"yt-navigate-finish\", onNavigation);"
+      ].join("\n")
+    )
+    .replace(
       "function getMixKey(url) {",
       `${singleVideoRadioGuard}function getMixKey(url) {`
     )
     .replace(
       /function handleMixLink\(link\) \{\r?\n  if \(!isMixURL\(link\.href\)\) return false;\r?\n/,
-      "function handleMixLink(link) {\n  if (!isMixURL(link.href)) return false;\n  if (isSingleVideoRadioURL(link.href)) return false;\n"
+      "function handleMixLink(link) {\n  if (!isMixURL(link.href)) return false;\n  if (window.location.pathname === \"/results\" && isSingleVideoRadioURL(link.href)) return false;\n"
     );
 }
 

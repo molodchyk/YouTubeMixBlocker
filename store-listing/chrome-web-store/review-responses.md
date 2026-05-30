@@ -8,6 +8,16 @@ Thanks for the report. YouTube changed its Mix markup, and older versions stoppe
 
 ## Reviews
 
+### NikosXrim - 28.05.2026
+
+Review:
+
+> It partially works, although it removes mixes, on homepage there are few empty spaces instead of videos.
+
+Response:
+
+Thanks for reporting this. Version 1.5.2 specifically improves the home page behavior so blocked Mix cards should no longer leave empty spaces in the YouTube grid. Please update the extension and reload YouTube. If you still notice a gap after that, a screenshot or GitHub issue would be very helpful because YouTube changes this layout often.
+
 ### 川口慎 - 25.04.2026
 
 Review:

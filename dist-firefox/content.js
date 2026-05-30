@@ -101,8 +101,18 @@ function findRendererContainer(element) {
 }
 
 function shouldSoftCollapse(element) {
-  return window.location.pathname === "/" &&
-    element.tagName.toLowerCase() === "ytd-rich-item-renderer";
+  const tagName = element.tagName.toLowerCase();
+
+  if (window.location.pathname === "/" && tagName === "ytd-rich-item-renderer") {
+    return true;
+  }
+
+  return isWatchPage() && [
+    "ytd-compact-video-renderer",
+    "ytd-video-renderer",
+    "yt-lockup-view-model",
+    "ytd-compact-radio-renderer"
+  ].includes(tagName);
 }
 
 function isEmptyRichGridSlot(element) {
@@ -342,7 +352,7 @@ function markAndRemove(el, debugURL, surface, mixKey) {
 
 function handleMixLink(link) {
   if (!isMixURL(link.href)) return false;
-  if (isSingleVideoRadioURL(link.href)) return false;
+  if (window.location.pathname === "/results" && isSingleVideoRadioURL(link.href)) return false;
 
   const mixKey = getMixKey(link.href);
 
@@ -544,10 +554,18 @@ function sendRuntimeMessage(message) {
   }
 }
 
-function reportPageChanged() {
-  if (window.location.href === lastPageURL) return;
+function reportPageChanged(nextURL = window.location.href) {
+  let pageURL = window.location.href;
 
-  lastPageURL = window.location.href;
+  try {
+    pageURL = nextURL ? new URL(nextURL, window.location.href).href : window.location.href;
+  } catch (_error) {
+    pageURL = window.location.href;
+  }
+
+  if (pageURL === lastPageURL) return;
+
+  lastPageURL = pageURL;
   resetBlockedMixKeys();
   sendRuntimeMessage({
     type: "page-changed"
@@ -563,6 +581,10 @@ function onNavigation() {
 
 observePageChanges(scanForMixes);
 watchNavigation(onNavigation, getCleanMixURLValue);
+window.addEventListener("yt-navigate-start", event => {
+  reportPageChanged(event.detail && event.detail.url);
+});
+window.addEventListener("yt-navigate-finish", onNavigation);
 
 /* Initial execution */
 onNavigation();
