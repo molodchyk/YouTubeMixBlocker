@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Mis on uut versioonis 1.5.2?
 
-- Parandatud Chrome’i probleem, kus YouTube’i laadimisnäidik võis pärast külgriba uute soovituste kerimist kinni jääda.
-- Chrome’i vaatamislehe külgriba Mixid peidetakse nüüd nii, et YouTube’i jätkuv laadimine ei häiri.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

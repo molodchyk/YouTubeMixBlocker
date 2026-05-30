@@ -143,10 +143,184 @@ function removeEmptyRichGridSlots(root = document) {
   return removed;
 }
 
+function getHomeGridItemsPerRow(gridContents) {
+  const richItem = gridContents.querySelector("ytd-rich-item-renderer[items-per-row]");
+  const renderer = gridContents.closest("ytd-rich-grid-renderer");
+  const itemValue = richItem && Number.parseInt(richItem.getAttribute("items-per-row"), 10);
+  const cssValue = renderer &&
+    Number.parseInt(getComputedStyle(renderer).getPropertyValue("--ytd-rich-grid-items-per-row"), 10);
+
+  return Math.max(1, itemValue || cssValue || 1);
+}
+
+function isSoftBlockedHomeGridItem(element) {
+  return element.tagName.toLowerCase() === "ytd-rich-item-renderer" &&
+    element.getAttribute("data-mix-blocked") === "true";
+}
+
+function isVisibleBox(element) {
+  if (!element) return false;
+
+  const rect = element.getBoundingClientRect();
+  const style = getComputedStyle(element);
+
+  return rect.width > 0 &&
+    rect.height > 0 &&
+    style.display !== "none" &&
+    style.visibility !== "hidden" &&
+    style.opacity !== "0";
+}
+
+function isReadyHomeGridItem(element) {
+  if (element.tagName.toLowerCase() !== "ytd-rich-item-renderer") {
+    return true;
+  }
+
+  if (!isVisibleBox(element)) {
+    return false;
+  }
+
+  const thumbnail = element.querySelector(
+    "a#thumbnail, ytd-thumbnail, yt-image, yt-img-shadow, img"
+  );
+  const titleLink = element.querySelector(
+    "a#video-title-link, a#video-title, h3 a[href], a[href]"
+  );
+
+  return Boolean(
+    titleLink &&
+    isVisibleBox(titleLink) &&
+    (!thumbnail || isVisibleBox(thumbnail))
+  );
+}
+
+function isUnavailableHomeGridItem(element) {
+  return element.tagName.toLowerCase() === "ytd-rich-item-renderer" &&
+    (isSoftBlockedHomeGridItem(element) || !isReadyHomeGridItem(element));
+}
+
+function clearHomeGridOrder(gridContents) {
+  gridContents.querySelectorAll("[data-ymb-grid-order]").forEach(child => {
+    child.style.removeProperty("order");
+    child.removeAttribute("data-ymb-grid-order");
+  });
+}
+
+function setHomeGridOrder(element, order) {
+  const orderValue = String(order);
+
+  if (element.style.getPropertyValue("order") === orderValue) {
+    element.setAttribute("data-ymb-grid-order", "true");
+    return;
+  }
+
+  element.style.setProperty("order", orderValue);
+  element.setAttribute("data-ymb-grid-order", "true");
+}
+
+function compactHomeGridContents(gridContents) {
+  if (!gridContents) return;
+
+  const children = Array.from(gridContents.children);
+  const itemsPerRow = getHomeGridItemsPerRow(gridContents);
+  const maxCompactedRichItems = itemsPerRow * 3;
+  const topChildren = [];
+  let topRichItemCount = 0;
+
+  for (const child of children) {
+    topChildren.push(child);
+
+    if (
+      child.tagName.toLowerCase() === "ytd-rich-item-renderer" &&
+      !isUnavailableHomeGridItem(child)
+    ) {
+      topRichItemCount++;
+    }
+
+    if (topRichItemCount >= maxCompactedRichItems) {
+      break;
+    }
+  }
+
+  const hasUnavailableItem = topChildren.some(isUnavailableHomeGridItem);
+
+  if (!hasUnavailableItem) {
+    clearHomeGridOrder(gridContents);
+    return;
+  }
+
+  let visibleRichItemCount = 0;
+  const baseOrder = -10000;
+  const desiredOrders = new Map();
+
+  topChildren.forEach(child => {
+    const tagName = child.tagName.toLowerCase();
+
+    if (isUnavailableHomeGridItem(child)) {
+      return;
+    }
+
+    if (tagName === "ytd-rich-item-renderer") {
+      desiredOrders.set(child, baseOrder + (visibleRichItemCount * 2));
+      visibleRichItemCount++;
+      return;
+    }
+
+    if (tagName === "ytd-continuation-item-renderer") {
+      return;
+    }
+
+    const nextRowBoundary = Math.max(
+      itemsPerRow,
+      Math.ceil(visibleRichItemCount / itemsPerRow) * itemsPerRow
+    );
+    desiredOrders.set(child, baseOrder + ((nextRowBoundary * 2) - 1));
+  });
+
+  gridContents.querySelectorAll("[data-ymb-grid-order]").forEach(child => {
+    if (!desiredOrders.has(child)) {
+      child.style.removeProperty("order");
+      child.removeAttribute("data-ymb-grid-order");
+    }
+  });
+
+  desiredOrders.forEach((order, child) => {
+    setHomeGridOrder(child, order);
+  });
+}
+
+function compactHomeGrids(root = document) {
+  if (window.location.pathname !== "/") return;
+
+  const nearestGrid = root.closest && root.closest("ytd-rich-grid-renderer #contents");
+  const grids = nearestGrid
+    ? [nearestGrid]
+    : root.matches && root.matches("ytd-rich-grid-renderer #contents")
+      ? [root]
+      : Array.from(root.querySelectorAll ? root.querySelectorAll("ytd-rich-grid-renderer #contents") : []);
+
+  grids.forEach(compactHomeGridContents);
+}
+
+function compactHomeGridAround(element) {
+  if (window.location.pathname !== "/") return;
+
+  const gridContents = element && element.closest("ytd-rich-grid-renderer #contents");
+  const root = gridContents || document;
+
+  removeEmptyRichGridSlots(root);
+  compactHomeGrids(root);
+  window.requestAnimationFrame(() => {
+    removeEmptyRichGridSlots(root);
+    compactHomeGrids(root);
+  });
+}
+
 function markAndRemove(el, debugURL, surface, mixKey) {
   if (!el || el.hasAttribute("data-mix-blocked")) return false;
 
   el.setAttribute("data-mix-blocked", "true");
+  const isNewMix = !blockedMixKeys.has(mixKey);
 
   if (shouldSoftCollapse(el)) {
     el.hidden = true;
@@ -155,12 +329,14 @@ function markAndRemove(el, debugURL, surface, mixKey) {
     el.remove();
   }
 
-  if (!blockedMixKeys.has(mixKey)) {
+  if (isNewMix) {
     blockedMixKeys.add(mixKey);
     reportMixBlocked(surface);
   }
 
-  console.log("Mix removed:", debugURL);
+  compactHomeGridAround(el);
+
+  console.log(isNewMix ? "Mix removed and reported:" : "Mix removed again:", debugURL);
   return true;
 }
 
@@ -206,6 +382,7 @@ function scanForMixes(root = document) {
   }
   if (!removed) {
     removeEmptyRichGridSlots(root);
+    compactHomeGrids(root);
   }
 }
 
@@ -350,26 +527,20 @@ function watchNavigation(onNavigation, cleanURLValue) {
 console.log("MixBlocker active", window.location.href);
 
 let lastPageURL = null;
-let runtimeMessagingDisabled = false;
 
 function sendRuntimeMessage(message) {
-  if (runtimeMessagingDisabled) return;
-
   try {
     if (!globalThis.chrome || !chrome.runtime || !chrome.runtime.id) {
-      runtimeMessagingDisabled = true;
       return;
     }
 
     const response = chrome.runtime.sendMessage(message);
 
     if (response && typeof response.catch === "function") {
-      response.catch(() => {
-        runtimeMessagingDisabled = true;
-      });
+      response.catch(() => {});
     }
   } catch (_error) {
-    runtimeMessagingDisabled = true;
+    // The extension context can be unavailable during reloads or page teardown.
   }
 }
 

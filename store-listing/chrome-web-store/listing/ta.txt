@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 பதிப்பு 1.5.2 இல் புதியது என்ன
 
-- புதிதாக ஏற்றப்பட்ட பக்கப்பட்டி பரிந்துரைகளை ஸ்க்ரோல் செய்த பிறகு YouTube ஏற்றுதல் சுழலி சிக்கிக் கொள்ளக்கூடிய Chrome சிக்கல் சரிசெய்யப்பட்டது.
-- Chrome watch-page பக்கப்பட்டியில் உள்ள Mixes இப்போது YouTube-ன் தொடர்ச்சியான ஏற்றுதல் நிலையை பாதிக்காமல் மறைக்கப்படுகின்றன.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

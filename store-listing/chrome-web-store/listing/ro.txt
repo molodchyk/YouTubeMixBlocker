@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Ce este nou în versiunea 1.5.2
 
-- S-a remediat o problemă în Chrome în care indicatorul de încărcare YouTube putea rămâne blocat după derularea recomandărilor nou încărcate din bara laterală.
-- Mixes din bara laterală a paginii de vizionare în Chrome sunt acum ascunse fără a perturba starea de încărcare continuă a YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

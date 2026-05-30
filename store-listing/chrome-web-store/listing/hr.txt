@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Što je novo u verziji 1.5.2
 
-- Ispravljen je problem u Chromeu zbog kojeg je YouTubeov indikator učitavanja mogao ostati zaglavljen nakon pomicanja kroz novoučitane preporuke u bočnoj traci.
-- Mixevi u Chromeovoj bočnoj traci na stranici gledanja sada se skrivaju bez ometanja YouTubeova kontinuiranog učitavanja.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 バージョン 1.5.2 の新機能
 
-- Chrome で、サイドバーに新しく読み込まれたおすすめをスクロールした後に YouTube の読み込みスピナーが残ることがある問題を修正しました。
-- Chrome の視聴ページのサイドバーにある Mix は、YouTube の継続読み込み状態を妨げずに非表示になるようになりました。
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

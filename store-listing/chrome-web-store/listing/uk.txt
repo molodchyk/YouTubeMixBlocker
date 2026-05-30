@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Що нового у версії 1.5.2
 
-- Виправлено проблему в Chrome, через яку індикатор завантаження YouTube міг зависати після прокручування нових рекомендацій у бічній панелі.
-- Mixes у бічній панелі сторінки перегляду в Chrome тепер приховуються, не порушуючи стан продовження завантаження YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

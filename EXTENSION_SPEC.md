@@ -22,6 +22,22 @@ This document records behavior that should stay stable across releases, especial
 - The card/container around the matching link is selected by renderer-level containers when possible.
 - The extension reports blocked Mixes to the background script for local counters.
 
+## Home Grid Gap Handling
+
+On YouTube's home grid, Mix cards must be soft-collapsed and the early grid rows must be visually compacted without moving DOM nodes.
+
+Rules:
+
+- Keep `ytd-rich-item-renderer` nodes in DOM order. Do not move lower cards upward with DOM insertion APIs.
+- Avoid hard-removing normal rich-item Mix renderers on the home grid; YouTube may refill/re-render the same items and still leave row gaps.
+- Remove only truly empty rich-item shells whose direct `#content` has no child elements, links, images, thumbnails, or text.
+- Use bounded visual compaction with flex `order` only for the early visible home-feed rows where Mix gaps appear.
+- Treat soft-blocked Mix items, unhydrated rich items, and ad-blocker hollow rich items as unavailable layout slots.
+- Treat a rich item as usable only when its outer box and visible link/thumbnail area are present.
+- Re-run bounded compaction on later grid mutations, because YouTube can hydrate replacement cards after the first removal pass.
+- Do not apply whole-feed ordering or delayed broad compaction near the continuation loader; that can cause visible scroll jumps when the user reaches the bottom before YouTube finishes loading.
+- Mark extension-applied ordering with a private attribute and update by diffing desired order values to minimize layout churn.
+
 ## Chrome Behavior
 
 Chrome build output lives in `dist/`.

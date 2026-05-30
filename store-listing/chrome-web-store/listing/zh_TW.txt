@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 1.5.2 版本的新增內容
 
-- 修正 Chrome 中的問題：捲動新載入的側邊欄推薦後，YouTube 載入指示器可能會卡住。
-- Chrome 觀看頁側邊欄中的 Mixes 現在會被隱藏，同時不會干擾 YouTube 的連續載入狀態。
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

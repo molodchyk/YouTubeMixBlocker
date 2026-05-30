@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Kas jauns versijā 1.5.2
 
-- Novērsta Chrome problēma, kuras dēļ YouTube ielādes indikators varēja palikt iestrēdzis pēc jaunu sānu joslas ieteikumu ritināšanas.
-- Mixes Chrome skatīšanās lapas sānu joslā tagad tiek paslēpti, netraucējot YouTube turpinātās ielādes stāvokli.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

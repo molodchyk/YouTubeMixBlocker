@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Co nowego w wersji 1.5.2
 
-- Naprawiono problem w Chrome, przez który wskaźnik ładowania YouTube mógł pozostać zablokowany po przewinięciu nowo załadowanych rekomendacji w pasku bocznym.
-- Mixy w pasku bocznym strony oglądania w Chrome są teraz ukrywane bez zakłócania stanu ciągłego ładowania YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

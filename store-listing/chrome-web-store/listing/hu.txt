@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Az 1.5.2-es verzió újdonságai
 
-- Javítva egy Chrome-hiba, amelynél a YouTube betöltésjelzője beragadhatott az újonnan betöltött oldalsáv-ajánlások görgetése után.
-- A Chrome megtekintési oldalának oldalsávjában lévő Mixek mostantól úgy rejtődnek el, hogy nem zavarják a YouTube folyamatos betöltési állapotát.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

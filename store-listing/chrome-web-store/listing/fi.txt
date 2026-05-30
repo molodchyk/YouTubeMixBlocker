@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Mitä uutta versiossa 1.5.2
 
-- Korjattu Chrome-ongelma, jossa YouTuben latauskuvake saattoi jäädä jumiin uusien sivupalkkisuositusten selaamisen jälkeen.
-- Chromen katselusivun sivupalkin Mixit piilotetaan nyt häiritsemättä YouTuben jatkuvaa lataustilaa.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

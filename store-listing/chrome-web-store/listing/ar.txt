@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 ما الجديد في الإصدار 1.5.2
 
-- تم إصلاح مشكلة في Chrome حيث كان مؤشر تحميل YouTube قد يظل عالقًا بعد التمرير عبر توصيات الشريط الجانبي الجديدة.
-- يتم الآن إخفاء Mixes في الشريط الجانبي لصفحة المشاهدة في Chrome دون تعطيل حالة التحميل المستمر في YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

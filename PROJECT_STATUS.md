@@ -21,9 +21,9 @@ The extension is intended to:
 | Feature | Intended | Implemented | Tested | Notes |
 |---|---:|---:|---:|---|
 | Block Mix cards on search results | Yes | Yes | Needs retest | Detects links containing `list=RD`. |
-| Block Mix cards on recommendations | Yes | Yes | Needs retest | Soft-collapses the outer `ytd-rich-item-renderer` on the home grid to avoid blank slots without triggering aggressive grid refills. |
+| Block Mix cards on recommendations | Yes | Yes | Chrome manually verified | Soft-collapses the outer `ytd-rich-item-renderer` on the home grid and visually compacts the early feed rows without DOM reordering. |
 | Block Mix cards in watch-page sidebar | Yes | Yes | Chrome manually verified | Chrome soft-collapses sidebar Mix renderers instead of removing them so YouTube continuation loading does not leave stuck spinners. |
-| Remove empty recommendation grid slots | Yes | Yes | Needs retest | On the home page, removes empty `ytd-rich-item-renderer` slots left behind after Mix removal. |
+| Remove empty recommendation grid slots | Yes | Yes | Chrome manually verified | On the home page, removes truly empty `ytd-rich-item-renderer` shells and skips hidden/hollow rich items left by Mix blocking or ad blockers during early-row compaction. |
 | Block Mix cards added after page load | Yes | Yes | Needs retest | Uses a `MutationObserver` because YouTube is a SPA. |
 | Clean watch URLs | Yes | Yes | Needs retest | Redirects direct Mix watch URLs to the plain video URL and sanitizes YouTube SPA history writes. |
 | Popup all-time counters | Yes | Yes | Needs retest | Tracks total blocked Mix cards, surface breakdown, and cleaned Mix URLs; updates live while popup is open. |
@@ -37,6 +37,9 @@ The extension is intended to:
 
 ## Confirmed Working
 
+- Chrome home grid no longer leaves first rows with empty spaces after Mix cards are blocked.
+- Chrome home-grid compaction remains smooth when scrolling by limiting visual `order` changes to the early feed rows and avoiding DOM reordering.
+- Chrome home-grid compaction handles AdGuard-style hollow rich-item shells by treating non-visible or not-yet-hydrated rich items as unavailable backfill candidates.
 - Chrome watch-page sidebar Mix blocking no longer leaves a stuck continuation spinner after scrolling newly loaded sidebar videos.
 - Source modularization builds into `dist/content.js`.
 - `dist/content.js`, `dist/background.js`, and `scripts/build-content.mjs` pass syntax checks.
@@ -56,7 +59,9 @@ The extension is intended to:
 - Recommendations:
   - Home page recommendations.
   - Newly loaded recommendations after scrolling or navigating.
-  - Confirm blocked Mixes do not leave empty rich-grid gaps.
+  - Confirm blocked Mixes do not leave empty rich-grid gaps in the first three visible rows.
+  - Confirm aggressive scrolling to the feed bottom does not cause visible up/down scroll jumps while YouTube loads more items.
+  - Confirm behavior with and without common ad blockers such as AdGuard.
   - Confirm non-Mix playlist/course cards with `list=PL...` are not blocked.
 
 - Watch page sidebar recommendations:

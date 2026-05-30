@@ -2,6 +2,7 @@
 
 ## Version 1.5.2
 
+- Removes empty spaces left in the YouTube home grid after Mix cards are blocked.
 - Fixes a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling sidebar recommendations.
 - Changes Chrome watch-sidebar Mix blocking to soft-collapse Mix renderers instead of removing them, preserving YouTube's continuation loading state.
 

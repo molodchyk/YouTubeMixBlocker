@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Có gì mới trong phiên bản 1.5.2
 
-- Đã sửa lỗi trên Chrome khiến vòng xoay tải của YouTube có thể bị kẹt sau khi cuộn qua các đề xuất mới tải trong thanh bên.
-- Mixes trong thanh bên trang xem trên Chrome hiện được ẩn mà không làm gián đoạn trạng thái tải tiếp của YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

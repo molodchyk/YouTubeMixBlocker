@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 संस्करण 1.5.2 में नया क्या है?
 
-- Chrome की एक समस्या ठीक की गई जिसमें साइडबार में नए लोड हुए सुझावों को स्क्रॉल करने के बाद YouTube का लोडिंग स्पिनर अटका रह सकता था।
-- Chrome watch-page साइडबार में Mixes अब YouTube की निरंतर लोडिंग स्थिति को बाधित किए बिना छिपाए जाते हैं।
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

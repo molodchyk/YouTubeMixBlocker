@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Quoi de neuf dans la version 1.5.2
 
-- Correction d'un problème Chrome où l'indicateur de chargement YouTube pouvait rester bloqué après le défilement de nouvelles recommandations dans la barre latérale.
-- Les Mix dans la barre latérale Chrome de la page de lecture sont maintenant masqués sans perturber le chargement continu de YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 มีอะไรใหม่ในเวอร์ชัน 1.5.2
 
-- แก้ไขปัญหาใน Chrome ที่ตัวหมุนโหลดของ YouTube อาจค้างอยู่หลังจากเลื่อนดูคำแนะนำใหม่ในแถบด้านข้าง
-- Mixes ในแถบด้านข้างของหน้าดูวิดีโอใน Chrome จะถูกซ่อนโดยไม่รบกวนสถานะการโหลดต่อเนื่องของ YouTube
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

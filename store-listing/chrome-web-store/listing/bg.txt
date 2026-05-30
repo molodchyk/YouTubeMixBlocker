@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Какво е новото във версия 1.5.2
 
-- Поправен е проблем в Chrome, при който индикаторът за зареждане на YouTube можеше да остане блокиран след превъртане през новозаредени препоръки в страничната лента.
-- Mix елементите в страничната лента на страницата за гледане в Chrome вече се скриват, без да нарушават непрекъснатото зареждане на YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Kaj je novega v različici 1.5.2
 
-- Odpravljena je težava v Chromu, pri kateri je lahko indikator nalaganja YouTube ostal zataknjen po pomikanju po novo naloženih priporočilih v stranski vrstici.
-- Mixes v stranski vrstici strani za ogled v Chromu so zdaj skriti brez motenja nadaljnjega nalaganja YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

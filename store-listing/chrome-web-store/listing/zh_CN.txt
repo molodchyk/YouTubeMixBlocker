@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 1.5.2 版本的新增内容
 
-- 修复了 Chrome 中的一个问题：滚动新加载的侧边栏推荐后，YouTube 加载指示器可能会一直卡住。
-- Chrome 观看页侧边栏中的 Mixes 现在会被隐藏，同时不会干扰 YouTube 的连续加载状态。
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

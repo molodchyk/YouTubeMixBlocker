@@ -4,26 +4,20 @@
 console.log("MixBlocker active", window.location.href);
 
 let lastPageURL = null;
-let runtimeMessagingDisabled = false;
 
 function sendRuntimeMessage(message) {
-  if (runtimeMessagingDisabled) return;
-
   try {
     if (!globalThis.chrome || !chrome.runtime || !chrome.runtime.id) {
-      runtimeMessagingDisabled = true;
       return;
     }
 
     const response = chrome.runtime.sendMessage(message);
 
     if (response && typeof response.catch === "function") {
-      response.catch(() => {
-        runtimeMessagingDisabled = true;
-      });
+      response.catch(() => {});
     }
   } catch (_error) {
-    runtimeMessagingDisabled = true;
+    // The extension context can be unavailable during reloads or page teardown.
   }
 }
 

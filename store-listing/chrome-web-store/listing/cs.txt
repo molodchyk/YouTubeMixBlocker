@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Co je nového ve verzi 1.5.2
 
-- Opraven problém v Chromu, kdy mohl indikátor načítání YouTube zůstat zaseknutý po posouvání nově načtených doporučení v postranním panelu.
-- Mixy v postranním panelu stránky sledování v Chromu se nyní skrývají bez narušení průběžného načítání YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

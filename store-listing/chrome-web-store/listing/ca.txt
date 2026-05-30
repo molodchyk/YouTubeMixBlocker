@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Novetats a la versió 1.5.2
 
-- S’ha corregit un problema de Chrome en què l’indicador de càrrega de YouTube podia quedar bloquejat després de desplaçar-se per noves recomanacions de la barra lateral.
-- Els Mixes de la barra lateral de la pàgina de visualització de Chrome ara s’amaguen sense interrompre l’estat de càrrega contínua de YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Τι νέο υπάρχει στην έκδοση 1.5.2
 
-- Διορθώθηκε ένα πρόβλημα στο Chrome όπου η ένδειξη φόρτωσης του YouTube μπορούσε να μείνει κολλημένη μετά την κύλιση σε νέες προτάσεις της πλαϊνής στήλης.
-- Τα Mixes στην πλαϊνή στήλη της σελίδας παρακολούθησης στο Chrome πλέον αποκρύπτονται χωρίς να διαταράσσεται η συνεχής φόρτωση του YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

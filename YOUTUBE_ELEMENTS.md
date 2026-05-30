@@ -40,6 +40,15 @@ Notes:
 - Count each `videoId|listId` Mix key once per page view. YouTube can reintroduce the same recommendation during feed refill, and repeated hiding should not inflate counters.
 - Empty `#content` divs can leave visible grid gaps if the parent slot remains.
 - Cleanup should only remove a `ytd-rich-item-renderer` when its direct `#content` is empty and contains no links, images, thumbnails, or text.
+- YouTube's home `#contents` currently behaves as a wrapping flex container. Full-width nodes such as `ytd-rich-section-renderer` shelves can sit between small batches of `ytd-rich-item-renderer` cards. If a Mix is hidden before one of those full-width boundaries, later rich items cannot naturally wrap upward past the shelf.
+- Do not physically move lower rich-item nodes upward. DOM reordering can make YouTube's renderer state lose or "eat" lower items.
+- Do not rely on hard-removing first-row or second-row Mix renderers. Live testing showed gaps can remain because the shelf/boundary layout is the actual blocker.
+- The working home-grid gap fix is visual-only compaction: apply temporary flex `order` values to ready early-feed items so hidden Mix slots and hollow shells are skipped, while leaving DOM order intact.
+- Keep compaction bounded to the early visible rows. Whole-feed ordering or delayed broad passes can cause noticeable scroll jumps when YouTube appends continuation items near the bottom of the feed.
+- Only use hydrated rich items as backfill candidates. A `ytd-rich-item-renderer` should have a visible outer box and visible link/thumbnail area before it is treated as a usable card; otherwise it may be an ad-blocker hollow shell or an unhydrated YouTube placeholder.
+- Track extension-applied flex ordering with a private attribute such as `data-ymb-grid-order` and update by diffing desired orders. Rewriting all order values on every observer pass can create unnecessary layout churn.
+- Re-run bounded compaction on later harmless grid mutations. YouTube can hydrate replacement cards after the Mix removal pass, so a one-shot compaction can leave gaps until scroll or another mutation triggers it.
+- Ad blockers such as AdGuard can leave outer `ytd-rich-item-renderer` slots whose visible card contents are hidden. Treat non-visible/hollow rich items as unavailable rather than deleting them.
 
 Observed non-Mix course card:
 

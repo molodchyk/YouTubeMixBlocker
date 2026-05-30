@@ -25,5 +25,5 @@ EMAIL_PLACEholder
 
 Novità nella versione 1.5.2
 
-- Risolto un problema di Chrome per cui l’indicatore di caricamento di YouTube poteva rimanere bloccato dopo lo scorrimento delle nuove raccomandazioni nella barra laterale.
-- I Mix nella barra laterale della pagina di visualizzazione in Chrome ora vengono nascosti senza interferire con lo stato di caricamento continuo di YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

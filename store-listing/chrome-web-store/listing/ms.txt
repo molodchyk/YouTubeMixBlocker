@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Apa yang baharu dalam versi 1.5.2
 
-- Membetulkan isu Chrome yang menyebabkan penunjuk pemuatan YouTube boleh tersekat selepas menatal cadangan bar sisi yang baru dimuatkan.
-- Mixes dalam bar sisi halaman tontonan Chrome kini disembunyikan tanpa mengganggu keadaan pemuatan berterusan YouTube.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

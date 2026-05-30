@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Neu in Version 1.5.2
 
-- Behebt ein Chrome-Problem, bei dem die YouTube-Ladeanzeige nach dem Scrollen neu geladener Empfehlungen in der Seitenleiste hängen bleiben konnte.
-- Mixes in der Chrome-Seitenleiste auf Wiedergabeseiten werden jetzt ausgeblendet, ohne den fortlaufenden Ladevorgang von YouTube zu stören.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

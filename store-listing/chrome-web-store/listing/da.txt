@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 Hvad er nyt i version 1.5.2
 
-- Rettede et Chrome-problem, hvor YouTubes indlæsningsindikator kunne blive hængende efter rulning gennem nye anbefalinger i sidebjælken.
-- Mixes i Chromes sidebjælke på visningssiden skjules nu uden at forstyrre YouTubes fortsatte indlæsning.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.

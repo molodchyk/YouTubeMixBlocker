@@ -16,6 +16,7 @@ A small browser extension that removes YouTube Mix recommendations from YouTube 
 - Blocks YouTube Mix cards in recommendations.
 - Blocks YouTube Mix cards in search results.
 - Blocks YouTube Mix cards in watch-page sidebar recommendations.
+- Removes empty home-grid spaces left behind after Mix cards are blocked.
 - Cleans Mix watch URLs by removing Mix playlist parameters.
 - Includes an optional popup with counters for blocked Mixes and cleaned URLs.
 - Keeps the badge counter disabled by default.

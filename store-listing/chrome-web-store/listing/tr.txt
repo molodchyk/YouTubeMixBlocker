@@ -25,5 +25,5 @@ molodchykr@gmail.com
 
 1.5.2 sürümündeki yenilikler
 
-- Chrome’da, yeni yüklenen kenar çubuğu önerileri kaydırıldıktan sonra YouTube yükleme simgesinin takılı kalabildiği bir sorun düzeltildi.
-- Chrome izleme sayfası kenar çubuğundaki Mixes artık YouTube’un devam eden yükleme durumunu bozmadan gizleniyor.
+- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
