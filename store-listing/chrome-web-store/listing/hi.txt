@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 प्रतिक्रिया का स्वागत है. आप एक समीक्षा छोड़ सकते हैं, GitHub पर एक मुद्दा खोल सकते हैं, या यहां लिख सकते हैं:
 molodchykr@gmail.com
 
-संस्करण 1.5.2 में नया क्या है?
+संस्करण 1.5.2 में क्या नया है
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Mix कार्ड ब्लॉक करने के बाद YouTube होम ग्रिड में छोड़ी गई खाली जगहें हटा दी गईं।
+Chrome watch-sidebar समस्या ठीक की गई, जहाँ नई लोड हुई साइडबार सिफ़ारिशों को स्क्रॉल करने के बाद YouTube का लोडिंग स्पिनर अटक सकता था।
+

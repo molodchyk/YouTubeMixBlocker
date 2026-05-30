@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 ما الجديد في الإصدار 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+إزالة المسافات الفارغة المتبقية في شبكة الصفحة الرئيسية ليوتيوب بعد حجب بطاقات Mix.
+إصلاح مشكلة شريط الجانب في متصفح Chrome حيث قد يبقى مؤشر التحميل عالقًا بعد تمرير توصيات الشريط الجانبي التي تم تحميلها حديثًا.
+

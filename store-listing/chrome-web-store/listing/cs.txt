@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 Co je nového ve verzi 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Odstraněny prázdné mezery v hlavní mřížce YouTube po zablokování karet Mix.
+Opraven problém se sidebar v Chrome, kde se mohl zaseknout načítací spinner YouTube po posunu nově načtených doporučení.
+

@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 A visszajelzéseket szívesen fogadjuk. Írhat véleményt, megnyithat egy problémát a GitHubon, vagy írhat a következő címre:
 molodchykr@gmail.com
 
-Az 1.5.2-es verzió újdonságai
+Újdonságok az 1.5.2 verzióban
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Eltávolítottuk a YouTube kezdőoldal rácsában a Mix kártyák blokkolása után megmaradt üres helyeket.
+Javítottuk a Chrome oldalsáv hibáját, ahol a YouTube betöltési forgója beragadhatott az újonnan betöltött oldalsávi ajánlások görgetése után.
+

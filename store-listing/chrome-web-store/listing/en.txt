@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 What's new in version 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
+Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+

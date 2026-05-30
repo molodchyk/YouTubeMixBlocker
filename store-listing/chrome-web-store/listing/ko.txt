@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 버전 1.5.2의 새로운 기능
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Mix 카드를 차단한 후 YouTube 홈 그리드에 남아 있던 빈 공간을 제거했습니다.
+새로 로드된 사이드바 추천 항목을 스크롤한 후 YouTube의 로딩 스피너가 멈출 수 있는 Chrome 시청 사이드바 문제를 수정했습니다.
+

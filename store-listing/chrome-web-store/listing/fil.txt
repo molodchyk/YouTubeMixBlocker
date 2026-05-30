@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Maligayang pagdating ang feedback. Maaari kang mag-iwan ng review, magbukas ng isyu sa GitHub, o sumulat sa:
 molodchykr@gmail.com
 
-Ano ang bago sa bersyon 1.5.2
+Ano ang bago sa bersyong 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Tinanggal ang mga walang laman na espasyo na naiwan sa grid ng home page ng YouTube matapos i-block ang mga Mix card.
+Naayos ang isyu sa watch-sidebar ng Chrome kung saan maaaring manatiling stuck ang loading spinner ng YouTube matapos i-scroll ang bagong-load na mga rekomendasyon.
+

@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 Що нового у версії 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Видалено порожні місця, що залишалися в сітці головної сторінки YouTube після блокування карток Mix.
+Виправлено проблему бічної панелі Chrome, де індикатор завантаження YouTube міг залишатися зависшим після прокручування нещодавно завантажених рекомендацій бічної панелі.
+

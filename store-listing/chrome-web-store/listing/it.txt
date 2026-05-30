@@ -25,5 +25,6 @@ EMAIL_PLACEholder
 
 Novità nella versione 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Rimossi gli spazi vuoti lasciati nella griglia della home di YouTube dopo il blocco delle schede Mix.
+Risolto un problema della barra laterale di Chrome dove lo spinner di caricamento di YouTube poteva rimanere bloccato dopo lo scorrimento dei nuovi suggerimenti della barra laterale.
+

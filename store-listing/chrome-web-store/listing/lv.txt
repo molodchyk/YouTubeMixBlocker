@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 Kas jauns versijā 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Noņemtas tukšās vietas, kas palika YouTube sākumlapas režģī pēc Mix karšu bloķēšanas.
+Novērsta Chrome sānjoslas problēma, kurā YouTube ielādes indikators varēja iestrēgt pēc tikko ielādēto sānjoslas ieteikumu ritināšanas.
+

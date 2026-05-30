@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Atsiliepimai laukiami. Galite palikti atsiliepimą, atidaryti problemą „GitHub“ arba parašyti adresu:
 molodchykr@gmail.com
 
-Kas naujo 1.5.2 versijoje
+Kas naujo versijoje 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Pašalinti tušti tarpai, likę YouTube pagrindinio puslapio tinklelyje po Mix kortelių užblokavimo.
+Ištaisyta „Chrome“ šoninės juostos problema, kai YouTube įkėlimo suktukas galėjo užstrigti slenkant naujai įkeltas šoninės juostos rekomendacijas.
+

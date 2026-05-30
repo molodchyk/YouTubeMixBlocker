@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Los comentarios son bienvenidos. Puedes dejar una reseña, abrir una incidencia en GitHub o escribir a:
 molodchykr@gmail.com
 
-Novedades de la versión 1.5.2
+Novedades en la versión 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Se eliminaron los espacios vacíos que quedaban en la cuadrícula de inicio de YouTube después de bloquear las tarjetas Mix.
+Se corrigió un problema en la barra lateral de Chrome donde el spinner de carga de YouTube podía quedarse atascado al desplazar recomendaciones recién cargadas.
+

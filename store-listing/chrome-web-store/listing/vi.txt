@@ -25,5 +25,6 @@ molodchykr@gmail.com
 
 Có gì mới trong phiên bản 1.5.2
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Đã xóa các khoảng trống còn lại trong lưới trang chủ YouTube sau khi chặn thẻ Mix.
+Đã sửa lỗi thanh bên xem Chrome khi vòng xoay tải của YouTube có thể bị kẹt sau khi cuộn các đề xuất thanh bên mới tải.
+

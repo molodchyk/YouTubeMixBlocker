@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Geri bildirim memnuniyetle karşılanır. GitHub'da bir inceleme bırakabilir, bir sayı açabilir veya şu adrese yazabilirsiniz:
 molodchykr@gmail.com
 
-1.5.2 sürümündeki yenilikler
+Sürüm 1.5.2'deki yenilikler
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+Mix kartları engellendikten sonra YouTube ana sayfa ızgarasında kalan boş alanlar kaldırıldı.
+Yeni yüklenen kenar çubuğu önerilerini kaydırdıktan sonra YouTube'un yükleme göstergesinin takılı kalabildiği Chrome izleme kenar çubuğu sorunu düzeltildi.
+

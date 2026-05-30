@@ -23,7 +23,8 @@ https://github.com/molodchyk/YouTubeMixBlocker
 欢迎反馈。您可以发表评论、在 GitHub 上提出问题或写信至：
 molodchykr@gmail.com
 
-1.5.2 版本的新增内容
+版本 1.5.2 的新功能
 
-- Removed empty spaces left in the YouTube home grid after Mix cards are blocked.
-- Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations.
+移除了屏蔽 Mix 卡片后 YouTube 首页网格中残留的空白区域。
+修复了 Chrome 观看侧边栏问题，该问题导致在滚动新加载的侧边栏推荐后 YouTube 的加载旋转图标可能卡住。
+
