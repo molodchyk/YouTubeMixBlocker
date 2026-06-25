@@ -105,8 +105,8 @@ function verifyReleaseZips() {
   if (!existsSync(releaseDirectory)) return;
 
   for (const fileName of listFiles(releaseDirectory)) {
-    if (/^youtube-mix-blocker-chrome-.*\.zip$/.test(fileName) && fileName !== latestChromeZip) {
-      fail(`release/${fileName} is stale; latest CWS package is ${latestChromeZip}`);
+    if (/^youtube-mix-blocker-.*\.zip$/.test(fileName) && fileName !== latestChromeZip) {
+      fail(`release/${fileName} is stale or non-Chrome; latest CWS package is ${latestChromeZip}`);
     }
   }
 }
