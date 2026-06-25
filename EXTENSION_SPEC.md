@@ -1,13 +1,13 @@
 # Extension Specification
 
-This document records behavior that should stay stable across releases, especially when YouTube changes its DOM.
+This document records Chrome behavior that should stay stable across releases, especially when YouTube changes its DOM.
 
 ## Goals
 
 - Hide YouTube Mix recommendations from supported YouTube surfaces.
 - Clean Mix watch URLs so videos open as regular watch URLs.
-- Keep browser-specific behavior isolated between Chrome and Firefox builds.
 - Avoid breaking YouTube's own lazy loading, navigation, or continuation state.
+- Keep Chrome runtime and Chrome Web Store listing localization explicit and reviewable.
 
 ## Supported Surfaces
 
@@ -38,11 +38,11 @@ Rules:
 - Do not apply whole-feed ordering or delayed broad compaction near the continuation loader; that can cause visible scroll jumps when the user reaches the bottom before YouTube finishes loading.
 - Mark extension-applied ordering with a private attribute and update by diffing desired order values to minimize layout churn.
 
-## Chrome Behavior
+## Watch Sidebar Behavior
 
 Chrome build output lives in `dist/`.
 
-On watch pages, Chrome must soft-collapse Mix sidebar renderers instead of removing them from the DOM:
+On watch pages, Mix sidebar renderers must be soft-collapsed instead of removed from the DOM:
 
 - Set the renderer as hidden.
 - Set `display: none !important`.
@@ -54,28 +54,16 @@ This was observed on:
 
 `https://www.youtube.com/watch?v=vSyPzZ_wsgg`
 
-Chrome-only fix: the Chrome build changes `shouldSoftCollapse()` so watch sidebar renderer tags are hidden rather than removed.
+## Localization Rules
 
-## Firefox Behavior
-
-Firefox build output lives in `dist-firefox/`.
-
-Firefox has a separate search-results guard for normal video results whose URLs use `list=RD` plus the same video id, such as:
-
-`/watch?v=nD6SKgwXRVo&list=RDnD6SKgwXRVo&start_radio=1`
-
-Those are treated as normal video/radio links rather than Mix collection cards in Firefox search results.
-
-## Browser Isolation Rules
-
-- Chrome-only fixes must be applied only to the Chrome build output.
-- Firefox-only fixes must be applied only to the Firefox build output.
-- Chrome runtime locales live under `src/chrome/_locales/` and Firefox runtime locales live under `src/firefox/_locales/`.
-- Shared `src/` changes are allowed only when the intended behavior is the same in both browsers.
-- Before changing shared detection/removal behavior, test both `dist/` and `dist-firefox/`.
+- Chrome runtime locales live under `src/chrome/_locales/`.
+- Chrome Web Store long descriptions live under `store-listing/chrome-web-store/listing/`.
+- Chrome Web Store what's-new text lives in `store-listing/chrome-web-store/whats_new.json`.
+- Run `npm run sync:chrome-locales` after changing generated locale text or store listing footer shape.
 
 ## Release Rules
 
 - Chrome release packages are built from `dist/`.
-- Firefox release packages are built from `dist-firefox/`.
-- Bump the browser-specific manifest version only for the browser being released when the change is browser-specific.
+- Build with `npm run package`.
+- Validate with `npm run check`.
+- Bump the manifest version when preparing a new Chrome Web Store release.

@@ -1,6 +1,6 @@
 # Project Status
 
-This file tracks what the extension is currently supposed to do, what is implemented, what has been tested, and what still needs attention.
+This file tracks what the Chrome extension is currently supposed to do, what is implemented, what has been tested, and what still needs attention.
 
 ## Intended Functionality
 
@@ -14,7 +14,6 @@ The extension is intended to:
 - Optionally show a per-page badge counter when the user enables it.
 - Let the popup follow system theme by default, with optional light and dark modes.
 - Keep Chrome Web Store listing text and extension metadata localized for the tracked 66 Chrome visible locales.
-- Keep the source tree ready for separate Chrome and Firefox extension builds.
 
 ## Feature Matrix
 
@@ -22,18 +21,16 @@ The extension is intended to:
 |---|---:|---:|---:|---|
 | Block Mix cards on search results | Yes | Yes | Needs retest | Detects links containing `list=RD`. |
 | Block Mix cards on recommendations | Yes | Yes | Chrome manually verified | Soft-collapses the outer `ytd-rich-item-renderer` on the home grid and visually compacts the early feed rows without DOM reordering. |
-| Block Mix cards in watch-page sidebar | Yes | Yes | Chrome manually verified | Chrome soft-collapses sidebar Mix renderers instead of removing them so YouTube continuation loading does not leave stuck spinners. |
+| Block Mix cards in watch-page sidebar | Yes | Yes | Chrome manually verified | Soft-collapses sidebar Mix renderers instead of removing them so YouTube continuation loading does not leave stuck spinners. |
 | Remove empty recommendation grid slots | Yes | Yes | Chrome manually verified | On the home page, removes truly empty `ytd-rich-item-renderer` shells and skips hidden/hollow rich items left by Mix blocking or ad blockers during early-row compaction. |
 | Block Mix cards added after page load | Yes | Yes | Needs retest | Uses a `MutationObserver` because YouTube is a SPA. |
 | Clean watch URLs | Yes | Yes | Needs retest | Redirects direct Mix watch URLs to the plain video URL and sanitizes YouTube SPA history writes. |
 | Popup all-time counters | Yes | Yes | Needs retest | Tracks total blocked Mix cards, surface breakdown, and cleaned Mix URLs; updates live while popup is open. |
 | Optional current-page badge counter | Yes | Yes | Needs retest | Disabled by default; resets on full page loads and YouTube SPA navigation. |
 | Popup theme mode | Yes | Yes | Needs retest | Supports system, light, and dark modes. |
-| Handle YouTube SPA navigation | Yes | Yes | Needs retest | Hooks `history.pushState` and `popstate`. |
-| Localized extension name and short description | Yes | Yes | JSON validated | Chrome has 66 runtime locales; Firefox keeps a separate 50-locale runtime set. |
+| Localized extension name and short description | Yes | Yes | JSON validated | Chrome has 66 runtime locales. |
 | Localized Chrome Web Store long descriptions | Yes | Yes | Needs human review | Plain text files live in `store-listing/chrome-web-store/listing/` for all 66 Chrome locales. |
-| Chrome build target | Yes | Yes | Syntax checked | `npm run build:chrome` outputs `dist/`. |
-| Firefox build target | Yes | Scaffolded | Needs manual testing | `npm run build:firefox` outputs `dist-firefox/`; Firefox runtime compatibility still needs testing. |
+| Chrome build target | Yes | Yes | Syntax checked | `npm run build` outputs `dist/`. |
 
 ## Confirmed Working
 
@@ -44,11 +41,9 @@ The extension is intended to:
 - Source modularization builds into `dist/content.js`.
 - `dist/content.js`, `dist/background.js`, and `scripts/build-content.mjs` pass syntax checks.
 - `dist/manifest.json` parses as valid JSON.
-- `dist-firefox/manifest.json` parses as valid JSON.
 - Locale `messages.json` files parse as valid JSON.
 - `src/chrome/_locales/` is copied into `dist/_locales/` by the build script.
-- `src/firefox/_locales/` is copied into `dist-firefox/_locales/` by the build script.
-- `npm run verify:locales` checks Chrome 66-locale coverage, Firefox locale separation, Chrome listing coverage, and `whats_new.json` coverage.
+- `npm run verify:locales` checks Chrome 66-locale coverage, Chrome listing coverage, and `whats_new.json` coverage.
 
 ## Needs Manual Testing
 
@@ -68,23 +63,19 @@ The extension is intended to:
 - Watch page sidebar recommendations:
   - Sidebar Mix cards rendered as `yt-lockup-view-model`.
   - Sidebar Mix cards rendered as older compact video renderer containers.
-  - Confirm removing sidebar Mix cards does not remove the main video, player, description, comments, or playlist panel.
+  - Confirm collapsing sidebar Mix cards does not affect the main video, player, description, comments, or playlist panel.
 
 - Watch URL cleanup:
   - Direct load of a watch URL with `list=RD...`.
   - Direct load of a watch URL with both `list=RD...` and `start_radio`.
   - Confirm direct Mix watch URLs redirect to the plain video URL.
   - Confirm the main watch page content still loads after cleanup.
-  - Clicking into a Mix watch URL through YouTube navigation.
   - Browser back/forward navigation after cleanup.
 
 - Extension packaging:
   - Load `dist/` as an unpacked extension in Chrome.
   - Confirm localized name/description appear for supported Chrome browser locales.
   - Confirm Arabic, Persian, Hebrew, and Urdu popup UI gets `dir="rtl"`.
-  - Load `dist-firefox/` as a temporary add-on in Firefox desktop.
-  - Confirm whether Firefox needs a `browser.*` compatibility layer for storage, tabs, action, and runtime APIs.
-  - Confirm whether the same Firefox build can run on Firefox Android.
 
 - Popup and badge:
   - Confirm the popup opens from the extension action.
@@ -103,7 +94,6 @@ The extension is intended to:
 
 ## Missing / Planned
 
-- Add a Firefox/AMO release checklist after the temporary add-on build is manually tested.
 - Add automated tests for pure URL cleanup and Mix URL detection logic.
 - Consider persisting per-tab current-page counters across background service worker restarts if needed.
 - Consider splitting `dist/background.js` into `src/background/` if background logic grows.
@@ -114,11 +104,8 @@ The extension is intended to:
 
 - Edit content-script source in `src/content/`.
 - Edit Chrome extension locale metadata in `src/chrome/_locales/`.
-- Edit Firefox extension locale metadata in `src/firefox/_locales/`.
-- Run `npm run sync:chrome-locales` after changing the generated Chrome locale additions or Chrome store listing footer shape.
-- Run `npm run build:chrome` to regenerate the Chrome build in `dist/`.
-- Run `npm run build:firefox` to regenerate the Firefox build in `dist-firefox/`.
+- Run `npm run sync:chrome-locales` after changing generated Chrome locale additions or Chrome store listing footer shape.
+- Run `npm run build` to regenerate the Chrome build in `dist/`.
 - Load `dist/` in Chrome as the unpacked extension.
-- Load `dist-firefox/` in Firefox as a temporary add-on.
 - Keep Chrome Web Store long descriptions in `store-listing/chrome-web-store/` as paste-ready plain text.
 - Keep observed YouTube DOM notes in `YOUTUBE_ELEMENTS.md`.

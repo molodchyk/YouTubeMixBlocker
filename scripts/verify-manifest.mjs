@@ -7,13 +7,14 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
+const outputDirectory = "dist";
 const failures = [];
 
 function fail(message) {
   failures.push(message);
 }
 
-function readManifest(outputDirectory) {
+function readManifest() {
   const manifestPath = path.join(root, outputDirectory, "manifest.json");
 
   try {
@@ -24,7 +25,7 @@ function readManifest(outputDirectory) {
   }
 }
 
-function assertFile(outputDirectory, relativePath, label) {
+function assertFile(relativePath, label) {
   const filePath = path.join(root, outputDirectory, relativePath);
 
   if (!existsSync(filePath) || !statSync(filePath).isFile()) {
@@ -32,7 +33,7 @@ function assertFile(outputDirectory, relativePath, label) {
   }
 }
 
-function assertDirectory(outputDirectory, relativePath, label) {
+function assertDirectory(relativePath, label) {
   const directoryPath = path.join(root, outputDirectory, relativePath);
 
   if (!existsSync(directoryPath) || !statSync(directoryPath).isDirectory()) {
@@ -40,61 +41,41 @@ function assertDirectory(outputDirectory, relativePath, label) {
   }
 }
 
-function verifyTarget(target, outputDirectory) {
-  const manifest = readManifest(outputDirectory);
-  if (!manifest) return;
+const manifest = readManifest();
 
-  assertDirectory(outputDirectory, `_locales/${manifest.default_locale}`, `${target} default locale`);
+if (manifest) {
+  assertDirectory(`_locales/${manifest.default_locale}`, "Chrome default locale");
 
   for (const [size, iconPath] of Object.entries(manifest.icons || {})) {
-    assertFile(outputDirectory, iconPath, `${target} ${size}px icon`);
+    assertFile(iconPath, `Chrome ${size}px icon`);
   }
 
   if (manifest.action && manifest.action.default_popup) {
-    assertFile(outputDirectory, manifest.action.default_popup, `${target} popup`);
+    assertFile(manifest.action.default_popup, "Chrome popup");
   } else {
-    fail(`${target} manifest is missing action.default_popup`);
+    fail("Chrome manifest is missing action.default_popup");
   }
 
   for (const [index, contentScript] of (manifest.content_scripts || []).entries()) {
     for (const scriptPath of contentScript.js || []) {
-      assertFile(outputDirectory, scriptPath, `${target} content script ${index}`);
+      assertFile(scriptPath, `Chrome content script ${index}`);
     }
   }
 
-  if (target === "chrome") {
-    if (!manifest.background || !manifest.background.service_worker) {
-      fail("Chrome manifest must use background.service_worker");
-    } else {
-      assertFile(outputDirectory, manifest.background.service_worker, "Chrome service worker");
-    }
-
-    if (manifest.browser_specific_settings) {
-      fail("Chrome manifest must not include browser_specific_settings");
-    }
+  if (!manifest.background || !manifest.background.service_worker) {
+    fail("Chrome manifest must use background.service_worker");
+  } else {
+    assertFile(manifest.background.service_worker, "Chrome service worker");
   }
 
-  if (target === "firefox") {
-    if (!manifest.background || !Array.isArray(manifest.background.scripts)) {
-      fail("Firefox manifest must use background.scripts");
-    } else {
-      for (const scriptPath of manifest.background.scripts) {
-        assertFile(outputDirectory, scriptPath, "Firefox background script");
-      }
-    }
-
-    if (!manifest.browser_specific_settings?.gecko?.id) {
-      fail("Firefox manifest must include browser_specific_settings.gecko.id");
-    }
+  if (manifest.browser_specific_settings) {
+    fail("Chrome manifest must not include browser_specific_settings");
   }
 }
-
-verifyTarget("chrome", "dist");
-verifyTarget("firefox", "dist-firefox");
 
 if (failures.length > 0) {
   console.error(failures.map(message => `- ${message}`).join("\n"));
   process.exit(1);
 }
 
-console.log("Manifest verification passed for Chrome and Firefox build outputs.");
+console.log("Manifest verification passed for Chrome build output.");

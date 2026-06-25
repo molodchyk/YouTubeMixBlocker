@@ -10,8 +10,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const failures = [];
 const latestChromeZip = "youtube-mix-blocker-chrome-1.5.3.zip";
-const latestFirefoxZip = "youtube-mix-blocker-firefox-1.5.1.zip";
-const latestFirefoxSourceZip = "youtube-mix-blocker-firefox-1.5.1-source.zip";
 
 function fail(message) {
   failures.push(message);
@@ -33,6 +31,12 @@ function assertIncludes(relativePath, expected) {
 
   if (!content.includes(expected)) {
     fail(`${relativePath} must include: ${expected}`);
+  }
+}
+
+function assertMissing(relativePath) {
+  if (existsSync(path.join(root, relativePath))) {
+    fail(`${relativePath} must not exist in the Chrome-only project`);
   }
 }
 
@@ -104,25 +108,15 @@ function verifyReleaseZips() {
     if (/^youtube-mix-blocker-chrome-.*\.zip$/.test(fileName) && fileName !== latestChromeZip) {
       fail(`release/${fileName} is stale; latest CWS package is ${latestChromeZip}`);
     }
-
-    if (/^youtube-mix-blocker-firefox-[0-9]+(\.[0-9]+)*\.zip$/.test(fileName) && fileName !== latestFirefoxZip) {
-      fail(`release/${fileName} is stale; latest AMO package is ${latestFirefoxZip}`);
-    }
-
-    if (/^youtube-mix-blocker-firefox-[0-9]+(\.[0-9]+)*-source\.zip$/.test(fileName) && fileName !== latestFirefoxSourceZip) {
-      fail(`release/${fileName} is stale; latest AMO source package is ${latestFirefoxSourceZip}`);
-    }
   }
 }
 
 function verifyNoSecretArtifacts() {
-  for (const outputDirectory of ["dist", "dist-firefox"]) {
-    for (const filePath of walkFiles(path.join(root, outputDirectory))) {
-      const relativePath = path.relative(path.join(root, outputDirectory), filePath);
+  for (const filePath of walkFiles(path.join(root, "dist"))) {
+    const relativePath = path.relative(path.join(root, "dist"), filePath);
 
-      if (isSecretPath(relativePath)) {
-        fail(`${outputDirectory}/${relativePath} must not be included in build output`);
-      }
+    if (isSecretPath(relativePath)) {
+      fail(`dist/${relativePath} must not be included in build output`);
     }
   }
 
@@ -142,17 +136,16 @@ verifyReleaseZips();
 verifyNoSecretArtifacts();
 
 const packageJSON = JSON.parse(readText("package.json"));
+if (packageJSON.name !== "youtube-mix-blocker") {
+  fail("package.json name must be youtube-mix-blocker");
+}
+
 if (packageJSON.license !== "GPL-3.0-only") {
   fail("package.json license must be GPL-3.0-only");
 }
 
-if (!existsSync(path.join(root, "LICENSE"))) {
-  fail("LICENSE file is required");
-}
-
-assertIncludes("README.md", "GPL-3.0-only");
+assertIncludes("README.md", "Chrome Web Store");
 assertIncludes("README.md", "src/chrome/_locales");
-assertIncludes("README.md", "src/firefox/_locales");
 assertIncludes("README.md", "66 localized Chrome extension UI languages");
 assertIncludes("PRIVACY.md", "activeTab");
 assertIncludes("PRIVACY.md", "storage");
@@ -170,6 +163,16 @@ for (const fileName of listFiles(path.join(root, "store-listing/chrome-web-store
   if (!content.includes("https://github.com/molodchyk/YouTubeMixBlocker")) {
     fail(`${relativePath} must include the GitHub source URL`);
   }
+}
+
+for (const relativePath of [
+  "AMO_SOURCE_README.md",
+  "scripts/build-amo-listing.mjs",
+  "src/firefox",
+  "dist-firefox",
+  "store-listing/firefox-add-ons"
+]) {
+  assertMissing(relativePath);
 }
 
 for (const relativePath of [

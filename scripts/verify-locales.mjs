@@ -16,15 +16,6 @@ const chromeLocales = [
   "ka", "am", "zh_CN", "zh_TW", "ja", "ko"
 ];
 
-const firefoxLocales = [
-  "ar", "bg", "bn", "ca", "cs", "da", "de", "el", "en", "es", "es_419", "et", "fi", "fil", "fr",
-  "gu", "he", "hi", "hr", "hu", "id", "it", "ja", "kn", "ko", "lt", "lv", "ml", "mr", "ms", "nl",
-  "no", "pl", "pt_BR", "pt_PT", "ro", "ru", "sk", "sl", "sr", "sv", "sw", "ta", "te", "th", "tr",
-  "uk", "vi", "zh_CN", "zh_TW"
-];
-
-const chromeOnlyLocales = chromeLocales.filter(locale => !firefoxLocales.includes(locale));
-
 const failures = [];
 
 function fail(message) {
@@ -69,7 +60,7 @@ function getPlaceholderNames(message) {
   return Object.keys(message.placeholders || {}).sort();
 }
 
-function verifyMessages(localeDirectory, expectedLocales, label) {
+function verifyMessages(localeDirectory, expectedLocales) {
   const base = parseJSON(path.join(localeDirectory, "en/messages.json"));
   if (!base) return;
 
@@ -84,52 +75,51 @@ function verifyMessages(localeDirectory, expectedLocales, label) {
     if (!messages) continue;
 
     const keys = Object.keys(messages).sort();
-    assertSameSet(`${label} ${locale} message keys`, keys, baseKeys);
+    assertSameSet(`Chrome ${locale} message keys`, keys, baseKeys);
 
     for (const key of baseKeys) {
       if (!messages[key]) continue;
 
       const placeholders = getPlaceholderNames(messages[key]);
-      assertSameSet(`${label} ${locale}.${key} placeholders`, placeholders, basePlaceholders[key]);
+      assertSameSet(`Chrome ${locale}.${key} placeholders`, placeholders, basePlaceholders[key]);
 
       if (typeof messages[key].message !== "string" || messages[key].message.trim() === "") {
-        fail(`${label} ${locale}.${key} has an empty message`);
+        fail(`Chrome ${locale}.${key} has an empty message`);
       }
     }
   }
 }
 
 const chromeLocaleDirectory = path.join(root, "src/chrome/_locales");
-const firefoxLocaleDirectory = path.join(root, "src/firefox/_locales");
 const listingDirectory = path.join(root, "store-listing/chrome-web-store/listing");
 const whatsNewPath = path.join(root, "store-listing/chrome-web-store/whats_new.json");
 
 if (existsSync(path.join(root, "src/_locales"))) {
-  fail("src/_locales must not exist; use src/chrome/_locales and src/firefox/_locales");
+  fail("src/_locales must not exist; use src/chrome/_locales");
+}
+
+if (existsSync(path.join(root, "src/firefox"))) {
+  fail("src/firefox must not exist in the Chrome-only project");
+}
+
+if (existsSync(path.join(root, "store-listing/firefox-add-ons"))) {
+  fail("store-listing/firefox-add-ons must not exist in the Chrome-only project");
 }
 
 assertSameSet("Chrome runtime locales", listDirectories(chromeLocaleDirectory), chromeLocales);
-assertSameSet("Firefox runtime locales", listDirectories(firefoxLocaleDirectory), firefoxLocales);
 assertSameSet("Chrome store listing locales", listTextBasenames(listingDirectory), chromeLocales);
 
 if (existsSync(path.join(listingDirectory, "iw.txt"))) {
   fail("Chrome store listing must use he.txt, not legacy iw.txt");
 }
 
-for (const locale of chromeOnlyLocales) {
-  if (existsSync(path.join(firefoxLocaleDirectory, locale))) {
-    fail(`Chrome-only locale ${locale} must not be present in Firefox runtime locales`);
-  }
-}
-
-for (const locale of [...listDirectories(chromeLocaleDirectory), ...listDirectories(firefoxLocaleDirectory)]) {
+for (const locale of listDirectories(chromeLocaleDirectory)) {
   if (locale.includes("-")) {
     fail(`_locales folder must use underscores, not hyphens: ${locale}`);
   }
 }
 
-verifyMessages(chromeLocaleDirectory, chromeLocales, "Chrome");
-verifyMessages(firefoxLocaleDirectory, firefoxLocales, "Firefox");
+verifyMessages(chromeLocaleDirectory, chromeLocales);
 
 const whatsNew = parseJSON(whatsNewPath);
 if (whatsNew) {
@@ -149,4 +139,4 @@ if (failures.length > 0) {
   process.exit(1);
 }
 
-console.log(`Locale verification passed for ${chromeLocales.length} Chrome locales and ${firefoxLocales.length} Firefox locales.`);
+console.log(`Locale verification passed for ${chromeLocales.length} Chrome locales.`);

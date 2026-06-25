@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="YouTube Mix Blocker icon">
-  <rect x="10" y="10" width="108" height="108" rx="26" fill="#000" fill-opacity="0.78"/>
-  <g transform="translate(16 18) scale(3.75)" fill="#fff">
-    <path d="M3 3.657v16.689a1 1 0 001.466.883L8 19.369V4.632l-3.534-1.86A1 1 0 003 3.657ZM14 7.79l-4-2.105v12.631l4-2.106V7.79ZM22 12l-6-3.157v6.315L22 12Z"/>
-  </g>
-  <path d="M37 98L100 35" fill="none" stroke="#e50914" stroke-width="20" stroke-linecap="round"/>
-  <path d="M37 98L100 35" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
-</svg>

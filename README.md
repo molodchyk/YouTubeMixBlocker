@@ -6,7 +6,7 @@
   </a>
 </p>
 
-A small browser extension that removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.
+A small Chrome extension that removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hcjmmaealhemocjdjfajldoneaidkaga.svg?label=Chrome%20Web%20Store&color=blue)](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga)
 [![License: GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](LICENSE)
@@ -21,25 +21,12 @@ A small browser extension that removes YouTube Mix recommendations from YouTube 
 - Includes an optional popup with counters for blocked Mixes and cleaned URLs.
 - Keeps the badge counter disabled by default.
 - Supports 66 localized Chrome extension UI languages.
-- Keeps Chrome and Firefox extension builds and runtime locales separated.
 
 ## Install
 
-### Chrome Web Store
-
 Install the published extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga).
 
-### Firefox Add-ons
-
-The Firefox build is prepared for submission to Mozilla Add-ons. Build and package it with:
-
-```powershell
-npm run package:firefox
-```
-
-Upload the generated `release/youtube-mix-blocker-firefox-1.5.1.zip` package in the [Firefox Add-ons Developer Hub](https://addons.mozilla.org/en-US/developers/).
-
-### From Source
+## From Source
 
 1. Install dependencies:
 
@@ -50,41 +37,31 @@ Upload the generated `release/youtube-mix-blocker-firefox-1.5.1.zip` package in 
 2. Build the Chrome extension:
 
    ```powershell
-   npm run build:chrome
+   npm run build
    ```
 
 3. Open `chrome://extensions`, enable **Developer mode**, choose **Load unpacked**, and select the generated `dist/` directory.
 
 ## Development
 
-Source files live in `src/`. Build output is generated into `dist/` for Chrome and `dist-firefox/` for Firefox.
+Source files live in `src/`. Build output is generated into `dist/`.
 
 Useful commands:
 
 ```powershell
-npm run build:chrome
-npm run build:firefox
-npm run build:all
+npm run build
 npm run sync:chrome-locales
 npm run verify:locales
 npm run verify:manifest
 npm run verify:release
-npm run package:chrome
-npm run lint:firefox
-npm run package:firefox
+npm run package
 npm run check
 ```
 
-`npm run check` builds both targets and runs syntax checks on the generated JavaScript files.
-`npm run verify:locales` confirms Chrome has exactly 66 supported locale folders and matching Chrome Web Store listing files, while Firefox keeps its separate runtime locale set.
-`npm run verify:manifest` checks generated manifest paths for both browser builds.
+`npm run check` builds the Chrome extension, runs verification, and syntax-checks generated JavaScript files.
+`npm run verify:locales` confirms Chrome has exactly 66 supported locale folders and matching Chrome Web Store listing files.
+`npm run verify:manifest` checks generated manifest paths.
 `npm run verify:release` runs release-facing metadata, privacy, and package-shape checks.
-`npm run lint:firefox` validates the Firefox build with Mozilla's `web-ext` linter.
-
-The browser-specific manifest is generated during the build:
-
-- Chrome uses a Manifest V3 service worker background.
-- Firefox uses the shared background script as a Manifest V3 background script.
 
 ## Project Structure
 
@@ -92,13 +69,19 @@ The browser-specific manifest is generated during the build:
 - `src/content/` - YouTube page detection, blocking, URL cleanup, and SPA event handling.
 - `src/popup/` - extension popup UI.
 - `src/chrome/_locales/` - Chrome runtime localization messages.
-- `src/firefox/_locales/` - Firefox runtime localization messages.
 - `docs/` - Chrome Web Store automation fields, privacy form answers, and release checks.
 - `dist/` - generated Chrome build.
-- `dist-firefox/` - generated Firefox build.
-- `EXTENSION_SPEC.md` - browser-specific behavior notes and release rules.
-- `store-listing/` - Chrome Web Store and Firefox Add-ons listing text, screenshots, promo images, and review notes.
+- `EXTENSION_SPEC.md` - Chrome behavior notes and release rules.
+- `store-listing/chrome-web-store/` - Chrome Web Store listing text, screenshots, promo images, and review notes.
 - `release/` - locally generated upload packages.
+
+## Related Project
+
+The Firefox version now lives in its own repository:
+
+```text
+https://github.com/molodchyk/YouTubeMixBlockerFirefox
+```
 
 ## Privacy
 

@@ -2,331 +2,331 @@
   "am": {
     "heading": "በስሪት 1.5.3 ያለው አዲስ ነገር",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ar": {
     "heading": "ما الجديد في الإصدار 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "az": {
     "heading": "1.5.3 versiyasında yeniliklər",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "bg": {
     "heading": "Какво ново във версия 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "bn": {
     "heading": "সংস্করণ 1.5.3-এ নতুন কী আছে",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ca": {
     "heading": "Novetats de la versió 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "cs": {
     "heading": "Co je nového ve verzi 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "da": {
     "heading": "Hvad er nyt i version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "de": {
     "heading": "Neu in Version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "el": {
     "heading": "Τι νέο υπάρχει στην έκδοση 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "en": {
     "heading": "What's new in version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "en_AU": {
     "heading": "What's new in version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "en_GB": {
     "heading": "What's new in version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "en_US": {
     "heading": "What's new in version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "es": {
     "heading": "Novedades en la versión 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "es_419": {
     "heading": "Novedades en la versión 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "et": {
     "heading": "Mis on uut versioonis 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "eu": {
     "heading": "1.5.3 bertsioan berria",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "fa": {
     "heading": "تازه‌های نسخه 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "fi": {
     "heading": "Mitä uutta versiossa 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "fil": {
     "heading": "Ano ang bago sa bersyong 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "fr": {
     "heading": "Quoi de neuf dans la version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "gu": {
     "heading": "વર્ઝન 1.5.3 માં શું નવું છે",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "he": {
     "heading": "מה חדש בגרסה 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "hi": {
     "heading": "संस्करण 1.5.3 में क्या नया है",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "hr": {
     "heading": "Što je novo u verziji 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "hu": {
     "heading": "Újdonságok az 1.5.3 verzióban",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "hy": {
     "heading": "Ինչ է նոր 1.5.3 տարբերակում",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "id": {
     "heading": "Apa yang baru di versi 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "it": {
     "heading": "Novità nella versione 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ja": {
     "heading": "バージョン 1.5.3 の新機能",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ka": {
     "heading": "რა არის ახალი ვერსიაში 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "kn": {
     "heading": "ಆವೃತ್ತಿ 1.5.3 ರಲ್ಲಿ ಹೊಸದೇನಿದೆ",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ko": {
     "heading": "버전 1.5.3의 새로운 기능",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "lt": {
     "heading": "Kas naujo versijoje 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "lv": {
     "heading": "Kas jauns versijā 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "mk": {
     "heading": "Што е ново во верзија 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ml": {
     "heading": "പതിപ്പ് 1.5.3-ൽ പുതിയത്",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "mr": {
     "heading": "आवृत्ती 1.5.3 मध्ये नवीन काय आहे",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ms": {
     "heading": "Apa yang baharu dalam versi 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ne": {
     "heading": "संस्करण 1.5.3 मा नयाँ के छ",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "nl": {
     "heading": "Wat is er nieuw in versie 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "no": {
     "heading": "Hva er nytt i versjon 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "pa": {
     "heading": "ਵਰਜਨ 1.5.3 ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "pl": {
     "heading": "Co nowego w wersji 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "pt_BR": {
     "heading": "Novidades na versão 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "pt_PT": {
     "heading": "Novidades na versão 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ro": {
     "heading": "Ce este nou în versiunea 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ru": {
     "heading": "Что нового в версии 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "si": {
     "heading": "1.5.3 අනුවාදයේ අලුත් දේ",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sk": {
     "heading": "Čo je nové vo verzii 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sl": {
     "heading": "Kaj je novega v različici 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sq": {
     "heading": "Çfarë ka të re në versionin 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sr": {
     "heading": "Шта је ново у верзији 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sv": {
     "heading": "Nyheter i version 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "sw": {
     "heading": "Mambo mapya katika toleo la 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ta": {
     "heading": "பதிப்பு 1.5.3 இல் புதியவை",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "te": {
     "heading": "వెర్షన్ 1.5.3 లో కొత్తవి",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "th": {
     "heading": "มีอะไรใหม่ในเวอร์ชัน 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "tr": {
     "heading": "Sürüm 1.5.3'deki yenilikler",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "uk": {
     "heading": "Що нового у версії 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "ur": {
     "heading": "ورژن 1.5.3 میں نیا کیا ہے",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "uz": {
     "heading": "1.5.3 versiyasidagi yangiliklar",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "vi": {
     "heading": "Có gì mới trong phiên bản 1.5.3",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "zh_CN": {
     "heading": "版本 1.5.3 的新功能",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   },
   "zh_TW": {
     "heading": "版本 1.5.3 的新功能",
     "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
   }
 }

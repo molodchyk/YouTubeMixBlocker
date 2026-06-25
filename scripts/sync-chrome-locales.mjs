@@ -16,7 +16,7 @@ const sameAsEnglishLocales = ["en_AU", "en_GB", "en_US"];
 const chromeReleaseNotes = {
   version: "1.5.3",
   bullet1: "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-  bullet2: "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  bullet2: "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
 };
 
 const translations = {

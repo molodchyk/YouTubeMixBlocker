@@ -3,7 +3,7 @@
 ## Version 1.5.3
 
 - Expands Chrome runtime and Chrome Web Store localization coverage to the tracked 66 Chrome visible locales.
-- Separates Chrome and Firefox runtime locale source folders so browser-specific packages do not share incompatible locale coverage.
+- Splits Firefox development into the separate `YouTubeMixBlockerFirefox` repository.
 - Adds locale, manifest, and release verification scripts.
 - Normalizes project license metadata to GPL-3.0-only.
 

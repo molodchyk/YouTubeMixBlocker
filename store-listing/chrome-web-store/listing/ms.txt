@@ -26,4 +26,4 @@ molodchykr@gmail.com
 Apa yang baharu dalam versi 1.5.3
 
 Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
-Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.
+Kept the Chrome Web Store package focused on Chrome-supported locale coverage.
