@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "میکس‌های YouTube را مسدود می‌کند و نشانی‌های تماشای Mix را پاک‌سازی می‌کند.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "بی‌سروصدا فعال است",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "کارت‌های Mix مسدودشده",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "نشانی‌های Mix پاک‌سازی‌شده",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "این صفحه",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "پیشنهادها",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "نتایج جستجو",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "نوار کناری تماشا",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "نمایش شمارنده نشان برای این صفحه",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "پوسته",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "سیستم",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "روشن",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "تیره",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "نمایش جزئیات شمارنده‌ها",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "بازنشانی شمارنده‌ها",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "همه شمارنده‌های YouTube Mix Blocker بازنشانی شوند؟",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "آمار در دسترس نیست",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

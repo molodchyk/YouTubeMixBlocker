@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube Mix අවහිර කර Mix නැරඹුම් URL පිරිසිදු කරයි.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "නිහඬව සක්‍රීයයි",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "අවහිර කළ Mix කාඩ්පත්",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "පිරිසිදු කළ Mix URL",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "මෙම පිටුව",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "නිර්දේශ",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "සෙවුම් ප්‍රතිඵල",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "නැරඹුම් පැති තීරුව",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "මෙම පිටුව සඳහා ලාංඡන ගණන පෙන්වන්න",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "තේමාව",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "පද්ධතිය",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "ආලෝක",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "අඳුරු",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "විස්තරාත්මක බෙදීම පෙන්වන්න",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "ගණක නැවත සකසන්න",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "YouTube Mix Blocker ගණක සියල්ල නැවත සකසන්නද?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "සංඛ්‍යාලේඛන ලබා ගත නොහැක",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

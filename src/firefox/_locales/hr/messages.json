@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Blokira YouTube mikseve i čisti URL-ove za gledanje miksa.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Tiho aktivan",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Miks kartice blokirane",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Miješani URL-ovi očišćeni",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Ova stranica",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Preporuke",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Rezultati pretraživanja",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Watch sidebar",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Prikaži broj znački za ovu stranicu",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "sustav",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "svjetlo",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "tamno",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Prikaži detaljnu analizu",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Poništi brojače",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Resetirati sve brojače YouTube Mix Blockera?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Statistika nije dostupna",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

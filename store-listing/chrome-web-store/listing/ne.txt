@@ -1,0 +1,29 @@
+YouTube Mix Blocker ले YouTube पृष्ठहरूबाट YouTube Mix सिफारिसहरू हटाउँछ र Mix हेर्ने URL हरू सफा गर्छ, ताकि भिडियोहरू सामान्य भिडियो लिंकका रूपमा खुलून्।
+
+यो शान्त र न्यूनतम रहन बनाइएको हो: फिड प्रतिस्थापन छैन, आफ्नै सिफारिसहरू छैनन्, र popup नखोलेसम्म ध्यान तान्ने UI छैन।
+
+विशेषताहरू
+
+- सिफारिसहरूमा YouTube Mix कार्डहरू रोक्छ।
+- खोज परिणामहरूमा YouTube Mix कार्डहरू रोक्छ।
+- हेर्ने पृष्ठको साइडबार सिफारिसहरूमा YouTube Mix कार्डहरू रोक्छ।
+- Mix प्लेलिस्ट प्यारामिटरहरू हटाएर Mix हेर्ने URL हरू सफा गर्छ।
+- रोकिएका Mix र सफा गरिएका URL हरूका लागि वैकल्पिक गणकहरू समावेश गर्छ।
+- ब्याज गणकलाई पूर्वनिर्धारित रूपमा बन्द राख्छ।
+
+गोपनीयता
+
+यो एक्सटेन्सन YouTube पृष्ठहरूमा मात्र चल्छ। यसले तपाईंको ब्राउजिङ डेटा सङ्कलन, बिक्री वा प्रसारण गर्दैन।
+
+खुला स्रोत
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+प्रतिक्रिया स्वागत छ। तपाईं समीक्षा छोड्न, GitHub मा issue खोल्न, वा यसमा लेख्न सक्नुहुन्छ:
+molodchykr@gmail.com
+
+संस्करण 1.5.3 मा नयाँ के छ
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

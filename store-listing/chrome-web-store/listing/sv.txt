@@ -17,14 +17,13 @@ Det här tillägget körs bara på YouTube-sidor. Den samlar inte in, säljer el
 
 Öppen källkod
 
-Källkod:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Feedback är välkommet. Du kan lämna en recension, öppna ett problem på GitHub eller skriva till:
 molodchykr@gmail.com
 
-Nyheter i version 1.5.2
+Nyheter i version 1.5.3
 
-Tomma utrymmen som lämnades i YouTubes startsiderutnät efter blockering av Mix-kort har tagits bort.
-Åtgärdat ett Chrome-sidofältsproblem där YouTubes laddningssnurra kunde fastna efter att ha scrollat genom nyligen laddade sidofältsrekommendationer.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

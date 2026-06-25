@@ -70,6 +70,7 @@ Those are treated as normal video/radio links rather than Mix collection cards i
 
 - Chrome-only fixes must be applied only to the Chrome build output.
 - Firefox-only fixes must be applied only to the Firefox build output.
+- Chrome runtime locales live under `src/chrome/_locales/` and Firefox runtime locales live under `src/firefox/_locales/`.
 - Shared `src/` changes are allowed only when the intended behavior is the same in both browsers.
 - Before changing shared detection/removal behavior, test both `dist/` and `dist-firefox/`.
 

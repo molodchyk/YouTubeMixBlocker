@@ -1,0 +1,29 @@
+YouTube Mix Blocker heq rekomandimet YouTube Mix nga faqet e YouTube dhe pastron URL-të e shikimit Mix, që videot të hapen si lidhje të zakonshme videoje.
+
+Është krijuar të qëndrojë i qetë dhe minimal: pa zëvendësim të furnizimit, pa rekomandime të veta dhe pa ndërfaqe që tërheq vëmendjen, përveç kur hapni popup-in.
+
+Veçoritë
+
+- Bllokon kartat YouTube Mix në rekomandime.
+- Bllokon kartat YouTube Mix në rezultatet e kërkimit.
+- Bllokon kartat YouTube Mix në rekomandimet e shiritit anësor të faqes së shikimit.
+- Pastron URL-të e shikimit Mix duke hequr parametrat e listës Mix.
+- Përfshin numërues opsionalë për Mix të bllokuara dhe URL të pastruara.
+- E mban numëruesin e simbolit të çaktivizuar si parazgjedhje.
+
+Privatësia
+
+Kjo shtesë funksionon vetëm në faqet e YouTube. Nuk mbledh, shet ose transmeton të dhënat tuaja të shfletimit.
+
+Me burim të hapur
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Komentet janë të mirëpritura. Mund të lini një vlerësim, të hapni një çështje në GitHub, ose të shkruani te:
+molodchykr@gmail.com
+
+Çfarë ka të re në versionin 1.5.3
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

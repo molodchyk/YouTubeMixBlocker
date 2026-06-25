@@ -1,0 +1,29 @@
+YouTube Mix Blocker YouTube səhifələrindən YouTube Mix tövsiyələrini silir və Mix izləmə URL-lərini təmizləyir ki, videolar adi video keçidləri kimi açılsın.
+
+O, sakit və minimal qalmaq üçün hazırlanıb: lent əvəzlənmir, öz tövsiyələri yoxdur və popup-ı açmadıqca diqqət çəkən interfeys göstərilmir.
+
+Xüsusiyyətlər
+
+- Tövsiyələrdə YouTube Mix kartlarını bloklayır.
+- Axtarış nəticələrində YouTube Mix kartlarını bloklayır.
+- İzləmə səhifəsinin yan panel tövsiyələrində YouTube Mix kartlarını bloklayır.
+- Mix pleylist parametrlərini silərək Mix izləmə URL-lərini təmizləyir.
+- Bloklanan Mix-lər və təmizlənən URL-lər üçün istəyə bağlı sayğaclar əlavə edir.
+- Nişan sayğacını standart olaraq söndürülmüş saxlayır.
+
+Məxfilik
+
+Bu artırma yalnız YouTube səhifələrində işləyir. Baxış məlumatlarınızı toplamır, satmır və ötürmür.
+
+Açıq mənbə
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Rəyiniz xoşdur. Siz rəy yaza, GitHub-da məsələ aça və ya bu ünvana yaza bilərsiniz:
+molodchykr@gmail.com
+
+1.5.3 versiyasında yeniliklər
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

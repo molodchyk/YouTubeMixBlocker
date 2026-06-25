@@ -17,14 +17,13 @@ YouTube Mix Blocker は、YouTube ページから YouTube Mix のおすすめを
 
 オープンソース
 
-ソースコード:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 フィードバックは大歓迎です。レビューを残すか、GitHub で問題を開くか、次の宛先に書き込むことができます。
 molodchykr@gmail.com
 
-バージョン 1.5.2 の新機能
+バージョン 1.5.3 の新機能
 
-Mix カードをブロックした後に YouTube ホームグリッドに残る空白スペースを削除しました。
-Chrome の視聴サイドバーで、新しく読み込まれたサイドバーのおすすめをスクロールした後に YouTube の読み込みスピナーが固まったままになる問題を修正しました。
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

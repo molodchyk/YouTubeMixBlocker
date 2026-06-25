@@ -17,14 +17,13 @@ Esta extensão só funciona em páginas do YouTube. Não coleta, vende ou transm
 
 Código aberto
 
-Código fonte:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Comentários são bem-vindos. Você pode deixar um comentário, abrir um problema no GitHub ou escrever para:
 molodchykr@gmail.com
 
-Novidades na versão 1.5.2
+Novidades na versão 1.5.3
 
-Removidos espaços vazios que ficavam na grelha da página inicial do YouTube após o bloqueio dos cartões Mix.
-Corrigido um problema na barra lateral do Chrome em que o indicador de carregamento do YouTube podia ficar preso após deslocar recomendações recém-carregadas da barra lateral.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

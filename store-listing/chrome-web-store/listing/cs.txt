@@ -17,14 +17,13 @@ Toto rozšíření běží pouze na stránkách YouTube. Neshromažďuje, neprod
 
 Open source
 
-Zdrojový kód:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Zpětná vazba je vítána. Můžete zanechat recenzi, otevřít problém na GitHubu nebo napsat na:
 molodchykr@gmail.com
 
-Co je nového ve verzi 1.5.2
+Co je nového ve verzi 1.5.3
 
-Odstraněny prázdné mezery v hlavní mřížce YouTube po zablokování karet Mix.
-Opraven problém se sidebar v Chrome, kde se mohl zaseknout načítací spinner YouTube po posunu nově načtených doporučení.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

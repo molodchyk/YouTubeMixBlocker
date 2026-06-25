@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube Mixak blokeatzen ditu eta Mix ikusteko URLak garbitzen ditu.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Isilik aktibo",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Blokeatutako Mix txartelak",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Garbitutako Mix URLak",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Orrialde hau",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Gomendioak",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Bilaketa-emaitzak",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Ikusteko alboko barra",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Erakutsi orrialde honetako bereizgarri-kontagailua",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Gaia",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Sistema",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Argia",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Iluna",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Erakutsi xehetasunen banaketa",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Berrezarri kontagailuak",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "YouTube Mix Blocker kontagailu guztiak berrezarri?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Estatistikak ez daude erabilgarri",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

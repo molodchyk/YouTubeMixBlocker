@@ -6,7 +6,7 @@ This folder stores paste-ready listing text, review notes, and upload assets for
 
 - `listing/<locale>.txt` - flat paste-ready listing text for manual Chrome Web Store copy/paste work.
 
-Use `listing/` when updating the dashboard by hand, so all locale text files are in one folder.
+Use `listing/` when updating the dashboard by hand, so all locale text files are in one folder. The folder is expected to contain one `.txt` file for each of the 66 Chrome Web Store visible locales tracked by `npm run verify:locales`.
 
 ## Media
 
@@ -17,7 +17,7 @@ Use `listing/` when updating the dashboard by hand, so all locale text files are
 
 Chrome Web Store screenshots can be localized per listing language. Only English, German, and Ukrainian screenshots are included for now.
 
-Note: the extension source uses Chrome's current Hebrew locale code `he` under `src/_locales/`, while the Chrome Web Store dashboard may label Hebrew as `iw`. The store listing folder uses `iw/` to match the dashboard.
+The extension source and Chrome Web Store listing files use Chrome's current Hebrew locale code `he`. Do not add a parallel legacy `iw.txt` listing file.
 
 Chrome Web Store promo tiles are global only. The small promo tile and marquee promo tile cannot be localized separately.
 

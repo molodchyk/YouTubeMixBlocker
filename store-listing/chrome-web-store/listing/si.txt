@@ -1,0 +1,29 @@
+YouTube Mix Blocker YouTube පිටු වලින් YouTube Mix නිර්දේශ ඉවත් කර Mix නැරඹුම් URL පිරිසිදු කරයි, එවිට වීඩියෝ සාමාන්‍ය වීඩියෝ සබැඳි ලෙස විවෘත වේ.
+
+එය නිහඬ හා අවම ලෙස සිටීමට සැලසුම් කර ඇත: feed ප්‍රතිස්ථාපනයක් නැත, තමන්ගේම නිර්දේශ නැත, popup විවෘත කරන තුරු අවධානය ගන්නා UI නැත.
+
+විශේෂාංග
+
+- නිර්දේශ තුළ YouTube Mix කාඩ්පත් අවහිර කරයි.
+- සෙවුම් ප්‍රතිඵල තුළ YouTube Mix කාඩ්පත් අවහිර කරයි.
+- නැරඹුම් පිටුවේ පැති තීරු නිර්දේශ තුළ YouTube Mix කාඩ්පත් අවහිර කරයි.
+- Mix playlist පරාමිතීන් ඉවත් කර Mix නැරඹුම් URL පිරිසිදු කරයි.
+- අවහිර කළ Mix සහ පිරිසිදු කළ URL සඳහා විකල්ප ගණක ඇතුළත් කරයි.
+- ලාංඡන ගණකය පෙරනිමියෙන් අක්‍රියව තබයි.
+
+පෞද්ගලිකත්වය
+
+මෙම දිගුව YouTube පිටු මත පමණක් ක්‍රියා කරයි. එය ඔබගේ බ්‍රවුසින් දත්ත එකතු, විකිණීම හෝ සම්ප්‍රේෂණය නොකරයි.
+
+විවෘත මූලාශ්‍ර
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+ප්‍රතිපෝෂණය සාදරයෙන් පිළිගනිමු. ඔබට සමාලෝචනයක් තැබිය, GitHub හි issue එකක් විවෘත කළ හැකිය, හෝ මෙයට ලියන්න:
+molodchykr@gmail.com
+
+1.5.3 අනුවාදයේ අලුත් දේ
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

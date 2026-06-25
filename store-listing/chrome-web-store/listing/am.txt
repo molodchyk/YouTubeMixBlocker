@@ -1,0 +1,29 @@
+YouTube Mix Blocker ከYouTube ገጾች የYouTube Mix ምክሮችን ያስወግዳል እና የMix መመልከቻ URL-ዎችን ያጸዳል፣ ቪዲዮዎችም እንደ መደበኛ የቪዲዮ አገናኞች እንዲከፈቱ።
+
+ጸጥ ያለ እና ቀላል ሆኖ እንዲቆይ ተዘጋጅቷል፤ feed አይተካም፣ የራሱ ምክሮች የሉትም፣ popup ካልከፈቱ በስተቀር ትኩረት የሚስብ UI አያሳይም።
+
+ባህሪዎች
+
+- በምክሮች ውስጥ የYouTube Mix ካርዶችን ያግዳል።
+- በፍለጋ ውጤቶች ውስጥ የYouTube Mix ካርዶችን ያግዳል።
+- በመመልከቻ ገጽ ጎን አሞሌ ምክሮች ውስጥ የYouTube Mix ካርዶችን ያግዳል።
+- የMix playlist መለኪያዎችን በማስወገድ የMix መመልከቻ URL-ዎችን ያጸዳል።
+- ለታገዱ Mixes እና ለተጸዱ URL-ዎች አማራጭ ቆጣሪዎችን ያካትታል።
+- የባጅ ቆጣሪውን በነባሪነት አጥፍቶ ይተዋል።
+
+ግላዊነት
+
+ይህ ቅጥያ በYouTube ገጾች ላይ ብቻ ይሰራል። የአሰሳ ውሂብዎን አይሰበስብም፣ አይሸጥም ወይም አያስተላልፍም።
+
+ክፍት ምንጭ
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+አስተያየት በደስታ ይቀበላል። ግምገማ መተው፣ በGitHub issue መክፈት፣ ወይም ወደዚህ መጻፍ ይችላሉ:
+molodchykr@gmail.com
+
+በስሪት 1.5.3 ያለው አዲስ ነገር
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

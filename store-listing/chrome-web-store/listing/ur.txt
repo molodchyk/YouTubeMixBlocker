@@ -1,0 +1,29 @@
+YouTube Mix Blocker یوٹیوب صفحات سے YouTube Mix تجاویز ہٹاتا ہے اور Mix watch URLs کو صاف کرتا ہے تاکہ ویڈیوز عام ویڈیو لنکس کے طور پر کھلیں۔
+
+اسے خاموش اور سادہ رہنے کے لیے بنایا گیا ہے: کوئی فیڈ تبدیلی نہیں، اپنی تجاویز نہیں، اور کوئی توجہ کھینچنے والا UI نہیں جب تک آپ popup نہ کھولیں۔
+
+خصوصیات
+
+- تجاویز میں YouTube Mix کارڈز بلاک کرتا ہے۔
+- تلاش کے نتائج میں YouTube Mix کارڈز بلاک کرتا ہے۔
+- واچ صفحے کی سائیڈ بار تجاویز میں YouTube Mix کارڈز بلاک کرتا ہے۔
+- Mix پلے لسٹ پیرامیٹرز ہٹا کر Mix watch URLs صاف کرتا ہے۔
+- بلاک کیے گئے Mixes اور صاف کیے گئے URLs کے لیے اختیاری کاؤنٹرز شامل ہیں۔
+- بیج کاؤنٹر کو بطور ڈیفالٹ غیر فعال رکھتا ہے۔
+
+رازداری
+
+یہ ایکسٹینشن صرف YouTube صفحات پر چلتی ہے۔ یہ آپ کا براؤزنگ ڈیٹا جمع، فروخت یا منتقل نہیں کرتی۔
+
+اوپن سورس
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+آپ کی رائے خوش آئند ہے۔ آپ ریویو چھوڑ سکتے ہیں، GitHub پر issue کھول سکتے ہیں، یا اس پر لکھ سکتے ہیں:
+molodchykr@gmail.com
+
+ورژن 1.5.3 میں نیا کیا ہے
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

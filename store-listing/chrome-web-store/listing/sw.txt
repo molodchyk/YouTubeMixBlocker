@@ -17,14 +17,13 @@ Kiendelezi hiki kinatumia kurasa za YouTube pekee. Haikusanyi, kuuza, au kusamba
 
 Chanzo wazi
 
-Msimbo wa chanzo:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Maoni yanakaribishwa. Unaweza kuacha ukaguzi, kufungua suala kwenye GitHub, au kuandika kwa:
 molodchykr@gmail.com
 
-Mambo mapya katika toleo la 1.5.2
+Mambo mapya katika toleo la 1.5.3
 
-Kuondolewa nafasi tupu zilizobaki kwenye gridi ya ukurasa wa nyumbani wa YouTube baada ya kuzuia kadi za Mix.
-Imerekebisha tatizo la upau wa pembeni wa Chrome ambapo kishiriki cha kupakia cha YouTube kinaweza kukwama baada ya kusogeza mapendekezo ya upau wa pembeni yaliyopakiwa hivi karibuni.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

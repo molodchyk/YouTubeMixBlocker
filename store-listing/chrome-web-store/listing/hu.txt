@@ -17,14 +17,13 @@ Ez a bővítmény csak a YouTube-oldalakon fut. Nem gyűjti, értékesíti vagy 
 
 Nyílt forráskódú
 
-Forráskód:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 A visszajelzéseket szívesen fogadjuk. Írhat véleményt, megnyithat egy problémát a GitHubon, vagy írhat a következő címre:
 molodchykr@gmail.com
 
-Újdonságok az 1.5.2 verzióban
+Újdonságok az 1.5.3 verzióban
 
-Eltávolítottuk a YouTube kezdőoldal rácsában a Mix kártyák blokkolása után megmaradt üres helyeket.
-Javítottuk a Chrome oldalsáv hibáját, ahol a YouTube betöltési forgója beragadhatott az újonnan betöltött oldalsávi ajánlások görgetése után.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

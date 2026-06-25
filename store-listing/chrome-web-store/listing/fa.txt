@@ -1,0 +1,29 @@
+YouTube Mix Blocker پیشنهادهای YouTube Mix را از صفحه‌های YouTube حذف می‌کند و نشانی‌های تماشای Mix را پاک‌سازی می‌کند تا ویدیوها مانند پیوندهای معمولی باز شوند.
+
+این افزونه برای آرام و کم‌حاشیه ماندن ساخته شده است: جایگزین کردن فید، پیشنهادهای خودش، یا رابط کاربری جلب‌توجه‌کننده ندارد مگر اینکه خودتان پنجره بازشو را باز کنید.
+
+ویژگی‌ها
+
+- کارت‌های YouTube Mix را در پیشنهادها مسدود می‌کند.
+- کارت‌های YouTube Mix را در نتایج جستجو مسدود می‌کند.
+- کارت‌های YouTube Mix را در پیشنهادهای نوار کناری صفحه تماشا مسدود می‌کند.
+- نشانی‌های تماشای Mix را با حذف پارامترهای فهرست پخش Mix پاک‌سازی می‌کند.
+- شمارنده‌های اختیاری برای Mixهای مسدودشده و URLهای پاک‌سازی‌شده دارد.
+- شمارنده نشان را به‌طور پیش‌فرض غیرفعال نگه می‌دارد.
+
+حریم خصوصی
+
+این افزونه فقط روی صفحه‌های YouTube اجرا می‌شود. داده‌های مرور شما را جمع‌آوری، فروش، یا ارسال نمی‌کند.
+
+متن‌باز
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+بازخوردتان خوشحالمان می‌کند. می‌توانید نظر بگذارید، در GitHub یک issue باز کنید، یا بنویسید به:
+molodchykr@gmail.com
+
+تازه‌های نسخه 1.5.3
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

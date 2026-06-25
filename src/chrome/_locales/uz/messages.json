@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube Mixlarni bloklaydi va Mix tomosha URLlarini tozalaydi.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Jim faol",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Bloklangan Mix kartalari",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Tozalangan Mix URLlari",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Bu sahifa",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Tavsiyalar",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Qidiruv natijalari",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Tomosha yon paneli",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Bu sahifa uchun belgi hisoblagichini ko‘rsatish",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Mavzu",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Tizim",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Yorug‘",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Qorong‘i",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Batafsil taqsimotni ko‘rsatish",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Hisoblagichlarni tiklash",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Barcha YouTube Mix Blocker hisoblagichlari tiklansinmi?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Statistika mavjud emas",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

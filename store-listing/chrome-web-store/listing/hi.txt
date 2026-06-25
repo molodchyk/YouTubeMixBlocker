@@ -17,14 +17,13 @@
 
 खुला स्रोत
 
-स्रोत कोड:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 प्रतिक्रिया का स्वागत है. आप एक समीक्षा छोड़ सकते हैं, GitHub पर एक मुद्दा खोल सकते हैं, या यहां लिख सकते हैं:
 molodchykr@gmail.com
 
-संस्करण 1.5.2 में क्या नया है
+संस्करण 1.5.3 में क्या नया है
 
-Mix कार्ड ब्लॉक करने के बाद YouTube होम ग्रिड में छोड़ी गई खाली जगहें हटा दी गईं।
-Chrome watch-sidebar समस्या ठीक की गई, जहाँ नई लोड हुई साइडबार सिफ़ारिशों को स्क्रॉल करने के बाद YouTube का लोडिंग स्पिनर अटक सकता था।
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

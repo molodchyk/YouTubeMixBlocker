@@ -17,14 +17,13 @@ Ovo proširenje radi samo na YouTube stranicama. Ne prikuplja, ne prodaje niti p
 
 Otvoreni kod
 
-Izvorni kod:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Povratne informacije su dobrodošle. Možete ostaviti recenziju, otvoriti problem na GitHubu ili pisati na:
 molodchykr@gmail.com
 
-Što je novo u verziji 1.5.2
+Što je novo u verziji 1.5.3
 
-Uklonjeni su prazni prostori koji su ostajali u mreži YouTube početne stranice nakon blokiranja Mix kartica.
-Ispravljen je problem s bočnom trakom u Chromeu gdje je YouTubeov spinner za učitavanje mogao ostati zaglavljen nakon pomicanja novouučitanih preporuka bočne trake.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

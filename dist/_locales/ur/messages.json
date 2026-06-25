@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube Mixes کو بلاک کرتا ہے اور Mix watch URLs کو صاف کرتا ہے۔",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "خاموشی سے فعال",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "بلاک کیے گئے Mix کارڈز",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "صاف کیے گئے Mix URLs",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "یہ صفحہ",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "تجاویز",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "تلاش کے نتائج",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "واچ سائیڈ بار",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "اس صفحے کے لیے بیج کاؤنٹ دکھائیں",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "تھیم",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "سسٹم",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "لائٹ",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "ڈارک",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "تفصیلی تقسیم دکھائیں",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "کاؤنٹرز ری سیٹ کریں",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "کیا YouTube Mix Blocker کے تمام کاؤنٹرز ری سیٹ کر دیے جائیں؟",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "اعداد و شمار دستیاب نہیں",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

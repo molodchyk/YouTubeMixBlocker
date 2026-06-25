@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube మిక్స్ బ్లాకర్",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "YouTube మిక్స్‌లను బ్లాక్ చేస్తుంది మరియు మిక్స్ వాచ్ URLలను క్లీన్ చేస్తుంది.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube మిక్స్ బ్లాకర్",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "నిశ్శబ్దంగా చురుకుగా",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "మిక్స్ కార్డ్‌లు బ్లాక్ చేయబడ్డాయి",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "మిక్స్ URLలు శుభ్రం చేయబడ్డాయి",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "ఈ పేజీ",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "సిఫార్సులు",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "శోధన ఫలితాలు",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "సైడ్‌బార్‌ని చూడండి",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "ఈ పేజీ కోసం బ్యాడ్జ్ గణనను చూపు",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "థీమ్",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "వ్యవస్థ",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "కాంతి",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "చీకటి",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "వివరణాత్మక విచ్ఛిన్నతను చూపు",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "కౌంటర్లను రీసెట్ చేయండి",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "అన్ని YouTube మిక్స్ బ్లాకర్ కౌంటర్‌లను రీసెట్ చేయాలా?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "గణాంకాలు అందుబాటులో లేవు",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

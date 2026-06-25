@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Bllokon YouTube Mixes dhe pastron URL-të e shikimit Mix.",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Aktiv në heshtje",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Karta Mix të bllokuara",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "URL Mix të pastruara",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Kjo faqe",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Rekomandime",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Rezultatet e kërkimit",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Shiriti anësor i shikimit",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Shfaq numërimin e simbolit për këtë faqe",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Tema",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Sistemi",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "E çelët",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "E errët",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Shfaq ndarjen e hollësishme",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Rivendos numëruesit",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Të rivendosen të gjithë numëruesit e YouTube Mix Blocker?",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Statistikat nuk janë të disponueshme",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

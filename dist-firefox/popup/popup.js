@@ -1,5 +1,7 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-only
 // Copyright (C) 2023-2026 Oleksandr Molodchyk
+
+const rtlLanguageCodes = new Set(["ar", "fa", "he", "iw", "ur"]);
 
 const elements = {
   status: document.getElementById("status"),
@@ -17,6 +19,15 @@ const elements = {
 };
 
 let activeTabId = null;
+
+function applyDocumentLanguageDirection() {
+  const uiLanguage = chrome.i18n.getUILanguage ? chrome.i18n.getUILanguage() : "en";
+  const normalizedLanguage = uiLanguage.replace(/_/g, "-");
+  const baseLanguage = normalizedLanguage.split("-")[0].toLowerCase();
+
+  document.documentElement.lang = normalizedLanguage || "en";
+  document.documentElement.dir = rtlLanguageCodes.has(baseLanguage) ? "rtl" : "ltr";
+}
 
 function localizePopup() {
   document.querySelectorAll("[data-i18n]").forEach(element => {
@@ -132,5 +143,6 @@ chrome.runtime.onMessage.addListener(message => {
   render(message);
 });
 
+applyDocumentLanguageDirection();
 localizePopup();
 refresh();

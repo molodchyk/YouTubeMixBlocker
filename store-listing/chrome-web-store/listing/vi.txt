@@ -17,14 +17,13 @@ Tiện ích mở rộng này chỉ chạy trên các trang YouTube. Nó không t
 
 Nguồn mở
 
-Mã nguồn:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Phản hồi được chào đón. Bạn có thể để lại đánh giá, mở một vấn đề trên GitHub hoặc viết thư cho:
 molodchykr@gmail.com
 
-Có gì mới trong phiên bản 1.5.2
+Có gì mới trong phiên bản 1.5.3
 
-Đã xóa các khoảng trống còn lại trong lưới trang chủ YouTube sau khi chặn thẻ Mix.
-Đã sửa lỗi thanh bên xem Chrome khi vòng xoay tải của YouTube có thể bị kẹt sau khi cuộn các đề xuất thanh bên mới tải.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

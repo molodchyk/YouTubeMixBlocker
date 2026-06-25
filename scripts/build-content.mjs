@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: GPL-3.0-or-later
+// SPDX-License-Identifier: GPL-3.0-only
 // Copyright (C) 2023-2026 Oleksandr Molodchyk
 
 import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
@@ -14,8 +14,11 @@ if (!["chrome", "firefox"].includes(target)) {
 }
 
 const outputDirectory = target === "firefox" ? "dist-firefox" : "dist";
+const localeSourceDirectory = target === "firefox"
+  ? "src/firefox/_locales"
+  : "src/chrome/_locales";
 const versions = {
-  chrome: "1.5.2",
+  chrome: "1.5.3",
   firefox: "1.5.1"
 };
 
@@ -27,12 +30,13 @@ const featureFiles = [
 ];
 
 const copyrightHeader = [
-  "// SPDX-License-Identifier: GPL-3.0-or-later",
+  "// SPDX-License-Identifier: GPL-3.0-only",
   "// Copyright (C) 2023-2026 Oleksandr Molodchyk"
 ].join("\n");
 
 function stripSourceHeader(source) {
   return source
+    .replace(/^\/\/ SPDX-License-Identifier: GPL-3\.0-only\r?\n/, "")
     .replace(/^\/\/ SPDX-License-Identifier: GPL-3\.0-or-later\r?\n/, "")
     .replace(/^\/\/ Copyright \(C\) 2023-2026 Oleksandr Molodchyk\r?\n/, "")
     .trim();
@@ -228,7 +232,7 @@ if (target === "chrome") {
 await cp(path.join(root, "src/popup"), path.join(outputPath, "popup"), {
   recursive: true
 });
-await cp(path.join(root, "src/_locales"), path.join(outputPath, "_locales"), {
+await cp(path.join(root, localeSourceDirectory), path.join(outputPath, "_locales"), {
   recursive: true
 });
 

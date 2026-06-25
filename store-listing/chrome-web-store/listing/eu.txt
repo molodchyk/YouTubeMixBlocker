@@ -1,0 +1,29 @@
+YouTube Mix Blockerrek YouTube Mix gomendioak kentzen ditu YouTube orrialdeetatik eta Mix ikusteko URLak garbitzen ditu, bideoak bideo-esteka arrunt gisa ireki daitezen.
+
+Isilik eta minimo izateko diseinatuta dago: ez du jarioa ordezkatzen, ez du bere gomendiorik gehitzen, eta ez du arreta erakartzen duen interfazea erakusten popup-a irekitzea aukeratzen ez baduzu.
+
+Ezaugarriak
+
+- YouTube Mix txartelak blokeatzen ditu gomendioetan.
+- YouTube Mix txartelak blokeatzen ditu bilaketa-emaitzetan.
+- YouTube Mix txartelak blokeatzen ditu ikusteko orriko alboko barrako gomendioetan.
+- Mix ikusteko URLak garbitzen ditu Mix erreprodukzio-zerrendako parametroak kenduta.
+- Blokeatutako Mixetarako eta garbitutako URLetarako aukerako kontagailuak ditu.
+- Bereizgarri-kontagailua lehenespenez desgaituta uzten du.
+
+Pribatutasuna
+
+Luzapen hau YouTube orrialdeetan bakarrik exekutatzen da. Ez du zure nabigazio-daturik biltzen, saltzen edo transmititzen.
+
+Kode irekia
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Iritziak ongi etorriak dira. Balorazio bat utzi, GitHub-en arazo bat ireki edo hona idatz dezakezu:
+molodchykr@gmail.com
+
+1.5.3 bertsioan berria
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

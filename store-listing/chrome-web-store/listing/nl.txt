@@ -17,14 +17,13 @@ Deze extensie werkt alleen op YouTube-pagina's. Het verzamelt, verkoopt of verze
 
 Open-source
 
-Broncode:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Feedback is welkom. U kunt een recensie achterlaten, een probleem openen op GitHub of schrijven naar:
 molodchykr@gmail.com
 
-Wat is er nieuw in versie 1.5.2
+Wat is er nieuw in versie 1.5.3
 
-Lege ruimtes die overbleven in het YouTube-startraster na het blokkeren van Mix-kaarten zijn verwijderd.
-Een probleem met de Chrome-zijbalk is opgelost waarbij de laadspinner van YouTube kon vastlopen na het scrollen door nieuw geladen zijbalkaanbevelingen.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

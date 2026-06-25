@@ -1,0 +1,29 @@
+YouTube Mix Blocker YouTube sahifalaridan YouTube Mix tavsiyalarini olib tashlaydi va Mix tomosha URLlarini tozalaydi, shunda videolar oddiy video havolalari sifatida ochiladi.
+
+U tinch va ixcham ishlash uchun yaratilgan: tasmani almashtirmaydi, o‘z tavsiyalarini bermaydi va popup-ni ochmaguningizcha e’tiborni tortuvchi interfeys ko‘rsatmaydi.
+
+Xususiyatlar
+
+- Tavsiyalardagi YouTube Mix kartalarini bloklaydi.
+- Qidiruv natijalaridagi YouTube Mix kartalarini bloklaydi.
+- Tomosha sahifasi yon panelidagi YouTube Mix kartalarini bloklaydi.
+- Mix pleylist parametrlarini olib tashlab, Mix tomosha URLlarini tozalaydi.
+- Bloklangan Mixlar va tozalangan URLlar uchun ixtiyoriy hisoblagichlarni qo‘shadi.
+- Belgi hisoblagichini sukut bo‘yicha o‘chirilgan holatda saqlaydi.
+
+Maxfiylik
+
+Bu kengaytma faqat YouTube sahifalarida ishlaydi. U brauzer ma’lumotlaringizni yig‘maydi, sotmaydi yoki uzatmaydi.
+
+Ochiq kodli
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Fikr-mulohaza mamnuniyat bilan qabul qilinadi. Sharh qoldirishingiz, GitHub’da masala ochishingiz yoki quyidagiga yozishingiz mumkin:
+molodchykr@gmail.com
+
+1.5.3 versiyasidagi yangiliklar
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

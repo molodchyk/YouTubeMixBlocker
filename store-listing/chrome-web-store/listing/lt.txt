@@ -17,14 +17,13 @@ Privatumas
 
 Atviras šaltinis
 
-Šaltinio kodas:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Atsiliepimai laukiami. Galite palikti atsiliepimą, atidaryti problemą „GitHub“ arba parašyti adresu:
 molodchykr@gmail.com
 
-Kas naujo versijoje 1.5.2
+Kas naujo versijoje 1.5.3
 
-Pašalinti tušti tarpai, likę YouTube pagrindinio puslapio tinklelyje po Mix kortelių užblokavimo.
-Ištaisyta „Chrome“ šoninės juostos problema, kai YouTube įkėlimo suktukas galėjo užstrigti slenkant naujai įkeltas šoninės juostos rekomendacijas.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

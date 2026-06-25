@@ -1,0 +1,29 @@
+YouTube Mix Blocker აშორებს YouTube Mix რეკომენდაციებს YouTube გვერდებიდან და ასუფთავებს Mix-ის ყურების URL-ებს, რომ ვიდეოები ჩვეულებრივ ვიდეო ბმულებად გაიხსნას.
+
+ის შექმნილია ჩუმად და მინიმალურად მუშაობისთვის: არ ცვლის არხს, არ ამატებს საკუთარ რეკომენდაციებს და არ აჩვენებს ყურადღების მიმქცევ UI-ს, თუ popup-ს არ გახსნით.
+
+ფუნქციები
+
+- ბლოკავს YouTube Mix ბარათებს რეკომენდაციებში.
+- ბლოკავს YouTube Mix ბარათებს ძიების შედეგებში.
+- ბლოკავს YouTube Mix ბარათებს ყურების გვერდის გვერდითი ზოლის რეკომენდაციებში.
+- ასუფთავებს Mix-ის ყურების URL-ებს Mix playlist პარამეტრების წაშლით.
+- მოიცავს სურვილისამებრ მთვლელებს დაბლოკილი Mix-ებისა და გასუფთავებული URL-ებისთვის.
+- ნიშნულის მთვლელს ნაგულისხმევად გამორთულს ტოვებს.
+
+კონფიდენციალურობა
+
+ეს გაფართოება მუშაობს მხოლოდ YouTube გვერდებზე. ის არ აგროვებს, ყიდის ან გადასცემს თქვენს დათვალიერების მონაცემებს.
+
+ღია წყარო
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+უკუკავშირი მისასალმებელია. შეგიძლიათ დატოვოთ მიმოხილვა, გახსნათ issue GitHub-ზე, ან მოგვწეროთ:
+molodchykr@gmail.com
+
+რა არის ახალი ვერსიაში 1.5.3
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

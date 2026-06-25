@@ -1,0 +1,78 @@
+{
+  "appName": {
+    "message": "YouTube Mix Blocker",
+    "description": "Extension name."
+  },
+  "appDescription": {
+    "message": "Արգելափակում է YouTube Mix-երը և մաքրում Mix դիտման URL-ները։",
+    "description": "Short extension description shown by Chrome and the Chrome Web Store."
+  },
+  "popupTitle": {
+    "message": "YouTube Mix Blocker",
+    "description": "Popup heading."
+  },
+  "popupStatus": {
+    "message": "Լուռ ակտիվ է",
+    "description": "Popup status text."
+  },
+  "popupMixCardsBlocked": {
+    "message": "Արգելափակված Mix քարտեր",
+    "description": "Total blocked Mix card counter label."
+  },
+  "popupMixUrlsCleaned": {
+    "message": "Մաքրված Mix URL-ներ",
+    "description": "Cleaned Mix URL counter label."
+  },
+  "popupThisPage": {
+    "message": "Այս էջը",
+    "description": "Current page counter label."
+  },
+  "popupRecommendations": {
+    "message": "Առաջարկություններ",
+    "description": "Recommendations counter label."
+  },
+  "popupSearchResults": {
+    "message": "Որոնման արդյունքներ",
+    "description": "Search results counter label."
+  },
+  "popupWatchSidebar": {
+    "message": "Դիտման կողային վահանակ",
+    "description": "Watch page sidebar counter label."
+  },
+  "popupShowBadge": {
+    "message": "Ցույց տալ նշանի հաշվիչը այս էջի համար",
+    "description": "Setting label for optional badge counter."
+  },
+  "popupTheme": {
+    "message": "Թեմա",
+    "description": "Theme setting label."
+  },
+  "popupThemeSystem": {
+    "message": "Համակարգ",
+    "description": "Use the system theme."
+  },
+  "popupThemeLight": {
+    "message": "Բաց",
+    "description": "Use light theme."
+  },
+  "popupThemeDark": {
+    "message": "Մուգ",
+    "description": "Use dark theme."
+  },
+  "popupShowDetails": {
+    "message": "Ցույց տալ մանրամասն բաշխումը",
+    "description": "Setting label for detailed counters."
+  },
+  "popupResetCounters": {
+    "message": "Վերակայել հաշվիչները",
+    "description": "Button label for resetting all counters."
+  },
+  "popupResetConfirm": {
+    "message": "Վերակայե՞լ YouTube Mix Blocker-ի բոլոր հաշվիչները։",
+    "description": "Confirmation message before resetting counters."
+  },
+  "popupStatsUnavailable": {
+    "message": "Վիճակագրությունը հասանելի չէ",
+    "description": "Shown when popup stats cannot be loaded."
+  }
+}

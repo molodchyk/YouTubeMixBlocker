@@ -17,14 +17,13 @@ Aquesta extensió només s'executa a les pàgines de YouTube. No recull, ven ni 
 
 codi obert
 
-Codi font:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Els comentaris són benvinguts. Pots deixar una ressenya, obrir un problema a GitHub o escriure a:
 molodchykr@gmail.com
 
-Novetats de la versió 1.5.2
+Novetats de la versió 1.5.3
 
-S'han eliminat els espais buits que quedaven a la graella de la pàgina principal de YouTube després de bloquejar les targetes Mix.
-S'ha solucionat un problema a la barra lateral de Chrome, on el carregador de YouTube podia quedar encallat després de desplaçar les recomanacions noves de la barra lateral.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

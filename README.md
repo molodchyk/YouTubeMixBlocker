@@ -9,7 +9,7 @@
 A small browser extension that removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hcjmmaealhemocjdjfajldoneaidkaga.svg?label=Chrome%20Web%20Store&color=blue)](https://chromewebstore.google.com/detail/youtube-mix-blocker/hcjmmaealhemocjdjfajldoneaidkaga)
-[![License: GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](LICENSE.txt)
+[![License: GPL-3.0-only](https://img.shields.io/badge/License-GPL--3.0--only-blue.svg)](LICENSE)
 
 ## Features
 
@@ -20,7 +20,8 @@ A small browser extension that removes YouTube Mix recommendations from YouTube 
 - Cleans Mix watch URLs by removing Mix playlist parameters.
 - Includes an optional popup with counters for blocked Mixes and cleaned URLs.
 - Keeps the badge counter disabled by default.
-- Supports 50 localized extension UI languages.
+- Supports 66 localized Chrome extension UI languages.
+- Keeps Chrome and Firefox extension builds and runtime locales separated.
 
 ## Install
 
@@ -64,12 +65,20 @@ Useful commands:
 npm run build:chrome
 npm run build:firefox
 npm run build:all
+npm run sync:chrome-locales
+npm run verify:locales
+npm run verify:manifest
+npm run verify:release
+npm run package:chrome
 npm run lint:firefox
 npm run package:firefox
 npm run check
 ```
 
 `npm run check` builds both targets and runs syntax checks on the generated JavaScript files.
+`npm run verify:locales` confirms Chrome has exactly 66 supported locale folders and matching Chrome Web Store listing files, while Firefox keeps its separate runtime locale set.
+`npm run verify:manifest` checks generated manifest paths for both browser builds.
+`npm run verify:release` runs release-facing metadata, privacy, and package-shape checks.
 `npm run lint:firefox` validates the Firefox build with Mozilla's `web-ext` linter.
 
 The browser-specific manifest is generated during the build:
@@ -82,7 +91,9 @@ The browser-specific manifest is generated during the build:
 - `src/` - extension source files.
 - `src/content/` - YouTube page detection, blocking, URL cleanup, and SPA event handling.
 - `src/popup/` - extension popup UI.
-- `src/_locales/` - extension localization messages.
+- `src/chrome/_locales/` - Chrome runtime localization messages.
+- `src/firefox/_locales/` - Firefox runtime localization messages.
+- `docs/` - Chrome Web Store automation fields, privacy form answers, and release checks.
 - `dist/` - generated Chrome build.
 - `dist-firefox/` - generated Firefox build.
 - `EXTENSION_SPEC.md` - browser-specific behavior notes and release rules.
@@ -92,6 +103,8 @@ The browser-specific manifest is generated during the build:
 ## Privacy
 
 YouTube Mix Blocker does not collect, transmit, sell, or share personal data or browsing data. Settings and counters are stored locally in the browser and are used only to provide the extension's features.
+
+The extension uses `activeTab`, `storage`, and the `https://www.youtube.com/*` host permission. It does not make network requests and does not use analytics, ads, tracking, content scripts on non-YouTube sites, or remote code.
 
 See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 
@@ -112,4 +125,4 @@ If this extension saves you time and you want to support its development:
 
 ## License
 
-Licensed under GPL-3.0-or-later. See [LICENSE.txt](LICENSE.txt).
+Licensed under GPL-3.0-only. See [LICENSE](LICENSE).

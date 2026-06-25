@@ -17,14 +17,13 @@ Sambungan ini hanya berjalan pada halaman YouTube. Ia tidak mengumpul, menjual a
 
 Sumber terbuka
 
-Kod sumber:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Maklum balas adalah dialu-alukan. Anda boleh meninggalkan ulasan, membuka isu di GitHub, atau menulis kepada:
 molodchykr@gmail.com
 
-Apa yang baharu dalam versi 1.5.2
+Apa yang baharu dalam versi 1.5.3
 
-Ruang kosong yang tertinggal dalam grid halaman utama YouTube selepas kad Mix disekat telah dibuang.
-Masalah bar sisi tontonan Chrome telah dibetulkan di mana pemutar pemuatan YouTube boleh tersekat selepas menatal cadangan bar sisi yang baru dimuatkan.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

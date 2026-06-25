@@ -1,252 +1,332 @@
 {
+  "am": {
+    "heading": "በስሪት 1.5.3 ያለው አዲስ ነገር",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
   "ar": {
-    "heading": "ما الجديد في الإصدار 1.5.2",
-    "bullet1": "إزالة المسافات الفارغة المتبقية في شبكة الصفحة الرئيسية ليوتيوب بعد حجب بطاقات Mix.",
-    "bullet2": "إصلاح مشكلة شريط الجانب في متصفح Chrome حيث قد يبقى مؤشر التحميل عالقًا بعد تمرير توصيات الشريط الجانبي التي تم تحميلها حديثًا."
+    "heading": "ما الجديد في الإصدار 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "az": {
+    "heading": "1.5.3 versiyasında yeniliklər",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "bg": {
-    "heading": "Какво ново във версия 1.5.2",
-    "bullet1": "Премахнати са празните пространства, останали в мрежата на началната страница на YouTube след блокиране на картите Mix.",
-    "bullet2": "Коригиран е проблемът със страничната лента в Chrome, където индикаторът за зареждане на YouTube можеше да остане задържан след превъртане на ново заредени препоръки."
+    "heading": "Какво ново във версия 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "bn": {
-    "heading": "সংস্করণ 1.5.2-এ নতুন কী আছে",
-    "bullet1": "Mix কার্ডগুলো ব্লক করা হলে ইউটিউব হোম গ্রিডে বাকি থাকা ফাঁকা জায়গা সরানো হয়েছে।",
-    "bullet2": "Chrome watch-sidebar সমস্যার সমাধান করা হয়েছে যেখানে ইউটিউবের লোডিং স্পিনার নতুন লোডেড সাইডবার রিকমেন্ডেশন স্ক্রল করার পর আটকে থাকতে পারত।"
+    "heading": "সংস্করণ 1.5.3-এ নতুন কী আছে",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ca": {
-    "heading": "Novetats de la versió 1.5.2",
-    "bullet1": "S'han eliminat els espais buits que quedaven a la graella de la pàgina principal de YouTube després de bloquejar les targetes Mix.",
-    "bullet2": "S'ha solucionat un problema a la barra lateral de Chrome, on el carregador de YouTube podia quedar encallat després de desplaçar les recomanacions noves de la barra lateral."
+    "heading": "Novetats de la versió 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "cs": {
-    "heading": "Co je nového ve verzi 1.5.2",
-    "bullet1": "Odstraněny prázdné mezery v hlavní mřížce YouTube po zablokování karet Mix.",
-    "bullet2": "Opraven problém se sidebar v Chrome, kde se mohl zaseknout načítací spinner YouTube po posunu nově načtených doporučení."
+    "heading": "Co je nového ve verzi 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "da": {
-    "heading": "Hvad er nyt i version 1.5.2",
-    "bullet1": "Fjernet tomme mellemrum, der blev efterladt i YouTubes startside-gitter efter blokering af Mix-kort.",
-    "bullet2": "Rettet et Chrome-sidebar-problem, hvor YouTubes indlæsnings-spinner kunne hænge fast efter rulning af nyindlæste sidebar-anbefalinger."
+    "heading": "Hvad er nyt i version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "de": {
-    "heading": "Neu in Version 1.5.2",
-    "bullet1": "Leere Bereiche, die in der YouTube-Startseiten-Rasteransicht nach dem Blockieren von Mix-Karten übrig blieben, wurden entfernt.",
-    "bullet2": "Ein Problem mit der Chrome-Seitenleiste wurde behoben, bei dem der Lade-Spinner von YouTube nach dem Scrollen durch neu geladene Seitenleisten-Empfehlungen hängen bleiben konnte."
+    "heading": "Neu in Version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "el": {
-    "heading": "Τι νέο υπάρχει στην έκδοση 1.5.2",
-    "bullet1": "Αφαιρέθηκαν κενά που έμεναν στο πλέγμα της αρχικής σελίδας του YouTube μετά το φιλτράρισμα των καρτών Mix.",
-    "bullet2": "Διορθώθηκε ένα ζήτημα στη δεξιά μπάρα του Chrome, όπου ο δείκτης φόρτωσης του YouTube μπορούσε να κολλήσει μετά την κύλιση νέων προτάσεων στην μπάρα."
+    "heading": "Τι νέο υπάρχει στην έκδοση 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "en": {
-    "heading": "What's new in version 1.5.2",
-    "bullet1": "Removed empty spaces left in the YouTube home grid after Mix cards are blocked.",
-    "bullet2": "Fixed a Chrome watch-sidebar issue where YouTube's loading spinner could remain stuck after scrolling newly loaded sidebar recommendations."
+    "heading": "What's new in version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "en_AU": {
+    "heading": "What's new in version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "en_GB": {
+    "heading": "What's new in version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "en_US": {
+    "heading": "What's new in version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "es": {
-    "heading": "Novedades en la versión 1.5.2",
-    "bullet1": "Se eliminaron los espacios vacíos que quedaban en la cuadrícula de inicio de YouTube después de bloquear las tarjetas Mix.",
-    "bullet2": "Se corrigió un problema en la barra lateral de Chrome donde el spinner de carga de YouTube podía quedarse atascado al desplazar recomendaciones recién cargadas."
+    "heading": "Novedades en la versión 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "es_419": {
-    "heading": "Novedades en la versión 1.5.2",
-    "bullet1": "Se eliminaron los espacios vacíos que quedaban en la cuadrícula de inicio de YouTube después de bloquear las tarjetas Mix.",
-    "bullet2": "Se corrigió un problema en la barra lateral de Chrome donde el spinner de carga de YouTube podía quedarse atascado al desplazar recomendaciones recién cargadas."
+    "heading": "Novedades en la versión 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "et": {
-    "heading": "Mis on uut versioonis 1.5.2",
-    "bullet1": "Eemaldati tühjad ruumid, mis jäid YouTube'i avalehe ruudustikku pärast Mix-kaartide blokeerimist.",
-    "bullet2": "Parandati Chrome'i külgriba probleem, kus YouTube'i laadimisspinner võis kinni jääda pärast uute soovituste kerimist."
+    "heading": "Mis on uut versioonis 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "eu": {
+    "heading": "1.5.3 bertsioan berria",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "fa": {
+    "heading": "تازه‌های نسخه 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "fi": {
-    "heading": "Mitä uutta versiossa 1.5.2",
-    "bullet1": "Poistettu tyhjät aukot, jotka jäivät YouTuben aloitusruudukkoon Mix-korttien estämisen jälkeen.",
-    "bullet2": "Korjattu Chrome-sivupalkin ongelma, jossa YouTuben latauspyöritys saattoi juuttua uusia sivupalkin suosituksia vieritettäessä."
+    "heading": "Mitä uutta versiossa 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "fil": {
-    "heading": "Ano ang bago sa bersyong 1.5.2",
-    "bullet1": "Tinanggal ang mga walang laman na espasyo na naiwan sa grid ng home page ng YouTube matapos i-block ang mga Mix card.",
-    "bullet2": "Naayos ang isyu sa watch-sidebar ng Chrome kung saan maaaring manatiling stuck ang loading spinner ng YouTube matapos i-scroll ang bagong-load na mga rekomendasyon."
+    "heading": "Ano ang bago sa bersyong 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "fr": {
-    "heading": "Quoi de neuf dans la version 1.5.2",
-    "bullet1": "Suppression des espaces vides laissés dans la grille d'accueil YouTube après le blocage des cartes Mix.",
-    "bullet2": "Correction d'un problème de barre latérale Chrome où le spinner de chargement de YouTube pouvait rester bloqué après le défilement des nouvelles recommandations de la barre latérale."
+    "heading": "Quoi de neuf dans la version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "gu": {
-    "heading": "વર્ઝન 1.5.2 માં શું નવું છે",
-    "bullet1": "Mix કાર્ડ બ્લોક થયા બાદ YouTube હૉમ ગ્રિડમાં રહેલી ખાલી જગ્યાઓ દૂર કરવામાં આવી છે.",
-    "bullet2": "Chrome watch-sidebar સમસ્યાનું નિરાકરણ કરવામાં આવ્યું, જ્યાં YouTube નો લોડિંગ સ્પિનર નવા લોડ થયેલ સાઈડબાર ભલામણો સ્ક્રોલ કર્યા બાદ અટકી શકતો હતો."
+    "heading": "વર્ઝન 1.5.3 માં શું નવું છે",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "he": {
+    "heading": "מה חדש בגרסה 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "hi": {
-    "heading": "संस्करण 1.5.2 में क्या नया है",
-    "bullet1": "Mix कार्ड ब्लॉक करने के बाद YouTube होम ग्रिड में छोड़ी गई खाली जगहें हटा दी गईं।",
-    "bullet2": "Chrome watch-sidebar समस्या ठीक की गई, जहाँ नई लोड हुई साइडबार सिफ़ारिशों को स्क्रॉल करने के बाद YouTube का लोडिंग स्पिनर अटक सकता था।"
+    "heading": "संस्करण 1.5.3 में क्या नया है",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "hr": {
-    "heading": "Što je novo u verziji 1.5.2",
-    "bullet1": "Uklonjeni su prazni prostori koji su ostajali u mreži YouTube početne stranice nakon blokiranja Mix kartica.",
-    "bullet2": "Ispravljen je problem s bočnom trakom u Chromeu gdje je YouTubeov spinner za učitavanje mogao ostati zaglavljen nakon pomicanja novouučitanih preporuka bočne trake."
+    "heading": "Što je novo u verziji 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "hu": {
-    "heading": "Újdonságok az 1.5.2 verzióban",
-    "bullet1": "Eltávolítottuk a YouTube kezdőoldal rácsában a Mix kártyák blokkolása után megmaradt üres helyeket.",
-    "bullet2": "Javítottuk a Chrome oldalsáv hibáját, ahol a YouTube betöltési forgója beragadhatott az újonnan betöltött oldalsávi ajánlások görgetése után."
+    "heading": "Újdonságok az 1.5.3 verzióban",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "hy": {
+    "heading": "Ինչ է նոր 1.5.3 տարբերակում",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "id": {
-    "heading": "Apa yang baru di versi 1.5.2",
-    "bullet1": "Menghapus ruang kosong yang tersisa di grid beranda YouTube setelah kartu Mix diblokir.",
-    "bullet2": "Memperbaiki masalah sidebar tontonan Chrome di mana spinner pemuatan YouTube bisa tetap macet setelah menggulir rekomendasi sidebar yang baru dimuat."
+    "heading": "Apa yang baru di versi 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "it": {
-    "heading": "Novità nella versione 1.5.2",
-    "bullet1": "Rimossi gli spazi vuoti lasciati nella griglia della home di YouTube dopo il blocco delle schede Mix.",
-    "bullet2": "Risolto un problema della barra laterale di Chrome dove lo spinner di caricamento di YouTube poteva rimanere bloccato dopo lo scorrimento dei nuovi suggerimenti della barra laterale."
-  },
-  "iw": {
-    "heading": "מה חדש בגרסה 1.5.2",
-    "bullet1": "הוסרו רווחים ריקים שנותרו ברשת דף הבית של YouTube לאחר חסימת כרטיסי Mix.",
-    "bullet2": "תוקנה בעיה בסרגל הצד של Chrome שבה סמל הטעינה של YouTube עלול היה להישאר תקוע לאחר גלילת המלצות סרגל צד שנטענו זה עתה."
+    "heading": "Novità nella versione 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ja": {
-    "heading": "バージョン 1.5.2 の新機能",
-    "bullet1": "Mix カードをブロックした後に YouTube ホームグリッドに残る空白スペースを削除しました。",
-    "bullet2": "Chrome の視聴サイドバーで、新しく読み込まれたサイドバーのおすすめをスクロールした後に YouTube の読み込みスピナーが固まったままになる問題を修正しました。"
+    "heading": "バージョン 1.5.3 の新機能",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "ka": {
+    "heading": "რა არის ახალი ვერსიაში 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "kn": {
-    "heading": "ಆವೃತ್ತಿ 1.5.2 ರಲ್ಲಿ ಹೊಸದೇನಿದೆ",
-    "bullet1": "Mix ಕಾರ್ಡ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸಿದ ನಂತರ YouTube ಹೋಮ್ ಗ್ರಿಡ್‌ನಲ್ಲಿ ಉಳಿದ ಖಾಲಿ ಸ್ಥಳಗಳನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ.",
-    "bullet2": "Chrome watch-sidebar ಸಮಸ್ಯೆಯನ್ನು ಸರಿಪಡಿಸಲಾಗಿದೆ, ಅಲ್ಲಿ ಹೊಸದಾಗಿ ಲೋಡ್ ಮಾಡಲಾದ ಸೈಡ್‌ಬಾರ್ ಶಿಫಾರಸುಗಳನ್ನು ಸ್ಕ್ರಾಲ್ ಮಾಡಿದ ನಂತರ YouTube ನ ಲೋಡಿಂಗ್ ಸ್ಪಿನ್ನರ್ ಅಂಟಿಕೊಂಡಿರಬಹುದು."
+    "heading": "ಆವೃತ್ತಿ 1.5.3 ರಲ್ಲಿ ಹೊಸದೇನಿದೆ",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ko": {
-    "heading": "버전 1.5.2의 새로운 기능",
-    "bullet1": "Mix 카드를 차단한 후 YouTube 홈 그리드에 남아 있던 빈 공간을 제거했습니다.",
-    "bullet2": "새로 로드된 사이드바 추천 항목을 스크롤한 후 YouTube의 로딩 스피너가 멈출 수 있는 Chrome 시청 사이드바 문제를 수정했습니다."
+    "heading": "버전 1.5.3의 새로운 기능",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "lt": {
-    "heading": "Kas naujo versijoje 1.5.2",
-    "bullet1": "Pašalinti tušti tarpai, likę YouTube pagrindinio puslapio tinklelyje po Mix kortelių užblokavimo.",
-    "bullet2": "Ištaisyta \u201EChrome\u201C šoninės juostos problema, kai YouTube įkėlimo suktukas galėjo užstrigti slenkant naujai įkeltas šoninės juostos rekomendacijas."
+    "heading": "Kas naujo versijoje 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "lv": {
-    "heading": "Kas jauns versijā 1.5.2",
-    "bullet1": "Noņemtas tukšās vietas, kas palika YouTube sākumlapas režģī pēc Mix karšu bloķēšanas.",
-    "bullet2": "Novērsta Chrome sānjoslas problēma, kurā YouTube ielādes indikators varēja iestrēgt pēc tikko ielādēto sānjoslas ieteikumu ritināšanas."
+    "heading": "Kas jauns versijā 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "mk": {
+    "heading": "Што е ново во верзија 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ml": {
-    "heading": "പതിപ്പ് 1.5.2-ൽ പുതിയത്",
-    "bullet1": "Mix കാർഡുകൾ ബ്ലോക്ക് ചെയ്തതിന് ശേഷം YouTube ഹോം ഗ്രിഡിൽ അവശേഷിച്ച ശൂന്യ ഇടങ്ങൾ നീക്കം ചെയ്തു.",
-    "bullet2": "പുതുതായി ലോഡ് ചെയ്ത സൈഡ്ബാർ ശുപാർശകൾ സ്ക്രോൾ ചെയ്തതിന് ശേഷം YouTube-ന്റെ ലോഡിംഗ് സ്പിന്നർ കുടുങ്ങിയേക്കാവുന്ന Chrome watch-sidebar പ്രശ്നം പരിഹരിച്ചു."
+    "heading": "പതിപ്പ് 1.5.3-ൽ പുതിയത്",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "mr": {
-    "heading": "आवृत्ती 1.5.2 मध्ये नवीन काय आहे",
-    "bullet1": "Mix कार्ड ब्लॉक केल्यानंतर YouTube होम ग्रिडमध्ये उरलेल्या रिकाम्या जागा काढून टाकल्या.",
-    "bullet2": "Chrome watch-sidebar समस्या दुरुस्त केली, जिथे नव्याने लोड झालेल्या साइडबार शिफारशी स्क्रोल केल्यानंतर YouTube चा लोडिंग स्पिनर अडकून राहू शकत होता."
+    "heading": "आवृत्ती 1.5.3 मध्ये नवीन काय आहे",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ms": {
-    "heading": "Apa yang baharu dalam versi 1.5.2",
-    "bullet1": "Ruang kosong yang tertinggal dalam grid halaman utama YouTube selepas kad Mix disekat telah dibuang.",
-    "bullet2": "Masalah bar sisi tontonan Chrome telah dibetulkan di mana pemutar pemuatan YouTube boleh tersekat selepas menatal cadangan bar sisi yang baru dimuatkan."
+    "heading": "Apa yang baharu dalam versi 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "ne": {
+    "heading": "संस्करण 1.5.3 मा नयाँ के छ",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "nl": {
-    "heading": "Wat is er nieuw in versie 1.5.2",
-    "bullet1": "Lege ruimtes die overbleven in het YouTube-startraster na het blokkeren van Mix-kaarten zijn verwijderd.",
-    "bullet2": "Een probleem met de Chrome-zijbalk is opgelost waarbij de laadspinner van YouTube kon vastlopen na het scrollen door nieuw geladen zijbalkaanbevelingen."
+    "heading": "Wat is er nieuw in versie 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "no": {
-    "heading": "Hva er nytt i versjon 1.5.2",
-    "bullet1": "Fjernet tomme mellomrom som ble igjen i YouTube-hjemmesiden etter blokkering av Mix-kort.",
-    "bullet2": "Rettet et Chrome-sidefeltproblem der YouTubes lastespinner kunne bli hengende etter rulling av nylig lastede sidefeltanbefalinger."
+    "heading": "Hva er nytt i versjon 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "pa": {
+    "heading": "ਵਰਜਨ 1.5.3 ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "pl": {
-    "heading": "Co nowego w wersji 1.5.2",
-    "bullet1": "Usunięto puste miejsca pozostające w siatce strony głównej YouTube po zablokowaniu kart Mix.",
-    "bullet2": "Naprawiono problem z paskiem bocznym Chrome, w którym wskaźnik ładowania YouTube mógł się zawieszać po przewinięciu nowo załadowanych rekomendacji paska bocznego."
+    "heading": "Co nowego w wersji 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "pt_BR": {
-    "heading": "Novidades na versão 1.5.2",
-    "bullet1": "Removidos espaços vazios que ficavam na grade da página inicial do YouTube após o bloqueio dos cards Mix.",
-    "bullet2": "Corrigido um problema na barra lateral do Chrome em que o spinner de carregamento do YouTube podia ficar travado após rolar recomendações recém-carregadas da barra lateral."
+    "heading": "Novidades na versão 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "pt_PT": {
-    "heading": "Novidades na versão 1.5.2",
-    "bullet1": "Removidos espaços vazios que ficavam na grelha da página inicial do YouTube após o bloqueio dos cartões Mix.",
-    "bullet2": "Corrigido um problema na barra lateral do Chrome em que o indicador de carregamento do YouTube podia ficar preso após deslocar recomendações recém-carregadas da barra lateral."
+    "heading": "Novidades na versão 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ro": {
-    "heading": "Ce este nou în versiunea 1.5.2",
-    "bullet1": "Au fost eliminate spațiile goale rămase în grila paginii de pornire YouTube după blocarea cardurilor Mix.",
-    "bullet2": "A fost rezolvată o problemă cu bara laterală Chrome în care indicatorul de încărcare YouTube putea rămâne blocat după derularea recomandărilor nou încărcate din bara laterală."
+    "heading": "Ce este nou în versiunea 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ru": {
-    "heading": "Что нового в версии 1.5.2",
-    "bullet1": "Удалены пустые пространства, остававшиеся в сетке главной страницы YouTube после блокировки карточек Mix.",
-    "bullet2": "Исправлена проблема с боковой панелью Chrome, при которой индикатор загрузки YouTube мог зависать после прокрутки недавно загруженных рекомендаций боковой панели."
+    "heading": "Что нового в версии 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "si": {
+    "heading": "1.5.3 අනුවාදයේ අලුත් දේ",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "sk": {
-    "heading": "Čo je nové vo verzii 1.5.2",
-    "bullet1": "Odstránené prázdne miesta, ktoré zostali v mriežke domovskej stránky YouTube po zablokovaní kariet Mix.",
-    "bullet2": "Opravený problém s bočným panelom Chrome, kde sa načítavací spinner YouTube mohol zaseknúť po posúvaní novo načítaných odporúčaní bočného panela."
+    "heading": "Čo je nové vo verzii 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "sl": {
-    "heading": "Kaj je novega v različici 1.5.2",
-    "bullet1": "Odstranjeni prazni prostori, ki so ostali v mreži domače strani YouTube po blokiranju kartic Mix.",
-    "bullet2": "Odpravljena je bila težava s stransko vrstico Chrome, kjer se je lahko nalagalni vrtilnik YouTube zataknil po drsenju na novo naloženih priporočil stranske vrstice."
+    "heading": "Kaj je novega v različici 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "sq": {
+    "heading": "Çfarë ka të re në versionin 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "sr": {
-    "heading": "Шта је ново у верзији 1.5.2",
-    "bullet1": "Уклоњени су празни простори који су остајали у мрежи YouTube почетне странице након блокирања Mix картица.",
-    "bullet2": "Исправљен је проблем са бочном траком у Chrome-у где је YouTube-ов спинер за учитавање могао да остане заглављен након скроловања ново учитаних препорука бочне траке."
+    "heading": "Шта је ново у верзији 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "sv": {
-    "heading": "Nyheter i version 1.5.2",
-    "bullet1": "Tomma utrymmen som lämnades i YouTubes startsiderutnät efter blockering av Mix-kort har tagits bort.",
-    "bullet2": "Åtgärdat ett Chrome-sidofältsproblem där YouTubes laddningssnurra kunde fastna efter att ha scrollat genom nyligen laddade sidofältsrekommendationer."
+    "heading": "Nyheter i version 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "sw": {
-    "heading": "Mambo mapya katika toleo la 1.5.2",
-    "bullet1": "Kuondolewa nafasi tupu zilizobaki kwenye gridi ya ukurasa wa nyumbani wa YouTube baada ya kuzuia kadi za Mix.",
-    "bullet2": "Imerekebisha tatizo la upau wa pembeni wa Chrome ambapo kishiriki cha kupakia cha YouTube kinaweza kukwama baada ya kusogeza mapendekezo ya upau wa pembeni yaliyopakiwa hivi karibuni."
+    "heading": "Mambo mapya katika toleo la 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "ta": {
-    "heading": "பதிப்பு 1.5.2 இல் புதியவை",
-    "bullet1": "Mix அட்டைகள் தடுக்கப்பட்ட பிறகு YouTube முகப்பு கட்டத்தில் எஞ்சியிருந்த வெற்று இடங்கள் அகற்றப்பட்டன.",
-    "bullet2": "புதிதாக ஏற்றப்பட்ட பக்கப்பட்டி பரிந்துரைகளை ஸ்க்ரோல் செய்த பிறகு YouTube இன் ஏற்றுதல் ஸ்பின்னர் சிக்கியிருக்கும் Chrome watch-sidebar சிக்கல் சரி செய்யப்பட்டது."
+    "heading": "பதிப்பு 1.5.3 இல் புதியவை",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "te": {
-    "heading": "వెర్షన్ 1.5.2 లో కొత్తవి",
-    "bullet1": "Mix కార్డ్‌లను బ్లాక్ చేసిన తర్వాత YouTube హోమ్ గ్రిడ్‌లో మిగిలిపోయిన ఖాళీ స్థలాలు తొలగించబడ్డాయి.",
-    "bullet2": "కొత్తగా లోడ్ అయిన సైడ్‌బార్ సిఫార్సులను స్క్రోల్ చేసిన తర్వాత YouTube యొక్క లోడింగ్ స్పిన్నర్ ఆగిపోయే Chrome watch-sidebar సమస్య పరిష్కరించబడింది."
+    "heading": "వెర్షన్ 1.5.3 లో కొత్తవి",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "th": {
-    "heading": "มีอะไรใหม่ในเวอร์ชัน 1.5.2",
-    "bullet1": "ลบช่องว่างที่เหลืออยู่ในตารางหน้าแรก YouTube หลังจากบล็อกการ์ด Mix แล้ว",
-    "bullet2": "แก้ไขปัญหาแถบด้านข้างของ Chrome ที่ตัวหมุนโหลดของ YouTube อาจค้างอยู่หลังจากเลื่อนคำแนะนำแถบด้านข้างที่โหลดใหม่"
+    "heading": "มีอะไรใหม่ในเวอร์ชัน 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "tr": {
-    "heading": "Sürüm 1.5.2'deki yenilikler",
-    "bullet1": "Mix kartları engellendikten sonra YouTube ana sayfa ızgarasında kalan boş alanlar kaldırıldı.",
-    "bullet2": "Yeni yüklenen kenar çubuğu önerilerini kaydırdıktan sonra YouTube'un yükleme göstergesinin takılı kalabildiği Chrome izleme kenar çubuğu sorunu düzeltildi."
+    "heading": "Sürüm 1.5.3'deki yenilikler",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "uk": {
-    "heading": "Що нового у версії 1.5.2",
-    "bullet1": "Видалено порожні місця, що залишалися в сітці головної сторінки YouTube після блокування карток Mix.",
-    "bullet2": "Виправлено проблему бічної панелі Chrome, де індикатор завантаження YouTube міг залишатися зависшим після прокручування нещодавно завантажених рекомендацій бічної панелі."
+    "heading": "Що нового у версії 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "ur": {
+    "heading": "ورژن 1.5.3 میں نیا کیا ہے",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
+  },
+  "uz": {
+    "heading": "1.5.3 versiyasidagi yangiliklar",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "vi": {
-    "heading": "Có gì mới trong phiên bản 1.5.2",
-    "bullet1": "Đã xóa các khoảng trống còn lại trong lưới trang chủ YouTube sau khi chặn thẻ Mix.",
-    "bullet2": "Đã sửa lỗi thanh bên xem Chrome khi vòng xoay tải của YouTube có thể bị kẹt sau khi cuộn các đề xuất thanh bên mới tải."
+    "heading": "Có gì mới trong phiên bản 1.5.3",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "zh_CN": {
-    "heading": "版本 1.5.2 的新功能",
-    "bullet1": "移除了屏蔽 Mix 卡片后 YouTube 首页网格中残留的空白区域。",
-    "bullet2": "修复了 Chrome 观看侧边栏问题，该问题导致在滚动新加载的侧边栏推荐后 YouTube 的加载旋转图标可能卡住。"
+    "heading": "版本 1.5.3 的新功能",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   },
   "zh_TW": {
-    "heading": "版本 1.5.2 的新功能",
-    "bullet1": "移除了封鎖 Mix 卡片後 YouTube 首頁格狀佈局中殘留的空白區域。",
-    "bullet2": "修正了 Chrome 觀看側邊欄問題，該問題導致在捲動新載入的側邊欄推薦內容後 YouTube 的載入旋轉圖示可能卡住。"
+    "heading": "版本 1.5.3 的新功能",
+    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
+    "bullet2": "Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set."
   }
 }

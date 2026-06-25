@@ -17,14 +17,13 @@ Bu uzantı yalnızca YouTube sayfalarında çalışır. Tarama verilerinizi topl
 
 Açık kaynak
 
-Kaynak kodu:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Geri bildirim memnuniyetle karşılanır. GitHub'da bir inceleme bırakabilir, bir sayı açabilir veya şu adrese yazabilirsiniz:
 molodchykr@gmail.com
 
-Sürüm 1.5.2'deki yenilikler
+Sürüm 1.5.3'deki yenilikler
 
-Mix kartları engellendikten sonra YouTube ana sayfa ızgarasında kalan boş alanlar kaldırıldı.
-Yeni yüklenen kenar çubuğu önerilerini kaydırdıktan sonra YouTube'un yükleme göstergesinin takılı kalabildiği Chrome izleme kenar çubuğu sorunu düzeltildi.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

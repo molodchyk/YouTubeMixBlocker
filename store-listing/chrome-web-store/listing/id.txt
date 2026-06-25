@@ -17,14 +17,13 @@ Ekstensi ini hanya berjalan di halaman YouTube. Itu tidak mengumpulkan, menjual,
 
 Sumber terbuka
 
-Kode sumber:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Umpan balik diterima. Anda dapat memberikan ulasan, membuka terbitan di GitHub, atau menulis ke:
 molodchykr@gmail.com
 
-Apa yang baru di versi 1.5.2
+Apa yang baru di versi 1.5.3
 
-Menghapus ruang kosong yang tersisa di grid beranda YouTube setelah kartu Mix diblokir.
-Memperbaiki masalah sidebar tontonan Chrome di mana spinner pemuatan YouTube bisa tetap macet setelah menggulir rekomendasi sidebar yang baru dimuat.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

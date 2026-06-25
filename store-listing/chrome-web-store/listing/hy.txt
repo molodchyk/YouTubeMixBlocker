@@ -1,0 +1,29 @@
+YouTube Mix Blocker-ը հեռացնում է YouTube Mix առաջարկությունները YouTube էջերից և մաքրում է Mix դիտման URL-ները, որպեսզի տեսանյութերը բացվեն որպես սովորական տեսահղումներ։
+
+Այն նախագծված է հանգիստ և պարզ մնալու համար՝ առանց հոսքի փոխարինման, սեփական առաջարկությունների կամ ուշադրություն գրավող միջերեսի, եթե ինքներդ չբացեք popup-ը։
+
+Հնարավորություններ
+
+- Արգելափակում է YouTube Mix քարտերը առաջարկություններում։
+- Արգելափակում է YouTube Mix քարտերը որոնման արդյունքներում։
+- Արգելափակում է YouTube Mix քարտերը դիտման էջի կողային առաջարկություններում։
+- Մաքրում է Mix դիտման URL-ները՝ հեռացնելով Mix երգացանկի պարամետրերը։
+- Ներառում է ընտրովի հաշվիչներ արգելափակված Mix-երի և մաքրված URL-ների համար։
+- Նշանի հաշվիչը լռելյայն թողնում է անջատված։
+
+Գաղտնիություն
+
+Այս ընդլայնումը աշխատում է միայն YouTube էջերում։ Այն չի հավաքում, վաճառում կամ փոխանցում ձեր զննարկման տվյալները։
+
+Բաց կոդ
+
+Open source under the GPL-3.0 license:
+https://github.com/molodchyk/YouTubeMixBlocker
+
+Կարծիքները ողջունելի են։ Կարող եք թողնել գնահատական, GitHub-ում բացել issue կամ գրել՝
+molodchykr@gmail.com
+
+Ինչ է նոր 1.5.3 տարբերակում
+
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

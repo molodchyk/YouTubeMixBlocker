@@ -17,14 +17,13 @@
 
 مفتوح المصدر
 
-كود المصدر:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 ردود الفعل هي موضع ترحيب. يمكنك ترك تعليق أو فتح مشكلة على GitHub أو الكتابة إلى:
 molodchykr@gmail.com
 
-ما الجديد في الإصدار 1.5.2
+ما الجديد في الإصدار 1.5.3
 
-إزالة المسافات الفارغة المتبقية في شبكة الصفحة الرئيسية ليوتيوب بعد حجب بطاقات Mix.
-إصلاح مشكلة شريط الجانب في متصفح Chrome حيث قد يبقى مؤشر التحميل عالقًا بعد تمرير توصيات الشريط الجانبي التي تم تحميلها حديثًا.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

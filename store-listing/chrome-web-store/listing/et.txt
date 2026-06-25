@@ -17,14 +17,13 @@ See laiendus töötab ainult YouTube'i lehtedel. See ei kogu, müü ega edasta t
 
 Avatud lähtekoodiga
 
-Lähtekood:
+Open source under the GPL-3.0 license:
 https://github.com/molodchyk/YouTubeMixBlocker
 
 Tagasiside on teretulnud. Saate jätta arvustuse, avada probleemi GitHubis või kirjutada aadressile:
 molodchykr@gmail.com
 
-Mis on uut versioonis 1.5.2
+Mis on uut versioonis 1.5.3
 
-Eemaldati tühjad ruumid, mis jäid YouTube'i avalehe ruudustikku pärast Mix-kaartide blokeerimist.
-Parandati Chrome'i külgriba probleem, kus YouTube'i laadimisspinner võis kinni jääda pärast uute soovituste kerimist.
-
+Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
+Kept Chrome and Firefox release packages separated so each browser receives only its supported locale set.

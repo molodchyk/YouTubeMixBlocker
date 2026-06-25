@@ -13,7 +13,7 @@ The extension is intended to:
 - Show optional popup counters for blocked Mix cards and cleaned Mix URLs.
 - Optionally show a per-page badge counter when the user enables it.
 - Let the popup follow system theme by default, with optional light and dark modes.
-- Keep Chrome Web Store listing text and extension metadata localizable.
+- Keep Chrome Web Store listing text and extension metadata localized for the tracked 66 Chrome visible locales.
 - Keep the source tree ready for separate Chrome and Firefox extension builds.
 
 ## Feature Matrix
@@ -30,8 +30,8 @@ The extension is intended to:
 | Optional current-page badge counter | Yes | Yes | Needs retest | Disabled by default; resets on full page loads and YouTube SPA navigation. |
 | Popup theme mode | Yes | Yes | Needs retest | Supports system, light, and dark modes. |
 | Handle YouTube SPA navigation | Yes | Yes | Needs retest | Hooks `history.pushState` and `popstate`. |
-| Localized extension name and short description | Yes | Yes | JSON validated | English, German, and Ukrainian are present. |
-| Localized Chrome Web Store long descriptions | Yes | Yes | Needs human review | Plain text files live in `store-listing/chrome-web-store/`. |
+| Localized extension name and short description | Yes | Yes | JSON validated | Chrome has 66 runtime locales; Firefox keeps a separate 50-locale runtime set. |
+| Localized Chrome Web Store long descriptions | Yes | Yes | Needs human review | Plain text files live in `store-listing/chrome-web-store/listing/` for all 66 Chrome locales. |
 | Chrome build target | Yes | Yes | Syntax checked | `npm run build:chrome` outputs `dist/`. |
 | Firefox build target | Yes | Scaffolded | Needs manual testing | `npm run build:firefox` outputs `dist-firefox/`; Firefox runtime compatibility still needs testing. |
 
@@ -46,8 +46,9 @@ The extension is intended to:
 - `dist/manifest.json` parses as valid JSON.
 - `dist-firefox/manifest.json` parses as valid JSON.
 - Locale `messages.json` files parse as valid JSON.
-- `src/_locales/` is copied into `dist/_locales/` by the build script.
-- `src/_locales/` is copied into `dist-firefox/_locales/` by the build script.
+- `src/chrome/_locales/` is copied into `dist/_locales/` by the build script.
+- `src/firefox/_locales/` is copied into `dist-firefox/_locales/` by the build script.
+- `npm run verify:locales` checks Chrome 66-locale coverage, Firefox locale separation, Chrome listing coverage, and `whats_new.json` coverage.
 
 ## Needs Manual Testing
 
@@ -79,7 +80,8 @@ The extension is intended to:
 
 - Extension packaging:
   - Load `dist/` as an unpacked extension in Chrome.
-  - Confirm localized name/description appear for supported browser locales.
+  - Confirm localized name/description appear for supported Chrome browser locales.
+  - Confirm Arabic, Persian, Hebrew, and Urdu popup UI gets `dir="rtl"`.
   - Load `dist-firefox/` as a temporary add-on in Firefox desktop.
   - Confirm whether Firefox needs a `browser.*` compatibility layer for storage, tabs, action, and runtime APIs.
   - Confirm whether the same Firefox build can run on Firefox Android.
@@ -101,18 +103,19 @@ The extension is intended to:
 
 ## Missing / Planned
 
-- Add a repeatable manual release checklist.
 - Add a Firefox/AMO release checklist after the temporary add-on build is manually tested.
 - Add automated tests for pure URL cleanup and Mix URL detection logic.
 - Consider persisting per-tab current-page counters across background service worker restarts if needed.
 - Consider splitting `dist/background.js` into `src/background/` if background logic grows.
-- Human-review German and Ukrainian store listing translations before publishing.
+- Human-review first-pass Chrome Web Store translations before publishing.
 - Keep `CHANGELOG.md` updated when behavior changes.
 
 ## Project Structure Notes
 
 - Edit content-script source in `src/content/`.
-- Edit extension locale metadata in `src/_locales/`.
+- Edit Chrome extension locale metadata in `src/chrome/_locales/`.
+- Edit Firefox extension locale metadata in `src/firefox/_locales/`.
+- Run `npm run sync:chrome-locales` after changing the generated Chrome locale additions or Chrome store listing footer shape.
 - Run `npm run build:chrome` to regenerate the Chrome build in `dist/`.
 - Run `npm run build:firefox` to regenerate the Firefox build in `dist-firefox/`.
 - Load `dist/` in Chrome as the unpacked extension.
