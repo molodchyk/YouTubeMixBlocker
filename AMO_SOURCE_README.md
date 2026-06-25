@@ -89,3 +89,4 @@ It intentionally excludes generated build output and installed dependencies:
 - `dist/`
 - `dist-firefox/`
 - `release/`
+- `secret/`

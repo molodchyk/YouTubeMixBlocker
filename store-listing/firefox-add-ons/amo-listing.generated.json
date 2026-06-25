@@ -1,0 +1,11 @@
+{
+  "name": {
+    "en-US": "YouTube Mix Blocker"
+  },
+  "summary": {
+    "en-US": "Blocks YouTube Mixes and cleans Mix watch URLs."
+  },
+  "description": {
+    "en-US": "YouTube Mix Blocker removes YouTube Mix recommendations from YouTube pages and cleans Mix watch URLs so videos open as regular video links.\n\nIt is designed to stay quiet and minimal: no feed replacement, no recommendations of its own, and no attention-grabbing UI unless you choose to open the popup.\n\n**Features**\n\n- Blocks YouTube Mix cards in recommendations.\n- Blocks YouTube Mix cards in search results.\n- Blocks YouTube Mix cards in watch-page sidebar recommendations.\n- Cleans Mix watch URLs by removing Mix playlist parameters.\n- Includes optional counters for blocked Mixes and cleaned URLs.\n- Keeps the badge counter disabled by default.\n\n**Privacy**\n\nThis extension only runs on YouTube pages. It does not collect, sell, or transmit your browsing data. Settings and counters stay locally in the browser.\n\n**Open source**\n\nGPL-3.0 licensed source code is available on [GitHub](https://github.com/molodchyk/YouTubeMixBlocker)."
+  }
+}

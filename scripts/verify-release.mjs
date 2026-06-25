@@ -44,6 +44,58 @@ function listFiles(directory) {
     .sort();
 }
 
+function walkFiles(directory) {
+  if (!existsSync(directory)) return [];
+
+  const results = [];
+
+  for (const name of readdirSync(directory)) {
+    const filePath = path.join(directory, name);
+    const stats = statSync(filePath);
+
+    if (stats.isDirectory()) {
+      results.push(...walkFiles(filePath));
+    } else if (stats.isFile()) {
+      results.push(filePath);
+    }
+  }
+
+  return results.sort();
+}
+
+function listZipEntryNames(zipPath) {
+  const buffer = readFileSync(zipPath);
+  const entries = [];
+
+  for (let offset = 0; offset <= buffer.length - 46; offset += 1) {
+    if (buffer.readUInt32LE(offset) !== 0x02014b50) continue;
+
+    const fileNameLength = buffer.readUInt16LE(offset + 28);
+    const extraFieldLength = buffer.readUInt16LE(offset + 30);
+    const fileCommentLength = buffer.readUInt16LE(offset + 32);
+    const fileNameStart = offset + 46;
+    const fileNameEnd = fileNameStart + fileNameLength;
+
+    if (fileNameEnd > buffer.length) break;
+
+    entries.push(buffer.toString("utf8", fileNameStart, fileNameEnd));
+    offset = fileNameEnd + extraFieldLength + fileCommentLength - 1;
+  }
+
+  return entries;
+}
+
+function isSecretPath(relativePath) {
+  const normalizedPath = relativePath.replace(/\\/g, "/");
+
+  return normalizedPath === "secret" ||
+    normalizedPath.startsWith("secret/") ||
+    normalizedPath.endsWith("/secret") ||
+    normalizedPath.includes("/secret/") ||
+    normalizedPath.endsWith("/amo-env.ps1") ||
+    normalizedPath === "amo-env.ps1";
+}
+
 function verifyReleaseZips() {
   const releaseDirectory = path.join(root, "release");
   if (!existsSync(releaseDirectory)) return;
@@ -63,9 +115,31 @@ function verifyReleaseZips() {
   }
 }
 
+function verifyNoSecretArtifacts() {
+  for (const outputDirectory of ["dist", "dist-firefox"]) {
+    for (const filePath of walkFiles(path.join(root, outputDirectory))) {
+      const relativePath = path.relative(path.join(root, outputDirectory), filePath);
+
+      if (isSecretPath(relativePath)) {
+        fail(`${outputDirectory}/${relativePath} must not be included in build output`);
+      }
+    }
+  }
+
+  const releaseDirectory = path.join(root, "release");
+  for (const fileName of listFiles(releaseDirectory).filter(name => name.endsWith(".zip"))) {
+    for (const entryName of listZipEntryNames(path.join(releaseDirectory, fileName))) {
+      if (isSecretPath(entryName)) {
+        fail(`release/${fileName} must not include secret file: ${entryName}`);
+      }
+    }
+  }
+}
+
 runNodeScript("verify-locales.mjs");
 runNodeScript("verify-manifest.mjs");
 verifyReleaseZips();
+verifyNoSecretArtifacts();
 
 const packageJSON = JSON.parse(readText("package.json"));
 if (packageJSON.license !== "GPL-3.0-only") {

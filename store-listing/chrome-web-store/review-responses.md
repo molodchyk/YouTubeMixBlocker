@@ -8,6 +8,16 @@ Thanks for the report. YouTube changed its Mix markup, and older versions stoppe
 
 ## Reviews
 
+### R R - 17.06.2026
+
+Review:
+
+> Works on Brave browser.
+
+Response:
+
+Thanks for the five-star review! Glad to hear it works on Brave. If you have any feedback or would like to suggest a change to the extension, feel free to email me at molodchykr@gmail.com.
+
 ### NikosXrim - 28.05.2026
 
 Review:
