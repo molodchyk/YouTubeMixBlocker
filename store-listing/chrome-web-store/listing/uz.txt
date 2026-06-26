@@ -15,15 +15,15 @@ Maxfiylik
 
 Bu kengaytma faqat YouTube sahifalarida ishlaydi. U brauzer ma’lumotlaringizni yig‘maydi, sotmaydi yoki uzatmaydi.
 
-Ochiq kodli
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Fikr-mulohaza mamnuniyat bilan qabul qilinadi. Sharh qoldirishingiz, GitHub’da masala ochishingiz yoki quyidagiga yozishingiz mumkin:
 molodchykr@gmail.com
 
-1.5.4 versiyasidagi yangiliklar
+1.5.3 versiyasidagi yangiliklar
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Ochiq kodli
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

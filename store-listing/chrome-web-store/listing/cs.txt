@@ -15,15 +15,15 @@ Soukromí
 
 Toto rozšíření běží pouze na stránkách YouTube. Neshromažďuje, neprodává ani nepřenáší vaše údaje o prohlížení.
 
-Open source
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Zpětná vazba je vítána. Můžete zanechat recenzi, otevřít problém na GitHubu nebo napsat na:
 molodchykr@gmail.com
 
-Co je nového ve verzi 1.5.4
+Co je nového ve verzi 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Open source
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

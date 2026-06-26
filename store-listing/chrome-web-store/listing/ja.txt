@@ -15,15 +15,15 @@ YouTube Mix Blocker は、YouTube ページから YouTube Mix のおすすめを
 
 この拡張機能は YouTube ページでのみ実行されます。あなたの閲覧データを収集、販売、送信することはありません。
 
-オープンソース
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 フィードバックは大歓迎です。レビューを残すか、GitHub で問題を開くか、次の宛先に書き込むことができます。
 molodchykr@gmail.com
 
-バージョン 1.5.4 の新機能
+バージョン 1.5.3 の新機能
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+オープンソース
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

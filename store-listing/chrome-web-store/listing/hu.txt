@@ -15,15 +15,15 @@ Adatvédelem
 
 Ez a bővítmény csak a YouTube-oldalakon fut. Nem gyűjti, értékesíti vagy továbbítja az Ön böngészési adatait.
 
-Nyílt forráskódú
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 A visszajelzéseket szívesen fogadjuk. Írhat véleményt, megnyithat egy problémát a GitHubon, vagy írhat a következő címre:
 molodchykr@gmail.com
 
-Újdonságok az 1.5.4 verzióban
+Újdonságok az 1.5.3 verzióban
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Nyílt forráskódú
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

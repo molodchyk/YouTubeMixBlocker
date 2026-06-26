@@ -15,15 +15,15 @@ Privatumas
 
 Šis plėtinys veikia tik „YouTube“ puslapiuose. Ji nerenka, neparduoda ir neperduoda jūsų naršymo duomenų.
 
-Atviras šaltinis
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Atsiliepimai laukiami. Galite palikti atsiliepimą, atidaryti problemą „GitHub“ arba parašyti adresu:
 molodchykr@gmail.com
 
-Kas naujo versijoje 1.5.4
+Kas naujo versijoje 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Atviras šaltinis
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

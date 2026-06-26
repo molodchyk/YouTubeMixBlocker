@@ -15,15 +15,15 @@ Privātums
 
 Šis paplašinājums darbojas tikai YouTube lapās. Tas neapkopo, nepārdod un nepārsūta jūsu pārlūkošanas datus.
 
-Atvērtais avots
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Atsauksmes ir apsveicamas. Varat atstāt atsauksmi, atvērt problēmu vietnē GitHub vai rakstīt uz:
 molodchykr@gmail.com
 
-Kas jauns versijā 1.5.4
+Kas jauns versijā 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Atvērtais avots
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

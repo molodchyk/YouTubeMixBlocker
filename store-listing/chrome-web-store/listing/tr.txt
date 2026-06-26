@@ -15,15 +15,15 @@ Gizlilik
 
 Bu uzantı yalnızca YouTube sayfalarında çalışır. Tarama verilerinizi toplamaz, satmaz veya iletmez.
 
-Açık kaynak
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Geri bildirim memnuniyetle karşılanır. GitHub'da bir inceleme bırakabilir, bir sayı açabilir veya şu adrese yazabilirsiniz:
 molodchykr@gmail.com
 
-Sürüm 1.5.4'deki yenilikler
+Sürüm 1.5.3'deki yenilikler
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Açık kaynak
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

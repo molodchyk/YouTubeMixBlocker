@@ -9,7 +9,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const failures = [];
-const latestChromeZip = "youtube-mix-blocker-chrome-1.5.4.zip";
+const latestChromeZip = "youtube-mix-blocker-chrome-1.5.3.zip";
 
 function fail(message) {
   failures.push(message);
@@ -164,8 +164,8 @@ for (const fileName of listFiles(path.join(root, "store-listing/chrome-web-store
   const relativePath = `store-listing/chrome-web-store/listing/${fileName}`;
   const content = readText(relativePath);
 
-  if (!content.includes("Open source under the GPL-3.0 license:")) {
-    fail(`${relativePath} must include the GPL-3.0 store listing footer`);
+  if (!content.includes("GPL-3.0-only license:")) {
+    fail(`${relativePath} must include the GPL-3.0-only store listing footer`);
   }
 
   if (!content.includes("https://github.com/molodchyk/YouTubeMixBlocker")) {

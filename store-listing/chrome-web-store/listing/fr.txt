@@ -15,15 +15,15 @@ Confidentialité
 
 Cette extension ne fonctionne que sur les pages YouTube. Il ne collecte, ne vend ni ne transmet vos données de navigation.
 
-Source ouverte
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Les commentaires sont les bienvenus. Vous pouvez laisser un avis, ouvrir un ticket sur GitHub ou écrire à :
 molodchykr@gmail.com
 
-Quoi de neuf dans la version 1.5.4
+Quoi de neuf dans la version 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Source ouverte
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

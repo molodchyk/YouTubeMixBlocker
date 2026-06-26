@@ -15,15 +15,15 @@ YouTube 믹스 차단기는 YouTube 페이지에서 YouTube 믹스 추천을 제
 
 이 확장 프로그램은 YouTube 페이지에서만 실행됩니다. 귀하의 검색 데이터를 수집, 판매 또는 전송하지 않습니다.
 
-오픈 소스
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 피드백을 환영합니다. 리뷰를 남기거나, GitHub에서 문제를 열거나, 다음 주소로 편지를 보낼 수 있습니다.
 molodchykr@gmail.com
 
-버전 1.5.4의 새로운 기능
+버전 1.5.3의 새로운 기능
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+오픈 소스
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

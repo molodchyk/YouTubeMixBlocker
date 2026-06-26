@@ -15,15 +15,15 @@ Yksityisyys
 
 Tämä laajennus toimii vain YouTube-sivuilla. Se ei kerää, myy tai lähetä selaustietojasi.
 
-Avoin lähdekoodi
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Palaute on tervetullutta. Voit jättää arvostelun, avata ongelman GitHubissa tai kirjoittaa osoitteeseen:
 molodchykr@gmail.com
 
-Mitä uutta versiossa 1.5.4
+Mitä uutta versiossa 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Avoin lähdekoodi
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

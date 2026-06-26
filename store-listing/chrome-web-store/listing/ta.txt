@@ -15,15 +15,15 @@
 
 இந்த நீட்டிப்பு YouTube பக்கங்களில் மட்டுமே இயங்கும். இது உங்கள் உலாவல் தரவைச் சேகரிக்கவோ, விற்கவோ அல்லது அனுப்பவோ இல்லை.
 
-திறந்த மூல
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 கருத்து வரவேற்கப்படுகிறது. நீங்கள் மதிப்பாய்வு செய்யலாம், GitHub இல் சிக்கலைத் திறக்கலாம் அல்லது இதற்கு எழுதலாம்:
 molodchykr@gmail.com
 
-பதிப்பு 1.5.4 இல் புதியவை
+பதிப்பு 1.5.3 இல் புதியவை
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+திறந்த மூல
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

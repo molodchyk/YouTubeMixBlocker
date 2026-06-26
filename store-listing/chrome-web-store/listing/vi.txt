@@ -15,15 +15,15 @@ Quyền riêng tư
 
 Tiện ích mở rộng này chỉ chạy trên các trang YouTube. Nó không thu thập, bán hoặc truyền dữ liệu duyệt web của bạn.
 
-Nguồn mở
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Phản hồi được chào đón. Bạn có thể để lại đánh giá, mở một vấn đề trên GitHub hoặc viết thư cho:
 molodchykr@gmail.com
 
-Có gì mới trong phiên bản 1.5.4
+Có gì mới trong phiên bản 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Nguồn mở
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

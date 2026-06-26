@@ -15,15 +15,15 @@ Pagkapribado
 
 Gumagana lang ang extension na ito sa mga page sa YouTube. Hindi ito nangongolekta, nagbebenta, o nagpapadala ng iyong data sa pagba-browse.
 
-Open source
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Maligayang pagdating ang feedback. Maaari kang mag-iwan ng review, magbukas ng isyu sa GitHub, o sumulat sa:
 molodchykr@gmail.com
 
-Ano ang bago sa bersyong 1.5.4
+Ano ang bago sa bersyong 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Open source
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

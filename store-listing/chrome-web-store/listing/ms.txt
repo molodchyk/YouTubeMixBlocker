@@ -15,15 +15,15 @@ Privasi
 
 Sambungan ini hanya berjalan pada halaman YouTube. Ia tidak mengumpul, menjual atau menghantar data penyemakan imbas anda.
 
-Sumber terbuka
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Maklum balas adalah dialu-alukan. Anda boleh meninggalkan ulasan, membuka isu di GitHub, atau menulis kepada:
 molodchykr@gmail.com
 
-Apa yang baharu dalam versi 1.5.4
+Apa yang baharu dalam versi 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Sumber terbuka
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

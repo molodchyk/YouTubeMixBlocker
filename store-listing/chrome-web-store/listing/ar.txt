@@ -15,15 +15,15 @@
 
 يعمل هذا الامتداد فقط على صفحات YouTube. ولا يقوم بجمع أو بيع أو نقل بيانات التصفح الخاصة بك.
 
-مفتوح المصدر
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 ردود الفعل هي موضع ترحيب. يمكنك ترك تعليق أو فتح مشكلة على GitHub أو الكتابة إلى:
 molodchykr@gmail.com
 
-ما الجديد في الإصدار 1.5.4
+ما الجديد في الإصدار 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+مفتوح المصدر
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

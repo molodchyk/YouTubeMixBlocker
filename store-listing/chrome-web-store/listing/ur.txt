@@ -15,15 +15,15 @@ YouTube Mix Blocker یوٹیوب صفحات سے YouTube Mix تجاویز ہٹا
 
 یہ ایکسٹینشن صرف YouTube صفحات پر چلتی ہے۔ یہ آپ کا براؤزنگ ڈیٹا جمع، فروخت یا منتقل نہیں کرتی۔
 
-اوپن سورس
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 آپ کی رائے خوش آئند ہے۔ آپ ریویو چھوڑ سکتے ہیں، GitHub پر issue کھول سکتے ہیں، یا اس پر لکھ سکتے ہیں:
 molodchykr@gmail.com
 
-ورژن 1.5.4 میں نیا کیا ہے
+ورژن 1.5.3 میں نیا کیا ہے
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+اوپن سورس
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

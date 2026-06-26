@@ -19,7 +19,7 @@ npm run check
 - Confirm `dist/_locales/` contains exactly the 66 Chrome Web Store visible locales tracked in `scripts/verify-locales.mjs`.
 - Confirm the Chrome Web Store detailed-description files live under `store-listing/chrome-web-store/listing/` and include the GPL-3.0 source footer.
 - Confirm the optional uninstall feedback page at `https://molodchyk.com/youtube-mix-blocker/uninstall/` is deployed and posts to the intended Formspree endpoint before publishing a build that opens it.
-- Upload `release/youtube-mix-blocker-chrome-1.5.4.zip` only after rebuilding it with `npm run package`.
+- Upload `release/youtube-mix-blocker-chrome-1.5.3.zip` only after rebuilding it with `npm run package`.
 - `npm run package` removes older `release/youtube-mix-blocker-chrome-*.zip` files before writing the latest CWS upload zip.
 
 ## Manual Chrome Checks

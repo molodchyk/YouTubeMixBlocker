@@ -15,15 +15,15 @@ YouTube Mix Blocker ги отстранува препораките YouTube Mix
 
 Оваа екстензија работи само на страници на YouTube. Не ги собира, продава или пренесува вашите податоци за прелистување.
 
-Отворен код
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Повратните информации се добредојдени. Можете да оставите рецензија, да отворите issue на GitHub или да пишете на:
 molodchykr@gmail.com
 
-Што е ново во верзија 1.5.4
+Што е ново во верзија 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Отворен код
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

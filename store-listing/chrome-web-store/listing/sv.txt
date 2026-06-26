@@ -15,15 +15,15 @@ Sekretess
 
 Det här tillägget körs bara på YouTube-sidor. Den samlar inte in, säljer eller överför din webbläsardata.
 
-Öppen källkod
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Feedback är välkommet. Du kan lämna en recension, öppna ett problem på GitHub eller skriva till:
 molodchykr@gmail.com
 
-Nyheter i version 1.5.4
+Nyheter i version 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Öppen källkod
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

@@ -15,15 +15,15 @@ Personvern
 
 Denne utvidelsen kjører bare på YouTube-sider. Den samler ikke inn, selger eller overfører nettleserdataene dine.
 
-Åpen kildekode
-
-Open source under the GPL-3.0 license:
-https://github.com/molodchyk/YouTubeMixBlocker
-
 Tilbakemelding er velkommen. Du kan legge igjen en anmeldelse, åpne et problem på GitHub eller skrive til:
 molodchykr@gmail.com
 
-Hva er nytt i versjon 1.5.4
+Hva er nytt i versjon 1.5.3
 
 Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
 Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
+
+Åpen kildekode
+
+GPL-3.0-only license:
+https://github.com/molodchyk/YouTubeMixBlocker

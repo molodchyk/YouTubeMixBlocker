@@ -7,7 +7,7 @@
     "verify:locales": "node scripts/verify-locales.mjs",
     "verify:manifest": "node scripts/verify-manifest.mjs",
     "verify:release": "node scripts/verify-release.mjs",
-    "package": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"New-Item -ItemType Directory -Force -Path 'release' | Out-Null; Get-ChildItem 'release' -Filter 'youtube-mix-blocker-*.zip' | Remove-Item -Force; Compress-Archive -Path 'dist/*' -DestinationPath 'release/youtube-mix-blocker-chrome-1.5.4.zip'\"",
+    "package": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"New-Item -ItemType Directory -Force -Path 'release' | Out-Null; Get-ChildItem 'release' -Filter 'youtube-mix-blocker-*.zip' | Remove-Item -Force; Compress-Archive -Path 'dist/*' -DestinationPath 'release/youtube-mix-blocker-chrome-1.5.3.zip'\"",
     "package:chrome": "npm run package",
     "check": "npm run build && npm run verify:locales && npm run verify:manifest && npm run verify:release && node --check scripts/build-content.mjs && node --check scripts/sync-chrome-locales.mjs && node --check scripts/verify-locales.mjs && node --check scripts/verify-manifest.mjs && node --check scripts/verify-release.mjs && node --check dist/content.js && node --check dist/background.js && node --check dist/popup/popup.js"
   }
