@@ -13,6 +13,9 @@ The storage permission saves local extension settings and counters, such as whet
 host_permission:
 The extension needs access to https://www.youtube.com/* because its single purpose is to work on YouTube pages. It detects YouTube Mix recommendations, removes those Mix cards, and cleans Mix playlist parameters from YouTube watch URLs. It does not access non-YouTube websites.
 
+optional_uninstall_feedback:
+After uninstalling the Chrome version, Chrome may open an optional post-uninstall feedback page at https://molodchyk.com/youtube-mix-blocker/uninstall/. The extension includes only generic source, version, and Chrome UI language parameters. It does not include user identifiers, browsing data, extension settings, local counters, YouTube page URLs, or YouTube content. Feedback submission is voluntary and is intended to be processed by Formspree.
+
 remote_code:
 no
 

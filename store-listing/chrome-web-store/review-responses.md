@@ -177,7 +177,7 @@ Review:
 
 Response:
 
-I take this very seriously. YouTube Mix Blocker is open source, and the extension code is available on GitHub for inspection. The extension package does not include analytics or tracking code, remote code, or external servers. The Chrome Web Store may provide aggregate listing metrics to developers, but the extension itself does not collect or transmit user browsing data. If you believe you found a specific malicious file or behavior, please open a GitHub issue with details so it can be reviewed publicly.
+I take this very seriously. YouTube Mix Blocker is open source, and the extension code is available on GitHub for inspection. The extension package does not include analytics or tracking code or remote code. While installed, the extension does not make network requests or collect or transmit user browsing data. The Chrome Web Store may provide aggregate listing metrics to developers. If you believe you found a specific malicious file or behavior, please open a GitHub issue with details so it can be reviewed publicly.
 
 ### Ivan Che - 23.12.2024
 

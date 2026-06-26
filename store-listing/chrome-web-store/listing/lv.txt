@@ -23,7 +23,7 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Atsauksmes ir apsveicamas. Varat atstāt atsauksmi, atvērt problēmu vietnē GitHub vai rakstīt uz:
 molodchykr@gmail.com
 
-Kas jauns versijā 1.5.3
+Kas jauns versijā 1.5.4
 
-Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
-Kept the Chrome Web Store package focused on Chrome-supported locale coverage.
+Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
+Kept the uninstall URL limited to source, version, and Chrome UI language parameters.

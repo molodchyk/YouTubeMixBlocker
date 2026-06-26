@@ -85,9 +85,11 @@ https://github.com/molodchyk/YouTubeMixBlockerFirefox
 
 ## Privacy
 
-YouTube Mix Blocker does not collect, transmit, sell, or share personal data or browsing data. Settings and counters are stored locally in the browser and are used only to provide the extension's features.
+YouTube Mix Blocker does not collect, transmit, sell, or share personal data or browsing data while installed. Settings and counters are stored locally in the browser and are used only to provide the extension's features.
 
-The extension uses `activeTab`, `storage`, and the `https://www.youtube.com/*` host permission. It does not make network requests and does not use analytics, ads, tracking, content scripts on non-YouTube sites, or remote code.
+The extension uses `activeTab`, `storage`, and the `https://www.youtube.com/*` host permission. It does not make network requests while installed and does not use analytics, ads, tracking, content scripts on non-YouTube sites, or remote code.
+
+After uninstalling the Chrome version, Chrome may open an optional feedback page at `https://molodchyk.com/youtube-mix-blocker/uninstall/`. The extension passes only generic `source`, `version`, and UI-language parameters to that page.
 
 See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
 

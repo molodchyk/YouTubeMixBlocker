@@ -8,6 +8,7 @@ This document records Chrome behavior that should stay stable across releases, e
 - Clean Mix watch URLs so videos open as regular watch URLs.
 - Avoid breaking YouTube's own lazy loading, navigation, or continuation state.
 - Keep Chrome runtime and Chrome Web Store listing localization explicit and reviewable.
+- Open only an optional, privacy-scoped post-uninstall feedback page for Chrome users.
 
 ## Supported Surfaces
 
@@ -60,6 +61,13 @@ This was observed on:
 - Chrome Web Store long descriptions live under `store-listing/chrome-web-store/listing/`.
 - Chrome Web Store what's-new text lives in `store-listing/chrome-web-store/whats_new.json`.
 - Run `npm run sync:chrome-locales` after changing generated locale text or store listing footer shape.
+
+## Uninstall Feedback
+
+- Chrome may open `https://molodchyk.com/youtube-mix-blocker/uninstall/` after uninstall.
+- The uninstall feedback URL may include only `source=chrome`, the extension version, and the Chrome UI language.
+- Do not include user identifiers, local counters, settings, tab URLs, YouTube URLs, or YouTube page content in the uninstall feedback URL.
+- The feedback form must remain optional and must be disclosed in `PRIVACY.md` and Chrome Web Store privacy notes.
 
 ## Release Rules
 

@@ -23,7 +23,7 @@ https://github.com/molodchyk/YouTubeMixBlocker
 フィードバックは大歓迎です。レビューを残すか、GitHub で問題を開くか、次の宛先に書き込むことができます。
 molodchykr@gmail.com
 
-バージョン 1.5.3 の新機能
+バージョン 1.5.4 の新機能
 
-Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
-Kept the Chrome Web Store package focused on Chrome-supported locale coverage.
+Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
+Kept the uninstall URL limited to source, version, and Chrome UI language parameters.

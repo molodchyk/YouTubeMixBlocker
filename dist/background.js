@@ -17,8 +17,24 @@ const DEFAULT_SETTINGS = {
   theme: "system"
 };
 
+const UNINSTALL_FEEDBACK_URL = "https://molodchyk.com/youtube-mix-blocker/uninstall/";
+
 const tabBlockedCounts = new Map();
 let statsWriteQueue = Promise.resolve();
+
+function getUninstallFeedbackUrl() {
+  const url = new URL(UNINSTALL_FEEDBACK_URL);
+  url.searchParams.set("source", "chrome");
+  url.searchParams.set("version", chrome.runtime.getManifest().version);
+  url.searchParams.set("lang", chrome.i18n.getUILanguage());
+  return url.toString();
+}
+
+async function configureUninstallFeedback() {
+  await chrome.runtime.setUninstallURL(getUninstallFeedbackUrl());
+}
+
+configureUninstallFeedback().catch(() => {});
 
 function cloneStats(stats) {
   return {

@@ -9,7 +9,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const outputDirectory = "dist";
 const localeSourceDirectory = "src/chrome/_locales";
-const version = "1.5.3";
+const version = "1.5.4";
 
 const entryFile = "src/content/index.js";
 const featureFiles = [

@@ -14,6 +14,7 @@ The extension is intended to:
 - Optionally show a per-page badge counter when the user enables it.
 - Let the popup follow system theme by default, with optional light and dark modes.
 - Keep Chrome Web Store listing text and extension metadata localized for the tracked 66 Chrome visible locales.
+- Open an optional Chrome post-uninstall feedback page without sending identifiers, local counters, settings, YouTube URLs, or browsing data.
 
 ## Feature Matrix
 
@@ -30,6 +31,7 @@ The extension is intended to:
 | Popup theme mode | Yes | Yes | Needs retest | Supports system, light, and dark modes. |
 | Localized extension name and short description | Yes | Yes | JSON validated | Chrome has 66 runtime locales. |
 | Localized Chrome Web Store long descriptions | Yes | Yes | Needs human review | Plain text files live in `store-listing/chrome-web-store/listing/` for all 66 Chrome locales. |
+| Optional Chrome uninstall feedback page | Yes | Yes | Syntax checked | Opens `https://molodchyk.com/youtube-mix-blocker/uninstall/` with only source, version, and UI-language parameters. |
 | Chrome build target | Yes | Yes | Syntax checked | `npm run build` outputs `dist/`. |
 
 ## Confirmed Working
@@ -75,7 +77,8 @@ The extension is intended to:
 - Extension packaging:
   - Load `dist/` as an unpacked extension in Chrome.
   - Confirm localized name/description appear for supported Chrome browser locales.
-  - Confirm Arabic, Persian, Hebrew, and Urdu popup UI gets `dir="rtl"`.
+- Confirm Arabic, Persian, Hebrew, and Urdu popup UI gets `dir="rtl"`.
+- Confirm Chrome opens `https://molodchyk.com/youtube-mix-blocker/uninstall/` after uninstall and includes only source, version, and UI-language parameters.
 
 - Popup and badge:
   - Confirm the popup opens from the extension action.

@@ -1,332 +1,332 @@
 {
   "am": {
-    "heading": "በስሪት 1.5.3 ያለው አዲስ ነገር",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "በስሪት 1.5.4 ያለው አዲስ ነገር",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ar": {
-    "heading": "ما الجديد في الإصدار 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "ما الجديد في الإصدار 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "az": {
-    "heading": "1.5.3 versiyasında yeniliklər",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "1.5.4 versiyasında yeniliklər",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "bg": {
-    "heading": "Какво ново във версия 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Какво ново във версия 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "bn": {
-    "heading": "সংস্করণ 1.5.3-এ নতুন কী আছে",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "সংস্করণ 1.5.4-এ নতুন কী আছে",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ca": {
-    "heading": "Novetats de la versió 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novetats de la versió 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "cs": {
-    "heading": "Co je nového ve verzi 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Co je nového ve verzi 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "da": {
-    "heading": "Hvad er nyt i version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Hvad er nyt i version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "de": {
-    "heading": "Neu in Version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Neu in Version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "el": {
-    "heading": "Τι νέο υπάρχει στην έκδοση 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Τι νέο υπάρχει στην έκδοση 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "en": {
-    "heading": "What's new in version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "What's new in version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "en_AU": {
-    "heading": "What's new in version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "What's new in version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "en_GB": {
-    "heading": "What's new in version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "What's new in version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "en_US": {
-    "heading": "What's new in version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "What's new in version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "es": {
-    "heading": "Novedades en la versión 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novedades en la versión 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "es_419": {
-    "heading": "Novedades en la versión 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novedades en la versión 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "et": {
-    "heading": "Mis on uut versioonis 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Mis on uut versioonis 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "eu": {
-    "heading": "1.5.3 bertsioan berria",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "1.5.4 bertsioan berria",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "fa": {
-    "heading": "تازه‌های نسخه 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "تازه‌های نسخه 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "fi": {
-    "heading": "Mitä uutta versiossa 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Mitä uutta versiossa 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "fil": {
-    "heading": "Ano ang bago sa bersyong 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Ano ang bago sa bersyong 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "fr": {
-    "heading": "Quoi de neuf dans la version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Quoi de neuf dans la version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "gu": {
-    "heading": "વર્ઝન 1.5.3 માં શું નવું છે",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "વર્ઝન 1.5.4 માં શું નવું છે",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "he": {
-    "heading": "מה חדש בגרסה 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "מה חדש בגרסה 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "hi": {
-    "heading": "संस्करण 1.5.3 में क्या नया है",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "संस्करण 1.5.4 में क्या नया है",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "hr": {
-    "heading": "Što je novo u verziji 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Što je novo u verziji 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "hu": {
-    "heading": "Újdonságok az 1.5.3 verzióban",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Újdonságok az 1.5.4 verzióban",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "hy": {
-    "heading": "Ինչ է նոր 1.5.3 տարբերակում",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Ինչ է նոր 1.5.4 տարբերակում",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "id": {
-    "heading": "Apa yang baru di versi 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Apa yang baru di versi 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "it": {
-    "heading": "Novità nella versione 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novità nella versione 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ja": {
-    "heading": "バージョン 1.5.3 の新機能",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "バージョン 1.5.4 の新機能",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ka": {
-    "heading": "რა არის ახალი ვერსიაში 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "რა არის ახალი ვერსიაში 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "kn": {
-    "heading": "ಆವೃತ್ತಿ 1.5.3 ರಲ್ಲಿ ಹೊಸದೇನಿದೆ",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "ಆವೃತ್ತಿ 1.5.4 ರಲ್ಲಿ ಹೊಸದೇನಿದೆ",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ko": {
-    "heading": "버전 1.5.3의 새로운 기능",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "버전 1.5.4의 새로운 기능",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "lt": {
-    "heading": "Kas naujo versijoje 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Kas naujo versijoje 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "lv": {
-    "heading": "Kas jauns versijā 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Kas jauns versijā 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "mk": {
-    "heading": "Што е ново во верзија 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Што е ново во верзија 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ml": {
-    "heading": "പതിപ്പ് 1.5.3-ൽ പുതിയത്",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "പതിപ്പ് 1.5.4-ൽ പുതിയത്",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "mr": {
-    "heading": "आवृत्ती 1.5.3 मध्ये नवीन काय आहे",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "आवृत्ती 1.5.4 मध्ये नवीन काय आहे",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ms": {
-    "heading": "Apa yang baharu dalam versi 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Apa yang baharu dalam versi 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ne": {
-    "heading": "संस्करण 1.5.3 मा नयाँ के छ",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "संस्करण 1.5.4 मा नयाँ के छ",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "nl": {
-    "heading": "Wat is er nieuw in versie 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Wat is er nieuw in versie 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "no": {
-    "heading": "Hva er nytt i versjon 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Hva er nytt i versjon 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "pa": {
-    "heading": "ਵਰਜਨ 1.5.3 ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "ਵਰਜਨ 1.5.4 ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "pl": {
-    "heading": "Co nowego w wersji 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Co nowego w wersji 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "pt_BR": {
-    "heading": "Novidades na versão 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novidades na versão 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "pt_PT": {
-    "heading": "Novidades na versão 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Novidades na versão 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ro": {
-    "heading": "Ce este nou în versiunea 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Ce este nou în versiunea 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ru": {
-    "heading": "Что нового в версии 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Что нового в версии 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "si": {
-    "heading": "1.5.3 අනුවාදයේ අලුත් දේ",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "1.5.4 අනුවාදයේ අලුත් දේ",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sk": {
-    "heading": "Čo je nové vo verzii 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Čo je nové vo verzii 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sl": {
-    "heading": "Kaj je novega v različici 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Kaj je novega v različici 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sq": {
-    "heading": "Çfarë ka të re në versionin 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Çfarë ka të re në versionin 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sr": {
-    "heading": "Шта је ново у верзији 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Шта је ново у верзији 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sv": {
-    "heading": "Nyheter i version 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Nyheter i version 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "sw": {
-    "heading": "Mambo mapya katika toleo la 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Mambo mapya katika toleo la 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ta": {
-    "heading": "பதிப்பு 1.5.3 இல் புதியவை",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "பதிப்பு 1.5.4 இல் புதியவை",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "te": {
-    "heading": "వెర్షన్ 1.5.3 లో కొత్తవి",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "వెర్షన్ 1.5.4 లో కొత్తవి",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "th": {
-    "heading": "มีอะไรใหม่ในเวอร์ชัน 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "มีอะไรใหม่ในเวอร์ชัน 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "tr": {
-    "heading": "Sürüm 1.5.3'deki yenilikler",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Sürüm 1.5.4'deki yenilikler",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "uk": {
-    "heading": "Що нового у версії 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Що нового у версії 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "ur": {
-    "heading": "ورژن 1.5.3 میں نیا کیا ہے",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "ورژن 1.5.4 میں نیا کیا ہے",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "uz": {
-    "heading": "1.5.3 versiyasidagi yangiliklar",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "1.5.4 versiyasidagi yangiliklar",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "vi": {
-    "heading": "Có gì mới trong phiên bản 1.5.3",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "Có gì mới trong phiên bản 1.5.4",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "zh_CN": {
-    "heading": "版本 1.5.3 的新功能",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "版本 1.5.4 的新功能",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   },
   "zh_TW": {
-    "heading": "版本 1.5.3 的新功能",
-    "bullet1": "Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.",
-    "bullet2": "Kept the Chrome Web Store package focused on Chrome-supported locale coverage."
+    "heading": "版本 1.5.4 的新功能",
+    "bullet1": "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
+    "bullet2": "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
   }
 }

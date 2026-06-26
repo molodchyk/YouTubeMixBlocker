@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.5.4
+
+- Adds an optional Chrome post-uninstall feedback page for voluntary issue and feature feedback.
+- Documents the feedback flow in the privacy policy and Chrome Web Store privacy notes.
+- Keeps uninstall feedback URL parameters limited to source, version, and Chrome UI language.
+
 ## Version 1.5.3
 
 - Expands Chrome runtime and Chrome Web Store localization coverage to the tracked 66 Chrome visible locales.

@@ -23,7 +23,7 @@ https://github.com/molodchyk/YouTubeMixBlocker
 Maoni yanakaribishwa. Unaweza kuacha ukaguzi, kufungua suala kwenye GitHub, au kuandika kwa:
 molodchykr@gmail.com
 
-Mambo mapya katika toleo la 1.5.3
+Mambo mapya katika toleo la 1.5.4
 
-Added Chrome localization coverage for all 66 supported Chrome Web Store visible locales.
-Kept the Chrome Web Store package focused on Chrome-supported locale coverage.
+Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
+Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
