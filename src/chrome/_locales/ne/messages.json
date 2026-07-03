@@ -15,6 +15,18 @@
     "message": "शान्त रूपमा सक्रिय",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "हालको पृष्ठ",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "अहिलेसम्म",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "अहिलेसम्म क्षेत्रअनुसार",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "रोकिएका Mix कार्डहरू",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "यो पृष्ठ",
-    "description": "Current page counter label."
+    "message": "लुकाइएका Mix सूचीहरू",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "लुकाइएका Mix कार्डहरू",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "यस पृष्ठमा लुकाइएको",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "लुकाइएका Mix सूचीहरू",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "सिफारिसहरू",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "हेर्ने साइडबार",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "अन्तिम स्क्रिन",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "यो पृष्ठका लागि ब्याज गणना देखाउनुहोस्",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "विस्तृत विभाजन देखाउनुहोस्",
-    "description": "Setting label for detailed counters."
+    "message": "क्षेत्रअनुसार विवरण देखाउनुहोस्",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "गणकहरू रिसेट गर्नुहोस्",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "सबै YouTube Mix Blocker गणकहरू रिसेट गर्ने?",

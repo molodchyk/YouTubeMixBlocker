@@ -15,6 +15,18 @@
     "message": "அமைதியாக சுறுசுறுப்பாக இருக்கும்",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "தற்போதைய பக்கம்",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "மொத்தம்",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "பகுதி வாரியான மொத்தம்",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "மிக்ஸ் கார்டுகள் தடுக்கப்பட்டன",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "இந்தப் பக்கம்",
-    "description": "Current page counter label."
+    "message": "மறைக்கப்பட்ட Mix பட்டியல்கள்",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "மறைக்கப்பட்ட Mix கார்டுகள்",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "இந்தப் பக்கத்தில் மறைக்கப்பட்டது",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "மறைக்கப்பட்ட Mix பட்டியல்கள்",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "பரிந்துரைகள்",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "பக்கப்பட்டியைப் பார்க்கவும்",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "முடிவு திரை",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "இந்தப் பக்கத்திற்கான பேட்ஜ் எண்ணிக்கையைக் காட்டு",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "விரிவான முறிவைக் காட்டு",
-    "description": "Setting label for detailed counters."
+    "message": "பகுதி வாரியான பிரிவைக் காட்டு",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "கவுண்டர்களை மீட்டமைக்கவும்",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "அனைத்து YouTube மிக்ஸ் பிளாக்கர் கவுண்டர்களையும் மீட்டமைக்கவா?",

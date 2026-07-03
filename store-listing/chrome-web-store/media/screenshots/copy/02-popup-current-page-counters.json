@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "slot": "02",
+  "locales": {
+    "de": {
+      "title": "Sehen, was blockiert wurde",
+      "body": "Das Popup trennt die Aktivität der aktuellen Seite von den Gesamtwerten und zeigt, wo Mix-Karten ausgeblendet wurden.",
+      "bullets": ["Zähler für die aktuelle Seite", "Seitenleiste und Endbildschirm", "Nur lokale Zähler"]
+    },
+    "en": {
+      "title": "See what was blocked",
+      "body": "The popup separates current-page activity from all-time totals and shows where Mix cards were hidden.",
+      "bullets": ["Current page counts", "Watch sidebar and end screen", "Local counters only"]
+    },
+    "en_AU": {
+      "title": "See what was blocked",
+      "body": "The popup separates current-page activity from all-time totals and shows where Mix cards were hidden.",
+      "bullets": ["Current page counts", "Watch sidebar and end screen", "Local counters only"]
+    },
+    "en_GB": {
+      "title": "See what was blocked",
+      "body": "The popup separates current-page activity from all-time totals and shows where Mix cards were hidden.",
+      "bullets": ["Current page counts", "Watch sidebar and end screen", "Local counters only"]
+    },
+    "en_US": {
+      "title": "See what was blocked",
+      "body": "The popup separates current-page activity from all-time totals and shows where Mix cards were hidden.",
+      "bullets": ["Current page counts", "Watch sidebar and end screen", "Local counters only"]
+    },
+    "fa": {
+      "title": "ببینید چه چیزی مسدود شد",
+      "body": "پنجرهٔ بازشو فعالیت صفحهٔ فعلی را از مجموع کل جدا می‌کند و نشان می‌دهد کارت‌های Mix کجا پنهان شده‌اند.",
+      "bullets": ["شمارش‌های صفحهٔ فعلی", "نوار کناری و صفحهٔ پایان", "فقط شمارنده‌های محلی"]
+    },
+    "fil": {
+      "title": "Tingnan ang na-block",
+      "body": "Pinaghihiwalay ng popup ang aktibidad ng kasalukuyang pahina sa kabuuang tala at ipinapakita kung saan itinago ang mga Mix card.",
+      "bullets": ["Bilang sa kasalukuyang pahina", "Sidebar ng panonood at end screen", "Mga lokal na counter lang"]
+    },
+    "id": {
+      "title": "Lihat yang diblokir",
+      "body": "Popup memisahkan aktivitas halaman saat ini dari total sepanjang waktu dan menunjukkan di mana kartu Mix disembunyikan.",
+      "bullets": ["Hitungan halaman saat ini", "Sidebar tontonan dan layar akhir", "Hanya penghitung lokal"]
+    },
+    "sw": {
+      "title": "Ona kilichozuiwa",
+      "body": "Popup hutenganisha shughuli ya ukurasa wa sasa na jumla za muda wote, na huonyesha mahali kadi za Mix zilipofichwa.",
+      "bullets": ["Hesabu za ukurasa wa sasa", "Upau wa pembeni na skrini ya mwisho", "Vihesabu vya ndani pekee"]
+    },
+    "ms": {
+      "title": "Lihat perkara yang disekat",
+      "body": "Pop timbul memisahkan aktiviti halaman semasa daripada jumlah sepanjang masa dan menunjukkan tempat kad Mix disembunyikan.",
+      "bullets": ["Kiraan halaman semasa", "Bar sisi tontonan dan skrin akhir", "Kaunter setempat sahaja"]
+    },
+    "nl": {
+      "title": "Bekijk wat is geblokkeerd",
+      "body": "De pop-up scheidt activiteit op de huidige pagina van totalen over de hele periode en laat zien waar Mix-kaarten zijn verborgen.",
+      "bullets": ["Tellingen voor deze pagina", "Kijkzijbalk en eindscherm", "Alleen lokale tellers"]
+    },
+    "vi": {
+      "title": "Xem nội dung đã chặn",
+      "body": "Cửa sổ bật lên tách hoạt động của trang hiện tại khỏi tổng số mọi thời gian và cho biết thẻ Mix đã bị ẩn ở đâu.",
+      "bullets": ["Số đếm của trang hiện tại", "Thanh bên xem và màn hình kết thúc", "Chỉ bộ đếm cục bộ"]
+    },
+    "tr": {
+      "title": "Neyin engellendiğini görün",
+      "body": "Açılır pencere, geçerli sayfadaki etkinliği tüm zaman toplamlarından ayırır ve Mix kartlarının nerede gizlendiğini gösterir.",
+      "bullets": ["Geçerli sayfa sayaçları", "İzleme kenar çubuğu ve bitiş ekranı", "Yalnızca yerel sayaçlar"]
+    },
+    "az": {
+      "title": "Nəyin bloklandığını görün",
+      "body": "Popup cari səhifə fəaliyyətini ümumi saylardan ayırır və Mix kartlarının harada gizlədildiyini göstərir.",
+      "bullets": ["Cari səhifə sayları", "Baxış yan paneli və son ekran", "Yalnız lokal sayğaclar"]
+    },
+    "ca": {
+      "title": "Consulta què s'ha bloquejat",
+      "body": "La finestra emergent separa l'activitat de la pàgina actual dels totals històrics i mostra on s'han amagat les targetes Mix.",
+      "bullets": ["Comptadors de la pàgina actual", "Barra lateral i pantalla final", "Només comptadors locals"]
+    },
+    "da": {
+      "title": "Se, hvad der blev blokeret",
+      "body": "Pop op-vinduet adskiller aktivitet på den aktuelle side fra totaler over tid og viser, hvor Mix-kort blev skjult.",
+      "bullets": ["Tællere for aktuel side", "Visningssidebjælke og slutskærm", "Kun lokale tællere"]
+    },
+    "et": {
+      "title": "Vaata, mis blokeeriti",
+      "body": "Hüpikaken eristab praeguse lehe tegevuse kõigi aegade kogusummadest ja näitab, kus Mixi kaardid peideti.",
+      "bullets": ["Praeguse lehe loendurid", "Vaatamise külgriba ja lõpuekraan", "Ainult kohalikud loendurid"]
+    },
+    "es": {
+      "title": "Ve qué se bloqueó",
+      "body": "La ventana emergente separa la actividad de la página actual de los totales históricos y muestra dónde se ocultaron las tarjetas Mix.",
+      "bullets": ["Conteos de la página actual", "Barra lateral y pantalla final", "Solo contadores locales"]
+    },
+    "es_419": {
+      "title": "Ve qué se bloqueó",
+      "body": "La ventana emergente separa la actividad de la página actual de los totales históricos y muestra dónde se ocultaron las tarjetas Mix.",
+      "bullets": ["Conteos de la página actual", "Barra lateral y pantalla final", "Solo contadores locales"]
+    },
+    "eu": {
+      "title": "Ikusi zer blokeatu den",
+      "body": "Popup-ak uneko orriko jarduera guztizko historikoetatik bereizten du, eta Mix txartelak non ezkutatu diren erakusten du.",
+      "bullets": ["Uneko orriko kontagailuak", "Ikusteko alboko barra eta amaierako pantaila", "Tokiko kontagailuak soilik"]
+    },
+    "fr": {
+      "title": "Voir ce qui a été bloqué",
+      "body": "La fenêtre contextuelle sépare l'activité de la page actuelle des totaux historiques et indique où les cartes Mix ont été masquées.",
+      "bullets": ["Compteurs de la page actuelle", "Barre latérale et écran de fin", "Compteurs locaux uniquement"]
+    },
+    "hr": {
+      "title": "Pogledajte što je blokirano",
+      "body": "Skočni prozor odvaja aktivnost trenutačne stranice od ukupnih vrijednosti i pokazuje gdje su Mix kartice skrivene.",
+      "bullets": ["Brojači trenutačne stranice", "Bočna traka gledanja i završni zaslon", "Samo lokalni brojači"]
+    },
+    "it": {
+      "title": "Vedi cosa è stato bloccato",
+      "body": "Il popup separa l'attività della pagina corrente dai totali complessivi e mostra dove sono state nascoste le schede Mix.",
+      "bullets": ["Contatori della pagina corrente", "Barra laterale e schermata finale", "Solo contatori locali"]
+    },
+    "lv": {
+      "title": "Skatiet, kas tika bloķēts",
+      "body": "Uznirstošais logs atdala pašreizējās lapas darbību no kopējiem rādītājiem un parāda, kur Mix kartītes tika paslēptas.",
+      "bullets": ["Pašreizējās lapas skaitītāji", "Skatīšanās sānjosla un beigu ekrāns", "Tikai vietējie skaitītāji"]
+    },
+    "lt": {
+      "title": "Peržiūrėkite, kas užblokuota",
+      "body": "Iššokantis langas atskiria dabartinio puslapio veiklą nuo visų laikų sumų ir rodo, kur Mix kortelės buvo paslėptos.",
+      "bullets": ["Dabartinio puslapio skaitikliai", "Žiūrėjimo šoninė juosta ir pabaigos ekranas", "Tik vietiniai skaitikliai"]
+    },
+    "hu": {
+      "title": "Nézze meg, mi lett blokkolva",
+      "body": "A felugró ablak külön mutatja az aktuális oldal aktivitását az összesített értékektől, és jelzi, hol lettek elrejtve a Mix-kártyák.",
+      "bullets": ["Aktuális oldal számlálói", "Megtekintési oldalsáv és záróképernyő", "Csak helyi számlálók"]
+    },
+    "no": {
+      "title": "Se hva som ble blokkert",
+      "body": "Popupen skiller aktivitet på gjeldende side fra totaler over tid og viser hvor Mix-kort ble skjult.",
+      "bullets": ["Tellinger for gjeldende side", "Visningssidefelt og sluttskjerm", "Bare lokale tellere"]
+    },
+    "uz": {
+      "title": "Nima bloklanganini ko‘ring",
+      "body": "Popup joriy sahifa faolligini umumiy ko‘rsatkichlardan ajratadi va Mix kartalari qayerda yashirilganini ko‘rsatadi.",
+      "bullets": ["Joriy sahifa hisoblari", "Ko‘rish yon paneli va yakuniy ekran", "Faqat mahalliy hisoblagichlar"]
+    },
+    "pl": {
+      "title": "Zobacz, co zablokowano",
+      "body": "Okno podręczne oddziela aktywność na bieżącej stronie od łącznych statystyk i pokazuje, gdzie ukryto karty Mix.",
+      "bullets": ["Liczniki bieżącej strony", "Panel boczny oglądania i ekran końcowy", "Tylko lokalne liczniki"]
+    },
+    "pt_BR": {
+      "title": "Veja o que foi bloqueado",
+      "body": "O popup separa a atividade da página atual dos totais gerais e mostra onde os cards Mix foram ocultados.",
+      "bullets": ["Contagens da página atual", "Barra lateral de exibição e tela final", "Somente contadores locais"]
+    },
+    "pt_PT": {
+      "title": "Veja o que foi bloqueado",
+      "body": "O pop-up separa a atividade da página atual dos totais gerais e mostra onde os cartões Mix foram ocultados.",
+      "bullets": ["Contagens da página atual", "Barra lateral de visualização e ecrã final", "Apenas contadores locais"]
+    },
+    "ro": {
+      "title": "Vezi ce a fost blocat",
+      "body": "Popupul separă activitatea paginii curente de totalurile generale și arată unde au fost ascunse cardurile Mix.",
+      "bullets": ["Contoare pentru pagina curentă", "Bara laterală de vizionare și ecranul final", "Doar contoare locale"]
+    },
+    "sq": {
+      "title": "Shih çfarë u bllokua",
+      "body": "Dritarja popup ndan aktivitetin e faqes aktuale nga totalet historike dhe tregon ku u fshehën kartat Mix.",
+      "bullets": ["Numërimet e faqes aktuale", "Shiriti anësor dhe ekrani fundor", "Vetëm numërues lokalë"]
+    },
+    "sk": {
+      "title": "Pozrite, čo bolo zablokované",
+      "body": "Vyskakovacie okno oddeľuje aktivitu aktuálnej stránky od celkových súčtov a ukazuje, kde boli karty Mix skryté.",
+      "bullets": ["Počty pre aktuálnu stránku", "Bočný panel pozerania a záverečná obrazovka", "Iba lokálne počítadlá"]
+    },
+    "sl": {
+      "title": "Poglejte, kaj je bilo blokirano",
+      "body": "Pojavno okno loči dejavnost trenutne strani od skupnih vrednosti in pokaže, kje so bile kartice Mix skrite.",
+      "bullets": ["Števci trenutne strani", "Stranska vrstica ogleda in končni zaslon", "Samo lokalni števci"]
+    },
+    "fi": {
+      "title": "Katso, mitä estettiin",
+      "body": "Ponnahdusikkuna erottaa nykyisen sivun toiminnan kaikkien aikojen kokonaissummista ja näyttää, missä Mix-kortit piilotettiin.",
+      "bullets": ["Nykyisen sivun laskurit", "Katselusivupalkki ja loppunäyttö", "Vain paikalliset laskurit"]
+    },
+    "sv": {
+      "title": "Se vad som blockerades",
+      "body": "Popupen skiljer aktivitet på den aktuella sidan från historiska totaler och visar var Mix-kort doldes.",
+      "bullets": ["Räkning för aktuell sida", "Visningssidofält och slutskärm", "Endast lokala räknare"]
+    },
+    "cs": {
+      "title": "Podívejte se, co bylo zablokováno",
+      "body": "Vyskakovací okno odděluje aktivitu aktuální stránky od celkových součtů a ukazuje, kde byly karty Mix skryty.",
+      "bullets": ["Počty pro aktuální stránku", "Postranní panel sledování a závěrečná obrazovka", "Pouze místní počítadla"]
+    },
+    "el": {
+      "title": "Δείτε τι αποκλείστηκε",
+      "body": "Το αναδυόμενο παράθυρο χωρίζει τη δραστηριότητα της τρέχουσας σελίδας από τα συνολικά στοιχεία και δείχνει πού κρύφτηκαν οι κάρτες Mix.",
+      "bullets": ["Μετρήσεις τρέχουσας σελίδας", "Πλαϊνή στήλη προβολής και τελική οθόνη", "Μόνο τοπικοί μετρητές"]
+    },
+    "bg": {
+      "title": "Вижте какво е блокирано",
+      "body": "Изскачащият прозорец отделя активността на текущата страница от общите стойности и показва къде са скрити Mix картите.",
+      "bullets": ["Броячи за текущата страница", "Страничен панел и краен екран", "Само локални броячи"]
+    },
+    "mk": {
+      "title": "Видете што е блокирано",
+      "body": "Попапот ја одвојува активноста на тековната страница од вкупните бројки и покажува каде се скриени Mix картичките.",
+      "bullets": ["Бројачи за тековната страница", "Странична лента и завршен екран", "Само локални бројачи"]
+    },
+    "ru": {
+      "title": "Посмотрите, что заблокировано",
+      "body": "Попап отделяет активность на текущей странице от общих счетчиков и показывает, где были скрыты карточки Mix.",
+      "bullets": ["Счетчики текущей страницы", "Боковая панель просмотра и конечная заставка", "Только локальные счетчики"]
+    },
+    "sr": {
+      "title": "Погледајте шта је блокирано",
+      "body": "Искачући прозор одваја активност тренутне странице од укупних бројача и показује где су Mix картице сакривене.",
+      "bullets": ["Бројачи тренутне странице", "Бочна трака гледања и завршни екран", "Само локални бројачи"]
+    },
+    "uk": {
+      "title": "Подивіться, що заблоковано",
+      "body": "Попап відокремлює активність на поточній сторінці від загальних лічильників і показує, де були приховані картки Mix.",
+      "bullets": ["Лічильники поточної сторінки", "Бічна панель перегляду й кінцева заставка", "Лише локальні лічильники"]
+    },
+    "hy": {
+      "title": "Տեսեք՝ ինչ է արգելափակվել",
+      "body": "Բացվող պատուհանը ընթացիկ էջի ակտիվությունը բաժանում է ընդհանուր հաշվիչներից և ցույց է տալիս, թե որտեղ են թաքցվել Mix քարտերը։",
+      "bullets": ["Ընթացիկ էջի հաշվիչներ", "Դիտման կողագոտի և վերջնական էկրան", "Միայն տեղային հաշվիչներ"]
+    },
+    "he": {
+      "title": "ראו מה נחסם",
+      "body": "החלון הקופץ מפריד בין הפעילות בדף הנוכחי לבין הסיכומים הכוללים ומראה איפה כרטיסי Mix הוסתרו.",
+      "bullets": ["ספירות בדף הנוכחי", "סרגל צד במסך הצפייה ומסך סיום", "מונה מקומי בלבד"]
+    },
+    "ur": {
+      "title": "دیکھیں کیا بلاک ہوا",
+      "body": "پاپ اَپ موجودہ صفحے کی سرگرمی کو کل اعداد سے الگ دکھاتا ہے اور بتاتا ہے کہ Mix کارڈز کہاں چھپائے گئے۔",
+      "bullets": ["موجودہ صفحے کی گنتی", "واچ سائیڈبار اور اختتامی اسکرین", "صرف مقامی کاؤنٹرز"]
+    },
+    "ar": {
+      "title": "اعرف ما تم حظره",
+      "body": "تفصل النافذة المنبثقة نشاط الصفحة الحالية عن الإجماليات العامة وتعرض مواضع إخفاء بطاقات Mix.",
+      "bullets": ["عدادات الصفحة الحالية", "الشريط الجانبي وشاشة النهاية", "عدادات محلية فقط"]
+    },
+    "ne": {
+      "title": "के रोकियो हेर्नुहोस्",
+      "body": "पपअपले हालको पृष्ठको गतिविधिलाई सबै समयका जम्माबाट अलग देखाउँछ र Mix कार्डहरू कहाँ लुकाइयो देखाउँछ।",
+      "bullets": ["हालको पृष्ठका गणना", "हेर्ने साइडबार र अन्त्य स्क्रिन", "स्थानीय काउन्टर मात्र"]
+    },
+    "mr": {
+      "title": "काय ब्लॉक झाले ते पहा",
+      "body": "पॉपअप सध्याच्या पानावरील क्रिया एकूण मोजण्यांपासून वेगळी दाखवते आणि Mix कार्ड कुठे लपवली गेली ते दाखवते.",
+      "bullets": ["सध्याच्या पानाची मोजणी", "पाहण्याची साइडबार आणि शेवटचा स्क्रीन", "फक्त स्थानिक काउंटर"]
+    },
+    "hi": {
+      "title": "देखें क्या ब्लॉक हुआ",
+      "body": "पॉपअप मौजूदा पेज की गतिविधि को कुल आँकड़ों से अलग दिखाता है और बताता है कि Mix कार्ड कहाँ छिपाए गए।",
+      "bullets": ["मौजूदा पेज की गिनती", "वॉच साइडबार और एंड स्क्रीन", "केवल स्थानीय काउंटर"]
+    },
+    "bn": {
+      "title": "কী ব্লক হয়েছে দেখুন",
+      "body": "পপআপ বর্তমান পেজের কার্যকলাপকে সর্বমোট হিসাব থেকে আলাদা করে এবং Mix কার্ড কোথায় লুকানো হয়েছে তা দেখায়।",
+      "bullets": ["বর্তমান পেজের গণনা", "ওয়াচ সাইডবার ও শেষ স্ক্রিন", "শুধু স্থানীয় কাউন্টার"]
+    },
+    "pa": {
+      "title": "ਦੇਖੋ ਕੀ ਬਲੌਕ ਹੋਇਆ",
+      "body": "ਪੌਪਅੱਪ ਮੌਜੂਦਾ ਪੰਨੇ ਦੀ ਗਤੀਵਿਧੀ ਨੂੰ ਕੁੱਲ ਗਿਣਤੀਆਂ ਤੋਂ ਵੱਖ ਦਿਖਾਉਂਦਾ ਹੈ ਅਤੇ ਦੱਸਦਾ ਹੈ ਕਿ Mix ਕਾਰਡ ਕਿੱਥੇ ਲੁਕਾਏ ਗਏ।",
+      "bullets": ["ਮੌਜੂਦਾ ਪੰਨੇ ਦੀਆਂ ਗਿਣਤੀਆਂ", "ਦੇਖਣ ਵਾਲੀ ਸਾਈਡਬਾਰ ਅਤੇ ਅੰਤ ਸਕ੍ਰੀਨ", "ਕੇਵਲ ਸਥਾਨਕ ਕਾਊਂਟਰ"]
+    },
+    "gu": {
+      "title": "શું બ્લોક થયું તે જુઓ",
+      "body": "પોપઅપ હાલના પેજની પ્રવૃત્તિને કુલ આંકડાઓથી અલગ બતાવે છે અને Mix કાર્ડ ક્યાં છુપાયા તે બતાવે છે.",
+      "bullets": ["હાલના પેજની ગણતરી", "વોચ સાઇડબાર અને અંતિમ સ્ક્રીન", "માત્ર સ્થાનિક કાઉન્ટર"]
+    },
+    "ta": {
+      "title": "தடுக்கப்பட்டதைப் பாருங்கள்",
+      "body": "பாப்அப் நடப்பு பக்கச் செயல்பாட்டை மொத்த எண்ணிக்கைகளிலிருந்து பிரித்து, Mix கார்டுகள் எங்கு மறைக்கப்பட்டன என்பதை காட்டுகிறது.",
+      "bullets": ["நடப்பு பக்க எண்ணிக்கைகள்", "பார்வை பக்கப்பட்டை மற்றும் இறுதி திரை", "உள்ளூர் எண்ணிகள் மட்டும்"]
+    },
+    "te": {
+      "title": "ఏవి బ్లాక్ అయ్యాయో చూడండి",
+      "body": "పాప్‌అప్ ప్రస్తుత పేజీ కార్యకలాపాన్ని మొత్తం లెక్కల నుంచి వేరుగా చూపించి, Mix కార్డులు ఎక్కడ దాచబడ్డాయో చూపిస్తుంది.",
+      "bullets": ["ప్రస్తుత పేజీ లెక్కలు", "వాచ్ సైడ్‌బార్ మరియు చివరి స్క్రీన్", "స్థానిక కౌంటర్లు మాత్రమే"]
+    },
+    "kn": {
+      "title": "ಏನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ ನೋಡಿ",
+      "body": "ಪಾಪ್‌ಅಪ್ ಪ್ರಸ್ತುತ ಪುಟದ ಚಟುವಟಿಕೆಯನ್ನು ಒಟ್ಟು ಎಣಿಕೆಗಳಿಂದ ಬೇರ್ಪಡಿಸಿ, Mix ಕಾರ್ಡ್‌ಗಳನ್ನು ಎಲ್ಲಿ ಮರೆಮಾಡಲಾಗಿದೆ ಎಂಬುದನ್ನು ತೋರಿಸುತ್ತದೆ.",
+      "bullets": ["ಪ್ರಸ್ತುತ ಪುಟದ ಎಣಿಕೆಗಳು", "ವೀಕ್ಷಣೆ ಪಕ್ಕಪಟ್ಟಿ ಮತ್ತು ಅಂತಿಮ ಪರದೆ", "ಸ್ಥಳೀಯ ಎಣಿಕೆಗಳಷ್ಟೇ"]
+    },
+    "ml": {
+      "title": "എന്താണ് തടഞ്ഞത് കാണുക",
+      "body": "പോപ്പപ്പ് നിലവിലെ പേജിലെ പ്രവർത്തനം ആകെ കണക്കുകളിൽ നിന്ന് വേർതിരിച്ച് Mix കാർഡുകൾ എവിടെ മറച്ചുവെന്ന് കാണിക്കുന്നു.",
+      "bullets": ["നിലവിലെ പേജ് കണക്കുകൾ", "വാച്ച് സൈഡ്ബാറും അവസാന സ്ക്രീനും", "പ്രാദേശിക കൗണ്ടറുകൾ മാത്രം"]
+    },
+    "si": {
+      "title": "අවහිර කළ දේ බලන්න",
+      "body": "පොප්අප් එක වත්මන් පිටුවේ ක්‍රියාකාරකම් මුළු ගණන්වලින් වෙන් කර Mix කාඩ් සඟවා ඇති තැන් පෙන්වයි.",
+      "bullets": ["වත්මන් පිටුවේ ගණන්", "නැරඹුම් පැති තීරුව සහ අවසාන තිරය", "දේශීය ගණක පමණි"]
+    },
+    "th": {
+      "title": "ดูสิ่งที่ถูกบล็อก",
+      "body": "ป๊อปอัปแยกกิจกรรมของหน้าปัจจุบันออกจากยอดรวมทั้งหมด และแสดงว่าการ์ด Mix ถูกซ่อนไว้ที่ใด",
+      "bullets": ["จำนวนของหน้าปัจจุบัน", "แถบด้านข้างการดูและหน้าจอตอนจบ", "ตัวนับในเครื่องเท่านั้น"]
+    },
+    "ka": {
+      "title": "ნახეთ, რა დაიბლოკა",
+      "body": "ამომხტარი ფანჯარა მიმდინარე გვერდის აქტივობას საერთო მთვლელებისგან გამოყოფს და აჩვენებს, სად დაიმალა Mix ბარათები.",
+      "bullets": ["მიმდინარე გვერდის მთვლელები", "ნახვის გვერდითი ზოლი და ბოლო ეკრანი", "მხოლოდ ადგილობრივი მთვლელები"]
+    },
+    "am": {
+      "title": "የታገደውን ይመልከቱ",
+      "body": "ፖፕአፑ የአሁኑን ገጽ እንቅስቃሴ ከአጠቃላይ ቁጥሮች ይለያል፣ የMix ካርዶችም የት እንደተደበቁ ያሳያል።",
+      "bullets": ["የአሁኑ ገጽ ቁጥሮች", "የእይታ ጎን አሞሌ እና የመጨረሻ ማያ", "አካባቢያዊ ቆጣሪዎች ብቻ"]
+    },
+    "zh_CN": {
+      "title": "查看已拦截内容",
+      "body": "弹出窗口会把当前页面活动与累计总数分开显示，并标出 Mix 卡片被隐藏的位置。",
+      "bullets": ["当前页面计数", "观看侧栏和结束屏幕", "仅本地计数器"]
+    },
+    "zh_TW": {
+      "title": "查看已封鎖內容",
+      "body": "彈出視窗會把目前頁面的活動與累計總數分開顯示，並標出 Mix 卡片被隱藏的位置。",
+      "bullets": ["目前頁面計數", "觀看側欄與結束畫面", "僅本機計數器"]
+    },
+    "ja": {
+      "title": "ブロック内容を確認",
+      "body": "ポップアップでは、現在のページの動作と累計を分けて表示し、Mix カードが非表示になった場所を示します。",
+      "bullets": ["現在のページの件数", "視聴サイドバーと終了画面", "ローカルカウンターのみ"]
+    },
+    "ko": {
+      "title": "차단된 항목 확인",
+      "body": "팝업은 현재 페이지 활동을 전체 누적 합계와 구분해 보여주고, Mix 카드가 숨겨진 위치를 표시합니다.",
+      "bullets": ["현재 페이지 카운트", "시청 사이드바와 종료 화면", "로컬 카운터만 사용"]
+    }
+  }
+}

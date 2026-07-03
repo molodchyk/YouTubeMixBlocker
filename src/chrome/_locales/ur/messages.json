@@ -15,6 +15,18 @@
     "message": "خاموشی سے فعال",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "موجودہ صفحہ",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "کل",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "کل، علاقے کے لحاظ سے",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "بلاک کیے گئے Mix کارڈز",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "یہ صفحہ",
-    "description": "Current page counter label."
+    "message": "چھپائی گئی Mix فہرستیں",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "چھپائے گئے Mix کارڈز",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "اس صفحے پر چھپایا گیا",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "چھپائی گئی Mix فہرستیں",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "تجاویز",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "واچ سائیڈ بار",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "اختتامی اسکرین",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "اس صفحے کے لیے بیج کاؤنٹ دکھائیں",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "تفصیلی تقسیم دکھائیں",
-    "description": "Setting label for detailed counters."
+    "message": "علاقے کے لحاظ سے تفصیل دکھائیں",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "کاؤنٹرز ری سیٹ کریں",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "کیا YouTube Mix Blocker کے تمام کاؤنٹرز ری سیٹ کر دیے جائیں؟",

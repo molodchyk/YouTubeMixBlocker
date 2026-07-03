@@ -15,6 +15,18 @@
     "message": "ทำงานอย่างเงียบ ๆ",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "หน้าปัจจุบัน",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "ตลอดเวลา",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "ตลอดเวลาตามพื้นที่",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "การ์ด Mix ที่บล็อก",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "หน้านี้",
-    "description": "Current page counter label."
+    "message": "รายการ Mix ที่ซ่อน",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "การ์ด Mix ที่ซ่อน",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "ซ่อนในหน้านี้",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "รายการ Mix ที่ซ่อน",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "คำแนะนำ",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "แถบข้างหน้าดูวิดีโอ",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "หน้าจอท้ายวิดีโอ",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "แสดงจำนวนบนป้ายสำหรับหน้านี้",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "แสดงรายละเอียด",
-    "description": "Setting label for detailed counters."
+    "message": "แสดงรายละเอียดตามพื้นที่",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "รีเซ็ตตัวนับ",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "รีเซ็ตตัวนับทั้งหมดของ YouTube Mix Blocker?",

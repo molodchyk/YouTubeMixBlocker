@@ -15,6 +15,18 @@
     "message": "Pokojne aktívny",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "Aktuálna stránka",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "Celkovo",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "Celkovo podľa oblasti",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "Mix karty sú zablokované",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "Táto stránka",
-    "description": "Current page counter label."
+    "message": "Skryté zoznamy Mix",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "Skryté karty Mix",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "Skryté na tejto stránke",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "Skryté zoznamy Mix",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "Odporúčania",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "Sledovať bočný panel",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "Záverečná obrazovka",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "Zobraziť počet odznakov pre túto stránku",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "Zobraziť podrobný rozpis",
-    "description": "Setting label for detailed counters."
+    "message": "Zobraziť rozdelenie podľa oblasti",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "Vynulovať počítadlá",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "Chcete resetovať všetky počítadlá YouTube Mix Blocker?",

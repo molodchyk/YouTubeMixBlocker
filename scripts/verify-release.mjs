@@ -132,6 +132,8 @@ function verifyNoSecretArtifacts() {
 
 runNodeScript("verify-locales.mjs");
 runNodeScript("verify-manifest.mjs");
+runNodeScript("qa-store-screenshot-copy.mjs");
+runNodeScript("verify-store-media.mjs");
 verifyReleaseZips();
 verifyNoSecretArtifacts();
 

@@ -6,9 +6,59 @@
 /* ---------- MIX DETECTION ---------- */
 
 const blockedMixKeys = new Set();
+const mixBlockerStyleId = "youtube-mix-blocker-player-styles";
+
+function installMixBlockingStyles() {
+  if (document.getElementById(mixBlockerStyleId)) return;
+
+  const style = document.createElement("style");
+  style.id = mixBlockerStyleId;
+  style.textContent = `
+    #movie_player a.ytp-modern-videowall-still[href*="?list=RD"],
+    #movie_player a.ytp-modern-videowall-still[href*="&list=RD"],
+    #movie_player a.ytp-modern-videowall-still[data-mix-blocked="true"],
+    #movie_player a.ytp-videowall-still[href*="?list=RD"],
+    #movie_player a.ytp-videowall-still[href*="&list=RD"],
+    #movie_player a.ytp-videowall-still[data-mix-blocked="true"] {
+      display: none !important;
+      visibility: hidden !important;
+      pointer-events: none !important;
+    }
+  `;
+
+  document.documentElement.append(style);
+}
+
+function getMixListId(url) {
+  try {
+    const parsedURL = new URL(url, window.location.href);
+    const listId = parsedURL.searchParams.get("list") || "";
+
+    return listId.startsWith("RD") ? listId : "";
+  } catch (_error) {
+    return /[?&]list=RD/.test(url) ? "RD" : "";
+  }
+}
 
 function isMixURL(url) {
-  return /[?&]list=RD/.test(url);
+  return Boolean(getMixListId(url));
+}
+
+function withMixBlockerStyleDisabled(callback) {
+  const style = document.getElementById(mixBlockerStyleId);
+  const wasDisabled = style && style.disabled;
+
+  if (style) {
+    style.disabled = true;
+  }
+
+  try {
+    return callback();
+  } finally {
+    if (style) {
+      style.disabled = wasDisabled;
+    }
+  }
 }
 
 function getMixKey(url) {
@@ -20,6 +70,22 @@ function getMixKey(url) {
     return `${videoId}|${listId}`;
   } catch (_error) {
     return url;
+  }
+}
+
+function getMixURLDetails(url) {
+  try {
+    const parsedURL = new URL(url, window.location.href);
+
+    return {
+      videoId: parsedURL.searchParams.get("v") || "",
+      listId: parsedURL.searchParams.get("list") || ""
+    };
+  } catch (_error) {
+    return {
+      videoId: "",
+      listId: getMixListId(url)
+    };
   }
 }
 
@@ -43,11 +109,143 @@ function getCurrentSurface() {
   return "recommendations";
 }
 
-function reportMixBlocked(surface) {
+function findEndScreenSuggestion(element) {
+  return element.closest(
+    "a.ytp-modern-videowall-still, " +
+    "a.ytp-videowall-still"
+  );
+}
+
+function getLinkSurface(link) {
+  if (findEndScreenSuggestion(link)) {
+    return "endScreen";
+  }
+
+  return getCurrentSurface();
+}
+
+function hideEndScreenSuggestion(element) {
+  element.hidden = true;
+  element.setAttribute("aria-hidden", "true");
+  element.removeAttribute("href");
+  element.removeAttribute("target");
+  element.style.setProperty("display", "none", "important");
+  element.style.setProperty("visibility", "hidden", "important");
+  element.style.setProperty("pointer-events", "none", "important");
+}
+
+function getTextSummary(value) {
+  return (value || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 160);
+}
+
+function getEndScreenPositionInfo(link) {
+  const endScreenSuggestion = findEndScreenSuggestion(link);
+  const parent = endScreenSuggestion && endScreenSuggestion.parentElement;
+
+  if (!endScreenSuggestion || !parent) {
+    return null;
+  }
+
+  const selector = "a.ytp-modern-videowall-still, a.ytp-videowall-still";
+  const grid = parent.closest(
+    ".ytp-fullscreen-grid, " +
+    ".ytp-endscreen-content, " +
+    ".ytp-videowall, " +
+    ".ytp-modern-videowall"
+  );
+  const moviePlayer = document.getElementById("movie_player");
+  const directSlots = Array.from(parent.children)
+    .filter(child => child.matches && child.matches(selector));
+  const slots = directSlots.length > 0 ? directSlots : Array.from(parent.querySelectorAll(selector));
+  const mixSlots = slots.filter(slot => isMixURL(slot.getAttribute("href") || slot.href || ""));
+  const slotIndex = slots.indexOf(endScreenSuggestion);
+  const mixSlotIndex = mixSlots.indexOf(endScreenSuggestion);
+
+  if (slotIndex === -1) {
+    return null;
+  }
+
+  const visibility = withMixBlockerStyleDisabled(() => {
+    const visibleSlots = slots.filter(isVisibleBox);
+    const visibleMixSlots = visibleSlots.filter(slot => isMixURL(slot.getAttribute("href") || slot.href || ""));
+
+    return {
+      visibleSlots,
+      visibleMixSlots,
+      visibleSlotIndex: visibleSlots.indexOf(endScreenSuggestion),
+      visibleMixSlotIndex: visibleMixSlots.indexOf(endScreenSuggestion),
+      slotVisible: isVisibleBox(endScreenSuggestion),
+      containerVisible: isVisibleBox(parent),
+      gridVisible: isVisibleBox(grid || parent)
+    };
+  });
+
+  return {
+    slot: slotIndex + 1,
+    totalSlots: slots.length,
+    visibleSlot: visibility.visibleSlotIndex === -1 ? 0 : visibility.visibleSlotIndex + 1,
+    totalVisibleSlots: visibility.visibleSlots.length,
+    mixSlot: mixSlotIndex === -1 ? 0 : mixSlotIndex + 1,
+    totalMixSlots: mixSlots.length,
+    visibleMixSlot: visibility.visibleMixSlotIndex === -1 ? 0 : visibility.visibleMixSlotIndex + 1,
+    totalVisibleMixSlots: visibility.visibleMixSlots.length,
+    slotVisible: visibility.slotVisible,
+    containerVisible: visibility.containerVisible,
+    gridVisible: visibility.gridVisible,
+    moviePlayerClasses: getTextSummary(moviePlayer && moviePlayer.className)
+  };
+}
+
+function getMixDebugInfo(link, surface) {
+  const { videoId, listId } = getMixURLDetails(link.href);
+  const signals = ["url:list=RD"];
+  const endScreenSuggestion = findEndScreenSuggestion(link);
+  const position = surface === "endScreen" ? getEndScreenPositionInfo(link) : null;
+
+  if (endScreenSuggestion) {
+    signals.push("surface:player-videowall");
+  }
+
+  if (position) {
+    signals.push(`slot:end-screen:${position.slot}/${position.totalSlots}`);
+  }
+
+  if (link.getAttribute("data-is-mix") === "true") {
+    signals.push("attribute:data-is-mix");
+  }
+
+  if (
+    link.querySelector(
+      ".ytp-modern-videowall-still-listlabel-mix, " +
+      ".ytp-videowall-still-listlabel-mix"
+    )
+  ) {
+    signals.push("label:mix-badge");
+  }
+
+  return {
+    surface,
+    signals,
+    observedAt: new Date().toISOString(),
+    pageUrl: window.location.href,
+    pageTitle: document.title,
+    videoId,
+    listId,
+    position,
+    label: getTextSummary(link.getAttribute("aria-label") || link.textContent),
+    url: link.href
+  };
+}
+
+function reportMixBlocked(surface, details) {
   try {
     sendRuntimeMessage({
       type: "mix-blocked",
-      surface
+      surface,
+      details
     });
   } catch (_error) {
     // The extension was reloaded while this content script was still alive.
@@ -75,6 +273,12 @@ function findCardContainer(link) {
 /* ---------- RENDERER-LEVEL RESOLUTION ---------- */
 
 function findRendererContainer(element) {
+  const endScreenSuggestion = findEndScreenSuggestion(element);
+
+  if (endScreenSuggestion) {
+    return endScreenSuggestion;
+  }
+
   const richGridItem = element.closest("ytd-rich-item-renderer");
 
   if (richGridItem && !isWatchPage()) {
@@ -315,13 +519,24 @@ function compactHomeGridAround(element) {
   });
 }
 
-function markAndRemove(el, debugURL, surface, mixKey) {
-  if (!el || el.hasAttribute("data-mix-blocked")) return false;
+function markAndRemove(el, debugInfo, surface, mixKey) {
+  if (!el) return false;
+
+  if (el.hasAttribute("data-mix-blocked")) {
+    if (surface === "endScreen") {
+      hideEndScreenSuggestion(el);
+    }
+
+    return false;
+  }
 
   el.setAttribute("data-mix-blocked", "true");
-  const isNewMix = !blockedMixKeys.has(mixKey);
+  const statsKey = `${surface}|${mixKey}`;
+  const isNewMix = !blockedMixKeys.has(statsKey);
 
-  if (shouldSoftCollapse(el)) {
+  if (surface === "endScreen") {
+    hideEndScreenSuggestion(el);
+  } else if (shouldSoftCollapse(el)) {
     el.hidden = true;
     el.style.setProperty("display", "none", "important");
   } else {
@@ -329,13 +544,13 @@ function markAndRemove(el, debugURL, surface, mixKey) {
   }
 
   if (isNewMix) {
-    blockedMixKeys.add(mixKey);
-    reportMixBlocked(surface);
+    blockedMixKeys.add(statsKey);
+    reportMixBlocked(surface, debugInfo);
   }
 
   compactHomeGridAround(el);
 
-  console.log(isNewMix ? "Mix removed and reported:" : "Mix removed again:", debugURL);
+  console.log(isNewMix ? "Mix removed and reported:" : "Mix removed again:", debugInfo);
   return true;
 }
 
@@ -343,11 +558,13 @@ function handleMixLink(link) {
   if (!isMixURL(link.href)) return false;
 
   const mixKey = getMixKey(link.href);
+  const surface = getLinkSurface(link);
+  const debugInfo = getMixDebugInfo(link, surface);
 
   /* Prefer renderer removal (prevents gaps) */
   const renderer = findRendererContainer(link);
   if (renderer) {
-    return markAndRemove(renderer, link.href, getCurrentSurface(), mixKey);
+    return markAndRemove(renderer, debugInfo, surface, mixKey);
   }
 
   if (isWatchPage()) {
@@ -357,7 +574,7 @@ function handleMixLink(link) {
   /* Fallback to heuristic container (old resilience) */
   const heuristic = findCardContainer(link);
   if (heuristic) {
-    return markAndRemove(heuristic, link.href, getCurrentSurface(), mixKey);
+    return markAndRemove(heuristic, debugInfo, surface, mixKey);
   }
 
   return false;
@@ -366,7 +583,10 @@ function handleMixLink(link) {
 function scanForMixes(root = document) {
   if (!root.querySelectorAll) return;
 
-  const links = root.querySelectorAll("a[href]");
+  const links = [
+    ...(root.matches && root.matches("a[href]") ? [root] : []),
+    ...root.querySelectorAll("a[href]")
+  ];
   let removed = 0;
 
   links.forEach(link => {
@@ -563,4 +783,5 @@ observePageChanges(scanForMixes);
 watchNavigation(onNavigation, getCleanMixURLValue);
 
 /* Initial execution */
+installMixBlockingStyles();
 onNavigation();

@@ -15,6 +15,18 @@
     "message": "安靜運作中",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "目前頁面",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "所有時間",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "依位置統計",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "已封鎖的 Mix 卡片",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "此頁面",
-    "description": "Current page counter label."
+    "message": "已隱藏的 Mix 清單",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "已隱藏的 Mix 卡片",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "此頁面已隱藏",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "已隱藏的 Mix 清單",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "推薦內容",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "觀看頁側邊欄",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "結束畫面",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "顯示此頁面的徽章計數",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "顯示詳細分類",
-    "description": "Setting label for detailed counters."
+    "message": "顯示依位置分類的明細",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "重設計數器",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "要重設所有 YouTube Mix Blocker 計數器嗎？",

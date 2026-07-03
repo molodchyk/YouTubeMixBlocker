@@ -4,11 +4,21 @@
   "scripts": {
     "build": "node scripts/build-content.mjs",
     "sync:chrome-locales": "node scripts/sync-chrome-locales.mjs",
+    "sync:store-screenshot-globals": "node scripts/sync-store-screenshot-globals.mjs",
+    "render:store-screenshots": "node scripts/render-store-screenshots.mjs",
+    "render:store-screenshots:preview": "node scripts/render-store-screenshots.mjs --locales=en --slots=01 --output=store-listing/chrome-web-store/media/screenshots/source/render-preview",
+    "render:store-screenshots:popup-preview": "node scripts/render-store-screenshots.mjs --locales=en --slots=02 --output=store-listing/chrome-web-store/media/screenshots/source/render-preview",
+    "render:store-screenshots:preview-all": "node scripts/render-store-screenshots.mjs --all-locales --output=store-listing/chrome-web-store/media/screenshots/source/render-preview",
+    "render:store-screenshots:all": "node scripts/render-store-screenshots.mjs --all-locales",
+    "qa:store-screenshot-copy": "node scripts/qa-store-screenshot-copy.mjs",
+    "verify:store-screenshot-layout": "node scripts/render-store-screenshots.mjs --all-locales --slots=01,02 --audit-layout-only",
     "verify:locales": "node scripts/verify-locales.mjs",
     "verify:manifest": "node scripts/verify-manifest.mjs",
+    "verify:store-media": "node scripts/verify-store-media.mjs",
+    "verify:store-media:all-locales": "node scripts/verify-store-media.mjs --require-all-screenshot-locales",
     "verify:release": "node scripts/verify-release.mjs",
     "package": "npm run build && powershell -NoProfile -ExecutionPolicy Bypass -Command \"New-Item -ItemType Directory -Force -Path 'release' | Out-Null; Get-ChildItem 'release' -Filter 'youtube-mix-blocker-*.zip' | Remove-Item -Force; Compress-Archive -Path 'dist/*' -DestinationPath 'release/youtube-mix-blocker-chrome-1.5.3.zip'\"",
     "package:chrome": "npm run package",
-    "check": "npm run build && npm run verify:locales && npm run verify:manifest && npm run verify:release && node --check scripts/build-content.mjs && node --check scripts/sync-chrome-locales.mjs && node --check scripts/verify-locales.mjs && node --check scripts/verify-manifest.mjs && node --check scripts/verify-release.mjs && node --check dist/content.js && node --check dist/background.js && node --check dist/popup/popup.js"
+    "check": "npm run build && npm run verify:locales && npm run verify:manifest && npm run qa:store-screenshot-copy && npm run verify:store-media && npm run verify:release && node --check scripts/build-content.mjs && node --check scripts/chrome-locales.mjs && node --check scripts/qa-store-screenshot-copy.mjs && node --check scripts/render-store-screenshots.mjs && node --check scripts/sync-chrome-locales.mjs && node --check scripts/sync-store-screenshot-globals.mjs && node --check scripts/verify-locales.mjs && node --check scripts/verify-manifest.mjs && node --check scripts/verify-store-media.mjs && node --check scripts/verify-release.mjs && node --check dist/content.js && node --check dist/background.js && node --check dist/popup/popup.js"
   }
 }

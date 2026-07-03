@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "fallbackLocale": "en",
+  "localeSet": "chrome-web-store-visible-66",
+  "policy": {
+    "maxScreenshotsPerLocale": 5,
+    "localeFoldersMustMatchFallback": true,
+    "allowedDimensions": [
+      {
+        "width": 1280,
+        "height": 800
+      },
+      {
+        "width": 640,
+        "height": 400
+      }
+    ],
+    "allowedExtensions": [
+      ".png",
+      ".jpg",
+      ".jpeg"
+    ],
+    "pngScreenshotsMustBe24BitNoAlpha": true
+  },
+  "storeIcon": {
+    "path": "../../../../src/icons/icon-128.png",
+    "width": 128,
+    "height": 128
+  },
+  "slots": [
+    {
+      "id": "01",
+      "file": "01-hide-youtube-mix-cards-1280x800.png",
+      "width": 1280,
+      "height": 800,
+      "mode": "render-template",
+      "template": "hide-youtube-mix-cards",
+      "copy": "copy/01-hide-youtube-mix-cards.json",
+      "purpose": "Primary behavior screenshot: Mix cards are hidden while YouTube remains otherwise unchanged."
+    },
+    {
+      "id": "02",
+      "file": "02-popup-current-page-counters-1280x800.png",
+      "width": 1280,
+      "height": 800,
+      "mode": "render-template",
+      "template": "popup-current-page-counters",
+      "copy": "copy/02-popup-current-page-counters.json",
+      "purpose": "Popup current-page counters, all-time totals, and area breakdown."
+    },
+    {
+      "id": "03",
+      "file": "03-mix-badge-example-1280x800.png",
+      "width": 1280,
+      "height": 800,
+      "mode": "copy-reference",
+      "purpose": "Example Mix card badge targeted by the extension."
+    }
+  ]
+}

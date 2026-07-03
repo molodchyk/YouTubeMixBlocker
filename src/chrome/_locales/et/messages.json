@@ -15,6 +15,18 @@
     "message": "Vaikselt aktiivne",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "Praegune leht",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "Kogu aeg",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "Kogu aeg ala järgi",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "Segakaardid blokeeritud",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "See leht",
-    "description": "Current page counter label."
+    "message": "Peidetud Mixi loendid",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "Peidetud Mixi kaardid",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "Sellel lehel peidetud",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "Peidetud Mixi loendid",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "Soovitused",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "Kella külgriba",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "Lõpuekraan",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "Kuva selle lehe märkide arv",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "Kuva üksikasjalik jaotus",
-    "description": "Setting label for detailed counters."
+    "message": "Kuva jaotus ala järgi",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "Nulli loendurid",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "Kas lähtestada kõik YouTube'i segude blokeerija loendurid?",

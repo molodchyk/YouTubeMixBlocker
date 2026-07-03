@@ -15,6 +15,18 @@
     "message": "Tiho aktiven",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "Trenutna stran",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "Skupaj",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "Skupaj po območju",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "Mešane kartice so blokirane",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "Ta stran",
-    "description": "Current page counter label."
+    "message": "Skriti seznami Mix",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "Skrite kartice Mix",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "Skrito na tej strani",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "Skriti seznami Mix",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "Priporočila",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "Oglejte si stransko vrstico",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "Končni zaslon",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "Pokaži število značk za to stran",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "Prikaži podrobno razčlenitev",
-    "description": "Setting label for detailed counters."
+    "message": "Prikaži razčlenitev po območju",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "Ponastavi števce",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "Ponastaviti vse števce YouTube Mix Blocker?",

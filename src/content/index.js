@@ -42,4 +42,5 @@ observePageChanges(scanForMixes);
 watchNavigation(onNavigation, getCleanMixURLValue);
 
 /* Initial execution */
+installMixBlockingStyles();
 onNavigation();

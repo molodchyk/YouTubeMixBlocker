@@ -15,6 +15,18 @@
     "message": "നിശബ്ദമായി സജീവമായി",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "നിലവിലെ പേജ്",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "എല്ലാ സമയവും",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "എല്ലാ സമയവും മേഖല പ്രകാരം",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "മിക്സ് കാർഡുകൾ ബ്ലോക്ക് ചെയ്തു",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "ഈ പേജ്",
-    "description": "Current page counter label."
+    "message": "മറച്ച Mix ലിസ്റ്റുകൾ",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "മറച്ച Mix കാർഡുകൾ",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "ഈ പേജിൽ മറച്ചത്",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "മറച്ച Mix ലിസ്റ്റുകൾ",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "ശുപാർശകൾ",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "സൈഡ്‌ബാർ കാണുക",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "അവസാന സ്ക്രീൻ",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "ഈ പേജിൻ്റെ ബാഡ്ജ് എണ്ണം കാണിക്കുക",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "വിശദമായ തകർച്ച കാണിക്കുക",
-    "description": "Setting label for detailed counters."
+    "message": "മേഖലപ്രകാരമുള്ള വിഭജനം കാണിക്കുക",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "കൗണ്ടറുകൾ പുനഃസജ്ജമാക്കുക",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "എല്ലാ YouTube മിക്‌സ് ബ്ലോക്കർ കൗണ്ടറുകളും റീസെറ്റ് ചെയ്യണോ?",

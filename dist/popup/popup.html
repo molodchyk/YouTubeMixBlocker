@@ -13,33 +13,53 @@
         <p id="status" data-i18n="popupStatus">Quietly active</p>
       </header>
 
+      <section class="page-panel" aria-labelledby="currentPageHeading">
+        <div class="section-label" id="currentPageHeading" data-i18n="popupCurrentPage">Current page</div>
+        <div class="page-primary">
+          <span data-i18n="popupThisPage">Mix lists hidden</span>
+          <strong id="currentPageBlocked">0</strong>
+        </div>
+        <div class="page-secondary">
+          <span data-i18n="popupBlockedPlacements">Mix cards hidden</span>
+          <strong id="pageBlockedPlacements">0</strong>
+        </div>
+        <div id="pageSurfaceBreakdown" class="surface-chips"></div>
+        <details id="currentPageDetails" class="page-debug">
+          <summary data-i18n="popupPageEvidence">Hidden on this page</summary>
+          <ol id="currentPageItems" class="page-items"></ol>
+          <button id="copyPageLog" class="secondary-button" type="button" data-i18n="popupCopyPageLog">Copy page log</button>
+        </details>
+      </section>
+
       <section class="summary" aria-label="Summary">
+        <div class="section-label" data-i18n="popupAllTime">All time</div>
         <div>
-          <span class="label" data-i18n="popupMixCardsBlocked">Mix cards blocked</span>
+          <span class="label" data-i18n="popupMixCardsBlocked">Mix cards blocked total</span>
           <strong id="totalBlocked">0</strong>
         </div>
         <div>
           <span class="label" data-i18n="popupMixUrlsCleaned">Mix URLs cleaned</span>
           <strong id="urlsCleaned">0</strong>
         </div>
-        <div>
-          <span class="label" data-i18n="popupThisPage">This page</span>
-          <strong id="currentPageBlocked">0</strong>
-        </div>
       </section>
 
       <section id="details" class="details" aria-label="Breakdown">
+        <div class="section-label" data-i18n="popupAllTimeByArea">All time by area</div>
         <div>
           <span data-i18n="popupRecommendations">Recommendations</span>
           <strong id="recommendationsBlocked">0</strong>
         </div>
         <div>
-          <span data-i18n="popupSearchResults">Search results</span>
-          <strong id="searchBlocked">0</strong>
-        </div>
-        <div>
           <span data-i18n="popupWatchSidebar">Watch sidebar</span>
           <strong id="watchSidebarBlocked">0</strong>
+        </div>
+        <div>
+          <span data-i18n="popupEndScreen">End screen</span>
+          <strong id="endScreenBlocked">0</strong>
+        </div>
+        <div>
+          <span data-i18n="popupSearchResults">Search results</span>
+          <strong id="searchBlocked">0</strong>
         </div>
       </section>
 
@@ -58,7 +78,7 @@
         </label>
         <label>
           <input id="showDetailedCounters" type="checkbox">
-          <span data-i18n="popupShowDetails">Show detailed breakdown</span>
+          <span data-i18n="popupShowDetails">Show area breakdown</span>
         </label>
       </section>
 

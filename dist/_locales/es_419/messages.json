@@ -15,6 +15,18 @@
     "message": "silenciosamente activo",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "Página actual",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "Todo el tiempo",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "Todo el tiempo por zona",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "Tarjetas mixtas bloqueadas",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "esta pagina",
-    "description": "Current page counter label."
+    "message": "Listas Mix ocultas",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "Tarjetas Mix ocultas",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "Oculto en esta página",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "Listas Mix ocultas",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "Recomendaciones",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "Ver barra lateral",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "Pantalla final",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "Mostrar recuento de insignias para esta página",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "Mostrar desglose detallado",
-    "description": "Setting label for detailed counters."
+    "message": "Mostrar desglose por zona",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "Restablecer contadores",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "¿Restablecer todos los contadores de YouTube Mix Blocker?",

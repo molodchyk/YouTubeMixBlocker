@@ -15,6 +15,18 @@
     "message": "শান্তভাবে সক্রিয়",
     "description": "Popup status text."
   },
+  "popupCurrentPage": {
+    "message": "বর্তমান পৃষ্ঠা",
+    "description": "Current page section heading."
+  },
+  "popupAllTime": {
+    "message": "সব সময়",
+    "description": "All-time counter section heading."
+  },
+  "popupAllTimeByArea": {
+    "message": "সব সময়, স্থান অনুযায়ী",
+    "description": "All-time surface breakdown section heading."
+  },
   "popupMixCardsBlocked": {
     "message": "মিক্স কার্ড ব্লক করা হয়েছে",
     "description": "Total blocked Mix card counter label."
@@ -24,8 +36,20 @@
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {
-    "message": "এই পাতা",
-    "description": "Current page counter label."
+    "message": "লুকানো Mix তালিকা",
+    "description": "Counts distinct Mix playlist IDs hidden on the current page."
+  },
+  "popupBlockedPlacements": {
+    "message": "লুকানো Mix কার্ড",
+    "description": "Counts every Mix card hidden on the current page, including repeat appearances of the same Mix list."
+  },
+  "popupPageEvidence": {
+    "message": "এই পৃষ্ঠায় লুকানো",
+    "description": "Expandable current page evidence section label."
+  },
+  "popupUniqueMixLists": {
+    "message": "লুকানো Mix তালিকা",
+    "description": "Short label for distinct Mix playlist IDs hidden on the current page."
   },
   "popupRecommendations": {
     "message": "সুপারিশ",
@@ -38,6 +62,10 @@
   "popupWatchSidebar": {
     "message": "সাইডবার দেখুন",
     "description": "Watch page sidebar counter label."
+  },
+  "popupEndScreen": {
+    "message": "শেষ স্ক্রিন",
+    "description": "End-of-video player suggestions counter label."
   },
   "popupShowBadge": {
     "message": "এই পৃষ্ঠার জন্য ব্যাজ গণনা দেখান",
@@ -60,12 +88,24 @@
     "description": "Use dark theme."
   },
   "popupShowDetails": {
-    "message": "বিস্তারিত ব্রেকডাউন দেখান",
-    "description": "Setting label for detailed counters."
+    "message": "এলাকা অনুযায়ী বিভাজন দেখান",
+    "description": "Setting label for the optional all-time area breakdown."
   },
   "popupResetCounters": {
     "message": "কাউন্টার রিসেট করুন",
     "description": "Button label for resetting all counters."
+  },
+  "popupCopyPageLog": {
+    "message": "Copy page log",
+    "description": "Button label for copying the current page debug log."
+  },
+  "popupCopied": {
+    "message": "Copied",
+    "description": "Temporary button label after copying the current page debug log."
+  },
+  "popupCopyFailed": {
+    "message": "Copy failed",
+    "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {
     "message": "সমস্ত YouTube মিক্স ব্লকার কাউন্টার রিসেট করবেন?",

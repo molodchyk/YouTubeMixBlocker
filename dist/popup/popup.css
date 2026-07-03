@@ -2,54 +2,66 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 340px;
-  margin: 0;
-  color: var(--text-primary);
-  background: var(--background);
-  font: 14px/1.4 Arial, sans-serif;
-}
-
 :root,
 :root[data-theme="light"] {
   color-scheme: light;
-  --background: #ffffff;
-  --text-primary: #161616;
-  --text-secondary: #555555;
-  --text-muted: #666666;
-  --border: #e5e5e5;
-  --button-background: #f7f7f7;
-  --button-background-hover: #eeeeee;
-  --button-border: #d0d0d0;
+  --background: #f6f8fb;
+  --panel: #ffffff;
+  --panel-strong: #f2f6f8;
+  --text-primary: #111827;
+  --text-secondary: #394454;
+  --text-muted: #687385;
+  --border: #dce3ec;
+  --accent: #0f9f95;
+  --accent-soft: #e0f7f4;
+  --button-background: #ffffff;
+  --button-background-hover: #eef3f7;
+  --button-border: #c9d3df;
   --control-background: #ffffff;
 }
 
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --background: #1f1f1f;
-  --text-primary: #f4f4f4;
-  --text-secondary: #d0d0d0;
-  --text-muted: #aaaaaa;
-  --border: #3a3a3a;
-  --button-background: #2b2b2b;
-  --button-background-hover: #353535;
-  --button-border: #4a4a4a;
-  --control-background: #262626;
+  --background: #111418;
+  --panel: #181d23;
+  --panel-strong: #20262d;
+  --text-primary: #f4f7fa;
+  --text-secondary: #d3dbe5;
+  --text-muted: #9da8b6;
+  --border: #303946;
+  --accent: #6ee7d8;
+  --accent-soft: rgba(110, 231, 216, 0.13);
+  --button-background: #20262d;
+  --button-background-hover: #29313a;
+  --button-border: #3a4553;
+  --control-background: #151a20;
 }
 
 @media (prefers-color-scheme: dark) {
   :root[data-theme="system"] {
     color-scheme: dark;
-    --background: #1f1f1f;
-    --text-primary: #f4f4f4;
-    --text-secondary: #d0d0d0;
-    --text-muted: #aaaaaa;
-    --border: #3a3a3a;
-    --button-background: #2b2b2b;
-    --button-background-hover: #353535;
-    --button-border: #4a4a4a;
-    --control-background: #262626;
+    --background: #111418;
+    --panel: #181d23;
+    --panel-strong: #20262d;
+    --text-primary: #f4f7fa;
+    --text-secondary: #d3dbe5;
+    --text-muted: #9da8b6;
+    --border: #303946;
+    --accent: #6ee7d8;
+    --accent-soft: rgba(110, 231, 216, 0.13);
+    --button-background: #20262d;
+    --button-background-hover: #29313a;
+    --button-border: #3a4553;
+    --control-background: #151a20;
   }
+}
+
+body {
+  width: 400px;
+  margin: 0;
+  color: var(--text-primary);
+  background: var(--background);
+  font: 14px/1.4 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 main {
@@ -57,12 +69,12 @@ main {
 }
 
 header {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
 }
 
 h1 {
   margin: 0;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.2;
 }
 
@@ -71,22 +83,187 @@ p {
   color: var(--text-muted);
 }
 
+.page-panel {
+  padding: 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--panel);
+}
+
+.section-label {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.page-primary {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 8px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.page-primary span {
+  min-width: 0;
+  color: var(--text-primary);
+  font-size: 15px;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.page-primary strong {
+  flex: 0 0 auto;
+  color: var(--accent);
+  font-size: 42px;
+  line-height: 0.9;
+}
+
+.page-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 30px;
+  color: var(--text-secondary);
+}
+
+.page-secondary span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.page-secondary strong {
+  flex: 0 0 auto;
+  font-size: 17px;
+}
+
+.surface-chips {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.surface-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 32px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-secondary);
+  background: var(--panel-strong);
+  font-size: 12px;
+}
+
+.surface-chip span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.surface-chip strong {
+  flex: 0 0 auto;
+  color: var(--text-primary);
+  font-size: 14px;
+}
+
+.page-debug {
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+}
+
+.page-debug summary {
+  color: var(--text-secondary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.page-debug summary:hover {
+  color: var(--text-primary);
+}
+
+.page-debug[open] summary {
+  margin-bottom: 8px;
+}
+
+.page-items {
+  display: grid;
+  gap: 7px;
+  max-height: 162px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  list-style: none;
+}
+
+.page-items li {
+  padding: 8px 9px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--panel-strong);
+}
+
+.page-item-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.page-item-title {
+  min-width: 0;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.page-item-count {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 22px;
+  padding: 0 6px;
+  border-radius: 6px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 13px;
+}
+
+.page-item-meta {
+  display: block;
+  margin-top: 3px;
+  color: var(--text-muted);
+  font-size: 12px;
+  overflow-wrap: anywhere;
+}
+
 .summary,
 .details,
 .settings {
-  border-top: 1px solid #e5e5e5;
-  border-top-color: var(--border);
+  margin-top: 14px;
   padding-top: 12px;
-  margin-top: 12px;
+  border-top: 1px solid var(--border);
 }
 
-.summary > div,
-.details > div {
+.summary > div:not(.section-label),
+.details > div:not(.section-label) {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   gap: 16px;
-  min-height: 28px;
+  min-height: 26px;
+}
+
+.summary .section-label,
+.details .section-label {
+  margin-bottom: 6px;
 }
 
 .label,
@@ -96,7 +273,8 @@ p {
   overflow-wrap: anywhere;
 }
 
-strong {
+.summary strong,
+.details strong {
   flex: 0 0 auto;
   font-size: 16px;
 }
@@ -121,7 +299,8 @@ label span,
 input {
   width: 16px;
   height: 16px;
-  margin: 0;
+  margin: 2px 0 0;
+  accent-color: var(--accent);
 }
 
 select {
@@ -151,11 +330,17 @@ button {
   color: var(--text-primary);
   background: var(--button-background);
   font: inherit;
+  font-weight: 600;
   cursor: pointer;
 }
 
 button:hover {
   background: var(--button-background-hover);
+}
+
+.secondary-button {
+  min-height: 32px;
+  margin-top: 10px;
 }
 
 .hidden {

@@ -1,0 +1,468 @@
+{
+  "version": 1,
+  "slot": "01",
+  "locales": {
+    "de": {
+      "title": "Mix-Karten auf YouTube ausblenden",
+      "body": "Blendet von YouTube erzeugte Mix-Empfehlungen aus. Der Rest von YouTube bleibt unverändert.",
+      "bullets": ["Kein Feed-Ersatz", "Keine eigenen Empfehlungen", "Lokal auf YouTube-Seiten"],
+      "noteTitle": "Gezieltes Blockieren",
+      "noteBody": "Mix-Karten ausgeblendet. Der Rest von YouTube bleibt unverändert."
+    },
+    "en": {
+      "title": "Hide YouTube Mix cards",
+      "body": "It hides YouTube-generated Mix recommendations. The rest of YouTube stays unchanged.",
+      "bullets": ["No feed replacement", "No custom recommendations", "Local on YouTube pages"],
+      "noteTitle": "Targeted blocking",
+      "noteBody": "Mix cards hidden. The rest of YouTube stays unchanged."
+    },
+    "en_AU": {
+      "title": "Hide YouTube Mix cards",
+      "body": "It hides YouTube-generated Mix recommendations. The rest of YouTube stays unchanged.",
+      "bullets": ["No feed replacement", "No custom recommendations", "Local on YouTube pages"],
+      "noteTitle": "Targeted blocking",
+      "noteBody": "Mix cards hidden. The rest of YouTube stays unchanged."
+    },
+    "en_GB": {
+      "title": "Hide YouTube Mix cards",
+      "body": "It hides YouTube-generated Mix recommendations. The rest of YouTube stays unchanged.",
+      "bullets": ["No feed replacement", "No custom recommendations", "Local on YouTube pages"],
+      "noteTitle": "Targeted blocking",
+      "noteBody": "Mix cards hidden. The rest of YouTube stays unchanged."
+    },
+    "en_US": {
+      "title": "Hide YouTube Mix cards",
+      "body": "It hides YouTube-generated Mix recommendations. The rest of YouTube stays unchanged.",
+      "bullets": ["No feed replacement", "No custom recommendations", "Local on YouTube pages"],
+      "noteTitle": "Targeted blocking",
+      "noteBody": "Mix cards hidden. The rest of YouTube stays unchanged."
+    },
+    "fa": {
+      "title": "کارت‌های Mix را در YouTube پنهان کنید",
+      "body": "پیشنهادهای Mix ساخته‌شده توسط YouTube را پنهان می‌کند. بقیهٔ YouTube بدون تغییر می‌ماند.",
+      "bullets": ["بدون جایگزینی فید", "بدون پیشنهادهای سفارشی", "محلی روی صفحه‌های YouTube"],
+      "noteTitle": "مسدودسازی هدفمند",
+      "noteBody": "کارت‌های Mix پنهان می‌شوند. بقیهٔ YouTube بدون تغییر می‌ماند."
+    },
+    "fil": {
+      "title": "Itago ang mga Mix card sa YouTube",
+      "body": "Itinatago nito ang mga rekomendasyong Mix na gawa ng YouTube. Hindi nagbabago ang ibang bahagi ng YouTube.",
+      "bullets": ["Walang kapalit ng feed", "Walang sariling rekomendasyon", "Lokal sa mga pahina ng YouTube"],
+      "noteTitle": "Target na pag-block",
+      "noteBody": "Nakatago ang mga Mix card. Hindi nagbabago ang ibang bahagi ng YouTube."
+    },
+    "id": {
+      "title": "Sembunyikan kartu Mix di YouTube",
+      "body": "Menyembunyikan rekomendasi Mix buatan YouTube. Bagian YouTube lainnya tidak berubah.",
+      "bullets": ["Tidak mengganti feed", "Tidak ada rekomendasi sendiri", "Lokal di halaman YouTube"],
+      "noteTitle": "Pemblokiran terarah",
+      "noteBody": "Kartu Mix disembunyikan. Bagian YouTube lainnya tidak berubah."
+    },
+    "sw": {
+      "title": "Ficha kadi za Mix kwenye YouTube",
+      "body": "Huficha mapendekezo ya Mix yanayotengenezwa na YouTube. Sehemu nyingine ya YouTube haibadiliki.",
+      "bullets": ["Hakuna kubadilisha feed", "Hakuna mapendekezo yake", "Ya ndani kwenye kurasa za YouTube"],
+      "noteTitle": "Uzuiaji mahususi",
+      "noteBody": "Kadi za Mix zimefichwa. Sehemu nyingine ya YouTube haibadiliki."
+    },
+    "ms": {
+      "title": "Sembunyikan kad Mix di YouTube",
+      "body": "Menyembunyikan cadangan Mix yang dijana oleh YouTube. Bahagian lain YouTube tidak berubah.",
+      "bullets": ["Tiada pengganti suapan", "Tiada cadangan tersendiri", "Setempat pada halaman YouTube"],
+      "noteTitle": "Sekatan bersasar",
+      "noteBody": "Kad Mix disembunyikan. Bahagian lain YouTube tidak berubah."
+    },
+    "nl": {
+      "title": "Mix-kaarten op YouTube verbergen",
+      "body": "Verbergt door YouTube gemaakte Mix-aanbevelingen. De rest van YouTube blijft ongewijzigd.",
+      "bullets": ["Geen feedvervanging", "Geen eigen aanbevelingen", "Lokaal op YouTube-pagina's"],
+      "noteTitle": "Gericht blokkeren",
+      "noteBody": "Mix-kaarten verborgen. De rest van YouTube blijft ongewijzigd."
+    },
+    "vi": {
+      "title": "Ẩn thẻ Mix trên YouTube",
+      "body": "Ẩn các đề xuất Mix do YouTube tạo. Phần còn lại của YouTube không thay đổi.",
+      "bullets": ["Không thay thế nguồn cấp", "Không có đề xuất riêng", "Cục bộ trên trang YouTube"],
+      "noteTitle": "Chặn có mục tiêu",
+      "noteBody": "Thẻ Mix được ẩn. Phần còn lại của YouTube không thay đổi."
+    },
+    "tr": {
+      "title": "YouTube'da Mix kartlarını gizle",
+      "body": "YouTube tarafından oluşturulan Mix önerilerini gizler. YouTube'un geri kalanı değişmez.",
+      "bullets": ["Akış değiştirme yok", "Özel öneri yok", "YouTube sayfalarında yerel"],
+      "noteTitle": "Hedefli engelleme",
+      "noteBody": "Mix kartları gizlenir. YouTube'un geri kalanı değişmez."
+    },
+    "az": {
+      "title": "YouTube-da Mix kartlarını gizlət",
+      "body": "YouTube tərəfindən yaradılan Mix tövsiyələrini gizlədir. YouTube-un qalan hissəsi dəyişmir.",
+      "bullets": ["Lent əvəzlənmir", "Öz tövsiyələri yoxdur", "YouTube səhifələrində lokal işləyir"],
+      "noteTitle": "Hədəfli bloklama",
+      "noteBody": "Mix kartları gizlədildi. YouTube-un qalan hissəsi dəyişmir."
+    },
+    "ca": {
+      "title": "Amaga les targetes Mix a YouTube",
+      "body": "Amaga les recomanacions Mix generades per YouTube. La resta de YouTube no canvia.",
+      "bullets": ["No substitueix el feed", "No fa recomanacions pròpies", "Local a les pàgines de YouTube"],
+      "noteTitle": "Bloqueig específic",
+      "noteBody": "Targetes Mix amagades. La resta de YouTube no canvia."
+    },
+    "da": {
+      "title": "Skjul Mix-kort på YouTube",
+      "body": "Skjuler Mix-anbefalinger oprettet af YouTube. Resten af YouTube ændres ikke.",
+      "bullets": ["Ingen erstatning af feed", "Ingen egne anbefalinger", "Lokalt på YouTube-sider"],
+      "noteTitle": "Målrettet blokering",
+      "noteBody": "Mix-kort skjult. Resten af YouTube ændres ikke."
+    },
+    "et": {
+      "title": "Peida Mixi kaardid YouTube'is",
+      "body": "Peidab YouTube'i loodud Mixi soovitused. Ülejäänud YouTube ei muutu.",
+      "bullets": ["Ei asenda voogu", "Ei lisa oma soovitusi", "Kohalik YouTube'i lehtedel"],
+      "noteTitle": "Sihitud blokeerimine",
+      "noteBody": "Mixi kaardid on peidetud. Ülejäänud YouTube ei muutu."
+    },
+    "es": {
+      "title": "Oculta tarjetas Mix en YouTube",
+      "body": "Oculta recomendaciones Mix generadas por YouTube. El resto de YouTube no cambia.",
+      "bullets": ["No reemplaza el feed", "Sin recomendaciones propias", "Local en páginas de YouTube"],
+      "noteTitle": "Bloqueo dirigido",
+      "noteBody": "Tarjetas Mix ocultas. El resto de YouTube no cambia."
+    },
+    "es_419": {
+      "title": "Oculta tarjetas Mix en YouTube",
+      "body": "Oculta recomendaciones Mix generadas por YouTube. El resto de YouTube no cambia.",
+      "bullets": ["No reemplaza el feed", "Sin recomendaciones propias", "Local en páginas de YouTube"],
+      "noteTitle": "Bloqueo dirigido",
+      "noteBody": "Tarjetas Mix ocultas. El resto de YouTube no cambia."
+    },
+    "eu": {
+      "title": "Ezkutatu Mix txartelak YouTuben",
+      "body": "YouTubek sortutako Mix gomendioak ezkutatzen ditu. YouTubeko gainerakoa ez da aldatzen.",
+      "bullets": ["Ez du jarioa ordezkatzen", "Ez du gomendio propiorik", "Lokala YouTube orrietan"],
+      "noteTitle": "Blokeo zehatza",
+      "noteBody": "Mix txartelak ezkutatuta. YouTubeko gainerakoa ez da aldatzen."
+    },
+    "fr": {
+      "title": "Masquer les cartes Mix sur YouTube",
+      "body": "Masque les recommandations Mix générées par YouTube. Le reste de YouTube ne change pas.",
+      "bullets": ["Ne remplace pas le flux", "Aucune recommandation propre", "Local sur les pages YouTube"],
+      "noteTitle": "Blocage ciblé",
+      "noteBody": "Cartes Mix masquées. Le reste de YouTube ne change pas."
+    },
+    "hr": {
+      "title": "Sakrij Mix kartice na YouTubeu",
+      "body": "Sakriva Mix preporuke koje generira YouTube. Ostatak YouTubea ostaje nepromijenjen.",
+      "bullets": ["Bez zamjene feeda", "Bez vlastitih preporuka", "Lokalno na YouTube stranicama"],
+      "noteTitle": "Ciljano blokiranje",
+      "noteBody": "Mix kartice su skrivene. Ostatak YouTubea ostaje nepromijenjen."
+    },
+    "it": {
+      "title": "Nascondi le schede Mix su YouTube",
+      "body": "Nasconde i consigli Mix generati da YouTube. Il resto di YouTube non cambia.",
+      "bullets": ["Non sostituisce il feed", "Nessun consiglio proprio", "Locale sulle pagine YouTube"],
+      "noteTitle": "Blocco mirato",
+      "noteBody": "Schede Mix nascoste. Il resto di YouTube non cambia."
+    },
+    "lv": {
+      "title": "Paslēp Mix kartītes pakalpojumā YouTube",
+      "body": "Paslēpj YouTube veidotos Mix ieteikumus. Pārējais YouTube nemainās.",
+      "bullets": ["Neaizstāj plūsmu", "Nav savu ieteikumu", "Lokāli YouTube lapās"],
+      "noteTitle": "Mērķēta bloķēšana",
+      "noteBody": "Mix kartītes paslēptas. Pārējais YouTube nemainās."
+    },
+    "lt": {
+      "title": "Slėpti Mix korteles YouTube",
+      "body": "Paslepia YouTube sukurtas Mix rekomendacijas. Likusi YouTube dalis nesikeičia.",
+      "bullets": ["Nekeičia srauto", "Neteikia savų rekomendacijų", "Veikia vietiškai YouTube puslapiuose"],
+      "noteTitle": "Tikslinis blokavimas",
+      "noteBody": "Mix kortelės paslėptos. Likusi YouTube dalis nesikeičia."
+    },
+    "hu": {
+      "title": "Mix-kártyák elrejtése a YouTube-on",
+      "body": "Elrejti a YouTube által létrehozott Mix-ajánlásokat. A YouTube többi része nem változik.",
+      "bullets": ["Nem cseréli le a feedet", "Nincsenek saját ajánlások", "Helyben fut a YouTube-oldalakon"],
+      "noteTitle": "Célzott blokkolás",
+      "noteBody": "Mix-kártyák elrejtve. A YouTube többi része nem változik."
+    },
+    "no": {
+      "title": "Skjul Mix-kort på YouTube",
+      "body": "Skjuler Mix-anbefalinger laget av YouTube. Resten av YouTube er uendret.",
+      "bullets": ["Ingen erstatning av feeden", "Ingen egne anbefalinger", "Lokalt på YouTube-sider"],
+      "noteTitle": "Målrettet blokkering",
+      "noteBody": "Mix-kort skjult. Resten av YouTube er uendret."
+    },
+    "uz": {
+      "title": "YouTube’da Mix kartalarini yashirish",
+      "body": "YouTube yaratgan Mix tavsiyalarini yashiradi. YouTube-ning qolgan qismi o‘zgarmaydi.",
+      "bullets": ["Lenta almashtirilmaydi", "O‘z tavsiyalari yo‘q", "YouTube sahifalarida mahalliy"],
+      "noteTitle": "Maqsadli bloklash",
+      "noteBody": "Mix kartalari yashirildi. YouTube-ning qolgan qismi o‘zgarmaydi."
+    },
+    "pl": {
+      "title": "Ukryj karty Mix w YouTube",
+      "body": "Ukrywa rekomendacje Mix generowane przez YouTube. Reszta YouTube pozostaje bez zmian.",
+      "bullets": ["Nie zastępuje kanału", "Bez własnych rekomendacji", "Lokalnie na stronach YouTube"],
+      "noteTitle": "Ukierunkowane blokowanie",
+      "noteBody": "Karty Mix ukryte. Reszta YouTube pozostaje bez zmian."
+    },
+    "pt_BR": {
+      "title": "Ocultar cards Mix no YouTube",
+      "body": "Oculta recomendações Mix geradas pelo YouTube. O restante do YouTube não muda.",
+      "bullets": ["Não substitui o feed", "Sem recomendações próprias", "Local nas páginas do YouTube"],
+      "noteTitle": "Bloqueio direcionado",
+      "noteBody": "Cards Mix ocultos. O restante do YouTube não muda."
+    },
+    "pt_PT": {
+      "title": "Ocultar cartões Mix no YouTube",
+      "body": "Oculta recomendações Mix geradas pelo YouTube. O resto do YouTube não muda.",
+      "bullets": ["Não substitui o feed", "Sem recomendações próprias", "Local nas páginas do YouTube"],
+      "noteTitle": "Bloqueio direcionado",
+      "noteBody": "Cartões Mix ocultos. O resto do YouTube não muda."
+    },
+    "ro": {
+      "title": "Ascunde cardurile Mix pe YouTube",
+      "body": "Ascunde recomandările Mix generate de YouTube. Restul YouTube rămâne neschimbat.",
+      "bullets": ["Nu înlocuiește feedul", "Fără recomandări proprii", "Local pe paginile YouTube"],
+      "noteTitle": "Blocare țintită",
+      "noteBody": "Cardurile Mix sunt ascunse. Restul YouTube rămâne neschimbat."
+    },
+    "sq": {
+      "title": "Fshih kartat Mix në YouTube",
+      "body": "Fsheh rekomandimet Mix të krijuara nga YouTube. Pjesa tjetër e YouTube nuk ndryshon.",
+      "bullets": ["Nuk zëvendëson furnizimin", "Pa rekomandime të veta", "Lokalisht në faqet YouTube"],
+      "noteTitle": "Bllokim i synuar",
+      "noteBody": "Kartat Mix fshihen. Pjesa tjetër e YouTube nuk ndryshon."
+    },
+    "sk": {
+      "title": "Skryte karty Mix na YouTube",
+      "body": "Skryje odporúčania Mix, ktoré vytvára YouTube. Zvyšok YouTube sa nezmení.",
+      "bullets": ["Bez náhrady feedu", "Bez vlastných odporúčaní", "Beží lokálne na YouTube"],
+      "noteTitle": "Cielené blokovanie",
+      "noteBody": "Karty Mix sú skryté. Zvyšok YouTube sa nezmení."
+    },
+    "sl": {
+      "title": "Skrij kartice Mix v YouTubu",
+      "body": "Skrije priporočila Mix, ki jih ustvari YouTube. Preostali YouTube se ne spremeni.",
+      "bullets": ["Ne zamenja vira", "Brez lastnih priporočil", "Lokalno na straneh YouTube"],
+      "noteTitle": "Ciljno blokiranje",
+      "noteBody": "Kartice Mix so skrite. Preostali YouTube se ne spremeni."
+    },
+    "fi": {
+      "title": "Piilota Mix-kortit YouTubessa",
+      "body": "Piilottaa YouTuben luomat Mix-suositukset. Muu YouTube pysyy ennallaan.",
+      "bullets": ["Ei korvaa syötettä", "Ei omia suosituksia", "Paikallisesti YouTube-sivuilla"],
+      "noteTitle": "Kohdennettu esto",
+      "noteBody": "Mix-kortit piilotettu. Muu YouTube pysyy ennallaan."
+    },
+    "sv": {
+      "title": "Dölj Mix-kort på YouTube",
+      "body": "Döljer Mix-rekommendationer som YouTube skapar. Resten av YouTube ändras inte.",
+      "bullets": ["Ingen ersättning av flödet", "Inga egna rekommendationer", "Lokalt på YouTube-sidor"],
+      "noteTitle": "Riktad blockering",
+      "noteBody": "Mix-kort dolda. Resten av YouTube ändras inte."
+    },
+    "cs": {
+      "title": "Skryjte karty Mix na YouTube",
+      "body": "Skryje doporučení Mix, která vytváří YouTube. Zbytek YouTube zůstane beze změny.",
+      "bullets": ["Bez náhrady feedu", "Bez vlastních doporučení", "Běží lokálně na YouTube"],
+      "noteTitle": "Cílené blokování",
+      "noteBody": "Karty Mix jsou skryté. Zbytek YouTube zůstane beze změny."
+    },
+    "el": {
+      "title": "Απόκρυψη καρτών Mix στο YouTube",
+      "body": "Κρύβει προτάσεις Mix που δημιουργεί το YouTube. Το υπόλοιπο YouTube δεν αλλάζει.",
+      "bullets": ["Δεν αντικαθιστά τη ροή", "Χωρίς δικές του προτάσεις", "Τοπικά στις σελίδες YouTube"],
+      "noteTitle": "Στοχευμένος αποκλεισμός",
+      "noteBody": "Οι κάρτες Mix κρύβονται. Το υπόλοιπο YouTube δεν αλλάζει."
+    },
+    "bg": {
+      "title": "Скриване на Mix карти в YouTube",
+      "body": "Скрива Mix препоръки, създадени от YouTube. Останалата част от YouTube не се променя.",
+      "bullets": ["Не заменя емисията", "Без собствени препоръки", "Локално на страниците на YouTube"],
+      "noteTitle": "Целенасочено блокиране",
+      "noteBody": "Mix картите са скрити. Останалата част от YouTube не се променя."
+    },
+    "mk": {
+      "title": "Сокриј Mix картички на YouTube",
+      "body": "Ги сокрива Mix препораките создадени од YouTube. Остатокот од YouTube не се менува.",
+      "bullets": ["Не ја заменува почетната лента", "Без сопствени препораки", "Локално на YouTube страници"],
+      "noteTitle": "Насочено блокирање",
+      "noteBody": "Mix картичките се скриени. Остатокот од YouTube не се менува."
+    },
+    "ru": {
+      "title": "Скрывайте карточки Mix на YouTube",
+      "body": "Убирает рекомендации Mix, которые создаёт YouTube. Остальной YouTube не меняется.",
+      "bullets": ["Не заменяет ленту", "Без своих рекомендаций", "Работает локально на YouTube"],
+      "noteTitle": "Точечная блокировка",
+      "noteBody": "Карточки Mix скрыты. Остальной YouTube не меняется."
+    },
+    "sr": {
+      "title": "Сакриј Mix картице на YouTube-у",
+      "body": "Сакрива Mix препоруке које прави YouTube. Остатак YouTube-а се не мења.",
+      "bullets": ["Не замењује фид", "Нема сопствених препорука", "Локално на YouTube страницама"],
+      "noteTitle": "Циљано блокирање",
+      "noteBody": "Mix картице су сакривене. Остатак YouTube-а се не мења."
+    },
+    "uk": {
+      "title": "Приховуйте картки Mix на YouTube",
+      "body": "Прибирає рекомендації Mix, які створює YouTube. Решта YouTube не змінюється.",
+      "bullets": ["Не замінює стрічку", "Без власних рекомендацій", "Працює локально на YouTube"],
+      "noteTitle": "Точкове блокування",
+      "noteBody": "Картки Mix приховано. Решта YouTube не змінюється."
+    },
+    "hy": {
+      "title": "Թաքցնել Mix քարտերը YouTube-ում",
+      "body": "Թաքցնում է YouTube-ի ստեղծած Mix առաջարկները։ YouTube-ի մնացած մասը չի փոխվում։",
+      "bullets": ["Չի փոխարինում հոսքը", "Սեփական առաջարկներ չկան", "Տեղային՝ YouTube էջերում"],
+      "noteTitle": "Թիրախային արգելափակում",
+      "noteBody": "Mix քարտերը թաքցված են։ YouTube-ի մնացած մասը չի փոխվում։"
+    },
+    "he": {
+      "title": "הסתרת כרטיסי Mix ב-YouTube",
+      "body": "מסתיר המלצות Mix שנוצרו על ידי YouTube. שאר YouTube לא משתנה.",
+      "bullets": ["בלי החלפת פיד", "בלי המלצות משלו", "מקומי בדפי YouTube"],
+      "noteTitle": "חסימה ממוקדת",
+      "noteBody": "כרטיסי Mix מוסתרים. שאר YouTube לא משתנה."
+    },
+    "ur": {
+      "title": "YouTube پر Mix کارڈز چھپائیں",
+      "body": "YouTube کے بنائے ہوئے Mix مشورے چھپاتا ہے۔ YouTube کا باقی حصہ نہیں بدلتا۔",
+      "bullets": ["فیڈ کی تبدیلی نہیں", "اپنی سفارشات نہیں", "YouTube صفحات پر مقامی"],
+      "noteTitle": "ہدفی بلاکنگ",
+      "noteBody": "Mix کارڈز چھپ گئے۔ YouTube کا باقی حصہ نہیں بدلتا۔"
+    },
+    "ar": {
+      "title": "إخفاء بطاقات Mix على YouTube",
+      "body": "يخفي توصيات Mix التي ينشئها YouTube. لا يتغير باقي YouTube.",
+      "bullets": ["لا يستبدل الخلاصة", "لا يضيف توصيات خاصة", "محلي على صفحات YouTube"],
+      "noteTitle": "حظر مستهدف",
+      "noteBody": "تم إخفاء بطاقات Mix. لا يتغير باقي YouTube."
+    },
+    "ne": {
+      "title": "YouTube मा Mix कार्ड लुकाउनुहोस्",
+      "body": "YouTube ले बनाएका Mix सिफारिसहरू लुकाउँछ। YouTube को बाँकी भाग परिवर्तन हुँदैन।",
+      "bullets": ["फिड प्रतिस्थापन छैन", "आफ्ना सिफारिस छैनन्", "YouTube पृष्ठहरूमा स्थानीय"],
+      "noteTitle": "लक्षित ब्लकिङ",
+      "noteBody": "Mix कार्ड लुकाइयो। YouTube को बाँकी भाग परिवर्तन हुँदैन।"
+    },
+    "mr": {
+      "title": "YouTube वर Mix कार्ड लपवा",
+      "body": "YouTube ने तयार केलेल्या Mix शिफारसी लपवते. YouTube चा उर्वरित भाग बदलत नाही.",
+      "bullets": ["फीड बदलत नाही", "स्वतःच्या शिफारसी नाहीत", "YouTube पानांवर स्थानिक"],
+      "noteTitle": "लक्ष्यित ब्लॉकिंग",
+      "noteBody": "Mix कार्ड लपवले. YouTube चा उर्वरित भाग बदलत नाही."
+    },
+    "hi": {
+      "title": "YouTube पर Mix कार्ड छिपाएँ",
+      "body": "YouTube से बनी Mix सिफारिशें छिपाता है। YouTube का बाकी हिस्सा नहीं बदलता।",
+      "bullets": ["फ़ीड नहीं बदलता", "अपनी सिफारिशें नहीं", "YouTube पेजों पर स्थानीय"],
+      "noteTitle": "लक्षित ब्लॉकिंग",
+      "noteBody": "Mix कार्ड छिपे हैं। YouTube का बाकी हिस्सा नहीं बदलता।"
+    },
+    "bn": {
+      "title": "YouTube-এ Mix কার্ড লুকান",
+      "body": "YouTube তৈরি Mix সুপারিশ লুকায়। YouTube-এর বাকি অংশ বদলায় না।",
+      "bullets": ["ফিড বদলায় না", "নিজস্ব সুপারিশ নেই", "YouTube পেজে স্থানীয়ভাবে"],
+      "noteTitle": "নির্দিষ্ট ব্লকিং",
+      "noteBody": "Mix কার্ড লুকানো। YouTube-এর বাকি অংশ বদলায় না।"
+    },
+    "pa": {
+      "title": "YouTube ’ਤੇ Mix ਕਾਰਡ ਲੁਕਾਓ",
+      "body": "YouTube ਵੱਲੋਂ ਬਣਾਈਆਂ Mix ਸਿਫਾਰਸ਼ਾਂ ਲੁਕਾਉਂਦਾ ਹੈ। YouTube ਦਾ ਬਾਕੀ ਹਿੱਸਾ ਨਹੀਂ ਬਦਲਦਾ।",
+      "bullets": ["ਫੀਡ ਦੀ ਤਬਦੀਲੀ ਨਹੀਂ", "ਆਪਣੀਆਂ ਸਿਫਾਰਸ਼ਾਂ ਨਹੀਂ", "YouTube ਪੰਨਿਆਂ ਉੱਤੇ ਸਥਾਨਕ"],
+      "noteTitle": "ਨਿਸ਼ਾਨਾਬੱਧ ਬਲੌਕਿੰਗ",
+      "noteBody": "Mix ਕਾਰਡ ਲੁਕੇ ਹੋਏ ਹਨ। YouTube ਦਾ ਬਾਕੀ ਹਿੱਸਾ ਨਹੀਂ ਬਦਲਦਾ।"
+    },
+    "gu": {
+      "title": "YouTube પર Mix કાર્ડ છુપાવો",
+      "body": "YouTube બનાવેલી Mix ભલામણો છુપાવે છે. YouTube નો બાકી ભાગ બદલાતો નથી.",
+      "bullets": ["ફીડ બદલાતું નથી", "પોતાની ભલામણો નથી", "YouTube પેજ પર સ્થાનિક"],
+      "noteTitle": "લક્ષિત બ્લોકિંગ",
+      "noteBody": "Mix કાર્ડ છુપાયા. YouTube નો બાકી ભાગ બદલાતો નથી."
+    },
+    "ta": {
+      "title": "YouTube-ல் Mix கார்டுகளை மறை",
+      "body": "YouTube உருவாக்கும் Mix பரிந்துரைகளை மறைக்கும். YouTube-ன் மற்ற பகுதி மாறாது.",
+      "bullets": ["Feed மாற்றம் இல்லை", "தனி பரிந்துரை இல்லை", "உள்ளூரில் இயங்கும்"],
+      "noteTitle": "இலக்கு தடுப்பு",
+      "noteBody": "Mix கார்டுகள் மறையும். YouTube-ன் மற்ற பகுதி மாறாது."
+    },
+    "te": {
+      "title": "YouTubeలో Mix కార్డులను దాచు",
+      "body": "YouTube సృష్టించిన Mix సిఫార్సులను దాచుతుంది. YouTubeలో మిగతా భాగం మారదు.",
+      "bullets": ["ఫీడ్ మార్పు లేదు", "సొంత సిఫార్సులు లేవు", "YouTube పేజీలలో స్థానికం"],
+      "noteTitle": "లక్ష్యిత నిరోధం",
+      "noteBody": "Mix కార్డులు దాచబడ్డాయి. YouTubeలో మిగతా భాగం మారదు."
+    },
+    "kn": {
+      "title": "YouTube ನಲ್ಲಿ Mix ಕಾರ್ಡ್‌ಗಳನ್ನು ಮರೆಮಾಡಿ",
+      "body": "YouTube ಸೃಷ್ಟಿಸಿದ Mix ಶಿಫಾರಸುಗಳನ್ನು ಮರೆಮಾಡುತ್ತದೆ. YouTube ನ ಉಳಿದ ಭಾಗ ಬದಲಾಗುವುದಿಲ್ಲ.",
+      "bullets": ["ಫೀಡ್ ಬದಲಾವಣೆ ಇಲ್ಲ", "ಸ್ವಂತ ಶಿಫಾರಸುಗಳಿಲ್ಲ", "YouTube ಪುಟಗಳಲ್ಲಿ ಸ್ಥಳೀಯ"],
+      "noteTitle": "ಲಕ್ಷಿತ ನಿರ್ಬಂಧ",
+      "noteBody": "Mix ಕಾರ್ಡ್‌ಗಳು ಮರೆಮಾಡಲ್ಪಟ್ಟಿವೆ. YouTube ನ ಉಳಿದ ಭಾಗ ಬದಲಾಗುವುದಿಲ್ಲ."
+    },
+    "ml": {
+      "title": "YouTube-ൽ Mix കാർഡുകൾ മറയ്ക്കുക",
+      "body": "YouTube സൃഷ്ടിച്ച Mix ശുപാർശകൾ മറയ്ക്കുന്നു. YouTube-ന്റെ ബാക്കി ഭാഗം മാറില്ല.",
+      "bullets": ["ഫീഡ് മാറ്റമില്ല", "സ്വന്തം ശുപാർശകളില്ല", "YouTube പേജുകളിൽ പ്രാദേശികം"],
+      "noteTitle": "ലക്ഷ്യബദ്ധ തടയൽ",
+      "noteBody": "Mix കാർഡുകൾ മറച്ചു. YouTube-ന്റെ ബാക്കി ഭാഗം മാറില്ല."
+    },
+    "si": {
+      "title": "YouTube හි Mix කාඩ් සඟවන්න",
+      "body": "YouTube විසින් සාදන Mix නිර්දේශ සඟවයි. YouTube හි ඉතිරි කොටස වෙනස් නොවේ.",
+      "bullets": ["Feed එක ප්‍රතිස්ථාපනය නොවේ", "තමන්ගේ නිර්දේශ නැත", "YouTube පිටුවල දේශීයව"],
+      "noteTitle": "ඉලක්කගත අවහිර කිරීම",
+      "noteBody": "Mix කාඩ් සඟවා ඇත. YouTube හි ඉතිරි කොටස වෙනස් නොවේ."
+    },
+    "th": {
+      "title": "ซ่อนการ์ด Mix บน YouTube",
+      "body": "ซ่อนคำแนะนำ Mix ที่ YouTube สร้างขึ้น ส่วนอื่นของ YouTube ไม่เปลี่ยนแปลง",
+      "bullets": ["ไม่แทนที่ฟีด", "ไม่มีคำแนะนำของตัวเอง", "ทำงานในหน้า YouTube เท่านั้น"],
+      "noteTitle": "การบล็อกเฉพาะจุด",
+      "noteBody": "ซ่อนการ์ด Mix แล้ว ส่วนอื่นของ YouTube ไม่เปลี่ยนแปลง"
+    },
+    "ka": {
+      "title": "Mix ბარათების დამალვა YouTube-ზე",
+      "body": "მალავს YouTube-ის შექმნილ Mix რეკომენდაციებს. YouTube-ის დანარჩენი ნაწილი არ იცვლება.",
+      "bullets": ["არ ცვლის არხს", "საკუთარი რეკომენდაციები არ აქვს", "ლოკალურად YouTube გვერდებზე"],
+      "noteTitle": "მიზნობრივი დაბლოკვა",
+      "noteBody": "Mix ბარათები დამალულია. YouTube-ის დანარჩენი ნაწილი არ იცვლება."
+    },
+    "am": {
+      "title": "በYouTube ላይ የMix ካርዶችን ደብቅ",
+      "body": "YouTube የሚፈጥራቸውን Mix ምክሮች ይደብቃል። የYouTube ቀሪው ክፍል አይቀየርም።",
+      "bullets": ["Feed አይተካም", "የራሱ ምክሮች የሉም", "በYouTube ገጾች ላይ በአካባቢ"],
+      "noteTitle": "ተወሰነ ማገድ",
+      "noteBody": "Mix ካርዶች ተደብቀዋል። የYouTube ቀሪው ክፍል አይቀየርም።"
+    },
+    "zh_CN": {
+      "title": "隐藏 YouTube 上的 Mix 卡片",
+      "body": "隐藏 YouTube 生成的 Mix 推荐。YouTube 的其他部分保持不变。",
+      "bullets": ["不替换首页信息流", "不添加自定义推荐", "仅在 YouTube 页面本地运行"],
+      "noteTitle": "精准屏蔽",
+      "noteBody": "Mix 卡片已隐藏。YouTube 的其他部分保持不变。"
+    },
+    "zh_TW": {
+      "title": "隱藏 YouTube 上的 Mix 卡片",
+      "body": "隱藏 YouTube 產生的 Mix 推薦。YouTube 的其他部分維持不變。",
+      "bullets": ["不取代動態消息", "不加入自訂推薦", "只在 YouTube 頁面本機執行"],
+      "noteTitle": "精準封鎖",
+      "noteBody": "Mix 卡片已隱藏。YouTube 的其他部分維持不變。"
+    },
+    "ja": {
+      "title": "YouTube の Mix カードを非表示",
+      "body": "YouTube が生成した Mix のおすすめを非表示にします。YouTube のその他の部分は変わりません。",
+      "bullets": ["フィードを置き換えない", "独自のおすすめなし", "YouTube ページ上でローカル動作"],
+      "noteTitle": "対象を絞ったブロック",
+      "noteBody": "Mix カードを非表示。YouTube のその他の部分は変わりません。"
+    },
+    "ko": {
+      "title": "YouTube에서 Mix 카드 숨기기",
+      "body": "YouTube가 만든 Mix 추천을 숨깁니다. YouTube의 나머지 부분은 그대로입니다.",
+      "bullets": ["피드를 바꾸지 않음", "자체 추천 없음", "YouTube 페이지에서 로컬 작동"],
+      "noteTitle": "대상 지정 차단",
+      "noteBody": "Mix 카드가 숨겨집니다. YouTube의 나머지 부분은 그대로입니다."
+    }
+  }
+}
