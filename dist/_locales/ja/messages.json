@@ -4,7 +4,7 @@
     "description": "Extension name."
   },
   "appDescription": {
-    "message": "YouTube Mixes をブロックし、Mix の視聴 URL を整理します。",
+    "message": "YouTube Mix をブロックし、Mix の視聴 URL を整理します。",
     "description": "Short extension description shown by Chrome and the Chrome Web Store."
   },
   "popupTitle": {
@@ -24,7 +24,7 @@
     "description": "All-time counter section heading."
   },
   "popupAllTimeByArea": {
-    "message": "全期間の場所別",
+    "message": "全期間の場所別内訳",
     "description": "All-time surface breakdown section heading."
   },
   "popupMixCardsBlocked": {
@@ -32,7 +32,7 @@
     "description": "Total blocked Mix card counter label."
   },
   "popupMixUrlsCleaned": {
-    "message": "整理した Mix URL",
+    "message": "整理済みの Mix URL",
     "description": "Cleaned Mix URL counter label."
   },
   "popupThisPage": {

@@ -452,10 +452,10 @@
     },
     "ja": {
       "title": "YouTube の Mix カードを非表示",
-      "body": "YouTube が生成した Mix のおすすめを非表示にします。YouTube のその他の部分は変わりません。",
-      "bullets": ["フィードを置き換えない", "独自のおすすめなし", "YouTube ページ上でローカル動作"],
+      "body": "YouTube が生成した Mix のおすすめを非表示にします。YouTube のその他の部分はそのままです。",
+      "bullets": ["フィードを置き換えない", "独自のおすすめなし", "YouTube ページ上でローカルに動作"],
       "noteTitle": "対象を絞ったブロック",
-      "noteBody": "Mix カードを非表示。YouTube のその他の部分は変わりません。"
+      "noteBody": "Mix カードを非表示。YouTube のその他の部分はそのままです。"
     },
     "ko": {
       "title": "YouTube에서 Mix 카드 숨기기",
