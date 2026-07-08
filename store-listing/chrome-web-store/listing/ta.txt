@@ -18,12 +18,7 @@
 கருத்து வரவேற்கப்படுகிறது. நீங்கள் மதிப்பாய்வு செய்யலாம், GitHub இல் சிக்கலைத் திறக்கலாம் அல்லது இதற்கு எழுதலாம்:
 molodchykr@gmail.com
 
-பதிப்பு 1.5.3 இல் புதியவை
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 திறந்த மூல
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

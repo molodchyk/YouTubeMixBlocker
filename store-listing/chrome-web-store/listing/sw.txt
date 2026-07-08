@@ -18,12 +18,7 @@ Kiendelezi hiki kinatumia kurasa za YouTube pekee. Haikusanyi, kuuza, au kusamba
 Maoni yanakaribishwa. Unaweza kuacha ukaguzi, kufungua suala kwenye GitHub, au kuandika kwa:
 molodchykr@gmail.com
 
-Mambo mapya katika toleo la 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Chanzo wazi
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

@@ -18,12 +18,7 @@ Ta razširitev deluje samo na straneh YouTube. Ne zbira, prodaja ali prenaša va
 Povratne informacije so dobrodošle. Lahko pustite mnenje, odprete vprašanje na GitHubu ali pišete na:
 molodchykr@gmail.com
 
-Kaj je novega v različici 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Odprta koda
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

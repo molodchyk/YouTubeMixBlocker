@@ -9,15 +9,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const chromeLocalesDirectory = path.join(root, "src/chrome/_locales");
 const listingDirectory = path.join(root, "store-listing/chrome-web-store/listing");
-const whatsNewPath = path.join(root, "store-listing/chrome-web-store/whats_new.json");
 const githubURL = "https://github.com/molodchyk/YouTubeMixBlocker";
 const supportEmail = "molodchykr@gmail.com";
 const sameAsEnglishLocales = ["en_AU", "en_GB", "en_US"];
-const chromeReleaseNotes = {
-  version: "1.5.3",
-  bullet1: "Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.",
-  bullet2: "Kept the uninstall URL limited to source, version, and Chrome UI language parameters."
-};
 
 const translations = {
   fa: {
@@ -67,9 +61,6 @@ const translations = {
       openSource: "متن‌باز",
       source: "متن‌باز تحت مجوز GPL-3.0:",
       feedback: "بازخوردتان خوشحالمان می‌کند. می‌توانید نظر بگذارید، در GitHub یک issue باز کنید، یا بنویسید به:",
-      whatsNewHead: "تازه‌های نسخه 1.5.3",
-      whatsNew1: "فضاهای خالی باقی‌مانده در شبکه صفحه اصلی YouTube پس از مسدود شدن کارت‌های Mix حذف شد.",
-      whatsNew2: "مشکل نوار کناری Chrome که در آن نشانگر بارگیری YouTube پس از پیمایش پیشنهادهای تازه بارگیری‌شده گیر می‌کرد برطرف شد."
     }
   },
   az: {
@@ -119,9 +110,6 @@ const translations = {
       openSource: "Açıq mənbə",
       source: "GPL-3.0 lisenziyası ilə açıq mənbə:",
       feedback: "Rəyiniz xoşdur. Siz rəy yaza, GitHub-da məsələ aça və ya bu ünvana yaza bilərsiniz:",
-      whatsNewHead: "1.5.3 versiyasında yeniliklər",
-      whatsNew1: "Mix kartları bloklandıqdan sonra YouTube ana səhifə torunda qalan boş sahələr silindi.",
-      whatsNew2: "Yeni yüklənmiş yan panel tövsiyələri sürüşdürüldükdən sonra YouTube yükləmə göstəricisinin ilişə bildiyi Chrome izləmə yan paneli problemi düzəldildi."
     }
   },
   eu: {
@@ -171,9 +159,6 @@ const translations = {
       openSource: "Kode irekia",
       source: "GPL-3.0 lizentziarekin kode irekia:",
       feedback: "Iritziak ongi etorriak dira. Balorazio bat utzi, GitHub-en arazo bat ireki edo hona idatz dezakezu:",
-      whatsNewHead: "1.5.3 bertsioan berria",
-      whatsNew1: "Mix txartelak blokeatu ondoren YouTube hasierako saretan geratutako hutsuneak kendu dira.",
-      whatsNew2: "Chrome-ko ikusteko alboko barrako arazo bat konpondu da: YouTube-ren kargatze-adierazlea trabatuta gera zitekeen alboko barrako gomendio berriak korritu ondoren."
     }
   },
   uz: {
@@ -223,9 +208,6 @@ const translations = {
       openSource: "Ochiq kodli",
       source: "GPL-3.0 litsenziyasi ostida ochiq kodli:",
       feedback: "Fikr-mulohaza mamnuniyat bilan qabul qilinadi. Sharh qoldirishingiz, GitHub’da masala ochishingiz yoki quyidagiga yozishingiz mumkin:",
-      whatsNewHead: "1.5.3 versiyasidagi yangiliklar",
-      whatsNew1: "Mix kartalari bloklangandan keyin YouTube bosh sahifasi to‘rida qolgan bo‘sh joylar olib tashlandi.",
-      whatsNew2: "Yangi yuklangan yon panel tavsiyalarini aylantirgandan keyin YouTube yuklash indikatori qotib qolishi mumkin bo‘lgan Chrome tomosha yon paneli muammosi tuzatildi."
     }
   },
   sq: {
@@ -275,9 +257,6 @@ const translations = {
       openSource: "Me burim të hapur",
       source: "Me burim të hapur nën licencën GPL-3.0:",
       feedback: "Komentet janë të mirëpritura. Mund të lini një vlerësim, të hapni një çështje në GitHub, ose të shkruani te:",
-      whatsNewHead: "Çfarë ka të re në versionin 1.5.3",
-      whatsNew1: "U hoqën hapësirat bosh të mbetura në rrjetën e faqes kryesore të YouTube pas bllokimit të kartave Mix.",
-      whatsNew2: "U rregullua një problem i shiritit anësor të Chrome ku rrotulluesi i ngarkimit të YouTube mund të mbetej i bllokuar pas lëvizjes në rekomandimet e reja."
     }
   },
   mk: {
@@ -327,9 +306,6 @@ const translations = {
       openSource: "Отворен код",
       source: "Отворен код под лиценцата GPL-3.0:",
       feedback: "Повратните информации се добредојдени. Можете да оставите рецензија, да отворите issue на GitHub или да пишете на:",
-      whatsNewHead: "Што е ново во верзија 1.5.3",
-      whatsNew1: "Отстранети се празните места што остануваа во мрежата на почетната страница на YouTube по блокирањето на Mix картичките.",
-      whatsNew2: "Поправен е проблем со страничната лента во Chrome каде што индикаторот за вчитување на YouTube можеше да остане заглавен по лизгање низ ново вчитани препораки."
     }
   },
   hy: {
@@ -379,9 +355,6 @@ const translations = {
       openSource: "Բաց կոդ",
       source: "Բաց կոդ GPL-3.0 արտոնագրով՝",
       feedback: "Կարծիքները ողջունելի են։ Կարող եք թողնել գնահատական, GitHub-ում բացել issue կամ գրել՝",
-      whatsNewHead: "Ինչ է նոր 1.5.3 տարբերակում",
-      whatsNew1: "Հեռացվել են դատարկ տարածքները, որոնք մնում էին YouTube-ի գլխավոր էջի ցանցում Mix քարտերը արգելափակելուց հետո։",
-      whatsNew2: "Ուղղվել է Chrome-ի դիտման կողային վահանակի խնդիր, երբ YouTube-ի բեռնման ցուցիչը կարող էր մնալ կախված նոր բեռնված կողային առաջարկությունները ոլորելուց հետո։"
     }
   },
   ur: {
@@ -431,9 +404,6 @@ const translations = {
       openSource: "اوپن سورس",
       source: "GPL-3.0 لائسنس کے تحت اوپن سورس:",
       feedback: "آپ کی رائے خوش آئند ہے۔ آپ ریویو چھوڑ سکتے ہیں، GitHub پر issue کھول سکتے ہیں، یا اس پر لکھ سکتے ہیں:",
-      whatsNewHead: "ورژن 1.5.3 میں نیا کیا ہے",
-      whatsNew1: "Mix کارڈز بلاک ہونے کے بعد YouTube ہوم گرڈ میں رہ جانے والی خالی جگہیں ہٹا دی گئیں۔",
-      whatsNew2: "Chrome watch-sidebar کا مسئلہ درست کیا گیا جہاں نئی لوڈ شدہ سائیڈ بار تجاویز اسکرول کرنے کے بعد YouTube کا لوڈنگ اسپنر اٹک سکتا تھا۔"
     }
   },
   ne: {
@@ -483,9 +453,6 @@ const translations = {
       openSource: "खुला स्रोत",
       source: "GPL-3.0 इजाजतपत्र अन्तर्गत खुला स्रोत:",
       feedback: "प्रतिक्रिया स्वागत छ। तपाईं समीक्षा छोड्न, GitHub मा issue खोल्न, वा यसमा लेख्न सक्नुहुन्छ:",
-      whatsNewHead: "संस्करण 1.5.3 मा नयाँ के छ",
-      whatsNew1: "Mix कार्डहरू रोकिएपछि YouTube गृह ग्रिडमा बाँकी रहेका खाली ठाउँहरू हटाइयो।",
-      whatsNew2: "नयाँ लोड गरिएका साइडबार सिफारिसहरू स्क्रोल गरेपछि YouTube को लोडिङ स्पिनर अड्किन सक्ने Chrome watch-sidebar समस्या समाधान गरियो।"
     }
   },
   pa: {
@@ -535,9 +502,6 @@ const translations = {
       openSource: "ਖੁੱਲ੍ਹਾ ਸਰੋਤ",
       source: "GPL-3.0 ਲਾਇਸੰਸ ਹੇਠ ਖੁੱਲ੍ਹਾ ਸਰੋਤ:",
       feedback: "ਫੀਡਬੈਕ ਦਾ ਸਵਾਗਤ ਹੈ। ਤੁਸੀਂ ਸਮੀਖਿਆ ਛੱਡ ਸਕਦੇ ਹੋ, GitHub ‘ਤੇ issue ਖੋਲ੍ਹ ਸਕਦੇ ਹੋ, ਜਾਂ ਇੱਥੇ ਲਿਖ ਸਕਦੇ ਹੋ:",
-      whatsNewHead: "ਵਰਜਨ 1.5.3 ਵਿੱਚ ਨਵਾਂ ਕੀ ਹੈ",
-      whatsNew1: "Mix ਕਾਰਡ ਬਲਾਕ ਹੋਣ ਤੋਂ ਬਾਅਦ YouTube ਹੋਮ ਗ੍ਰਿਡ ਵਿੱਚ ਰਹਿ ਗਈਆਂ ਖਾਲੀ ਥਾਵਾਂ ਹਟਾਈਆਂ ਗਈਆਂ।",
-      whatsNew2: "Chrome watch-sidebar ਸਮੱਸਿਆ ਠੀਕ ਕੀਤੀ ਗਈ ਜਿੱਥੇ ਨਵੀਆਂ ਲੋਡ ਹੋਈਆਂ ਸਾਈਡਬਾਰ ਸਿਫ਼ਾਰਸ਼ਾਂ ਸਕ੍ਰੋਲ ਕਰਨ ਤੋਂ ਬਾਅਦ YouTube ਦਾ ਲੋਡਿੰਗ ਸਪਿੰਨਰ ਅਟਕ ਸਕਦਾ ਸੀ।"
     }
   },
   si: {
@@ -587,9 +551,6 @@ const translations = {
       openSource: "විවෘත මූලාශ්‍ර",
       source: "GPL-3.0 බලපත්‍රය යටතේ විවෘත මූලාශ්‍ර:",
       feedback: "ප්‍රතිපෝෂණය සාදරයෙන් පිළිගනිමු. ඔබට සමාලෝචනයක් තැබිය, GitHub හි issue එකක් විවෘත කළ හැකිය, හෝ මෙයට ලියන්න:",
-      whatsNewHead: "1.5.3 අනුවාදයේ අලුත් දේ",
-      whatsNew1: "Mix කාඩ්පත් අවහිර කළ පසු YouTube මුල් පිටු ජාලයේ ඉතිරි වූ හිස් ඉඩ ඉවත් කරන ලදී.",
-      whatsNew2: "අලුතින් පූරණය කළ පැති තීරු නිර්දේශ ස්ක්‍රෝල් කළ පසු YouTube පූරණ spinner එක හිර විය හැකි Chrome watch-sidebar ගැටලුව විසඳන ලදී."
     }
   },
   ka: {
@@ -639,9 +600,6 @@ const translations = {
       openSource: "ღია წყარო",
       source: "ღია წყარო GPL-3.0 ლიცენზიით:",
       feedback: "უკუკავშირი მისასალმებელია. შეგიძლიათ დატოვოთ მიმოხილვა, გახსნათ issue GitHub-ზე, ან მოგვწეროთ:",
-      whatsNewHead: "რა არის ახალი ვერსიაში 1.5.3",
-      whatsNew1: "წაიშალა ცარიელი სივრცეები, რომლებიც YouTube-ის მთავარ ბადეში რჩებოდა Mix ბარათების დაბლოკვის შემდეგ.",
-      whatsNew2: "გამოსწორდა Chrome-ის ყურების გვერდითი ზოლის პრობლემა, როცა YouTube-ის ჩატვირთვის ინდიკატორი შეიძლება გაჭედილიყო ახლად ჩატვირთული გვერდითი რეკომენდაციების გადახვევის შემდეგ."
     }
   },
   am: {
@@ -691,9 +649,6 @@ const translations = {
       openSource: "ክፍት ምንጭ",
       source: "በGPL-3.0 ፈቃድ ስር ክፍት ምንጭ:",
       feedback: "አስተያየት በደስታ ይቀበላል። ግምገማ መተው፣ በGitHub issue መክፈት፣ ወይም ወደዚህ መጻፍ ይችላሉ:",
-      whatsNewHead: "በስሪት 1.5.3 ያለው አዲስ ነገር",
-      whatsNew1: "Mix ካርዶች ከታገዱ በኋላ በYouTube መነሻ ገጽ grid ውስጥ የቀሩ ባዶ ቦታዎች ተወግደዋል።",
-      whatsNew2: "አዲስ የተጫኑ የጎን አሞሌ ምክሮችን ከማሸብለል በኋላ የYouTube የመጫኛ ምልክት ሊቆም የሚችልበት የChrome watch-sidebar ችግኝ ተስተካክሏል።"
     }
   }
 };
@@ -732,20 +687,49 @@ function createListing(englishListing, locale) {
     "",
     listing.privacy,
     "",
-      listing.feedback,
-      supportEmail,
-      "",
-      listing.whatsNewHead,
-      "",
-      listing.whatsNew1,
-      listing.whatsNew2,
-      "",
-      listing.openSource,
-      "",
-      "GPL-3.0-only license:",
-      githubURL,
-      ""
-    ].join("\n");
+    listing.feedback,
+    supportEmail,
+    "",
+    listing.openSource,
+    "",
+    "GPL-3.0-only",
+    githubURL,
+    ""
+  ].join("\n");
+}
+
+function removeGeneratedReleaseNotes(filePath) {
+  const lines = readFileSync(filePath, "utf8").split(/\r?\n/);
+  let supportEmailIndex = lines.findIndex(line => line.trim() === supportEmail);
+  if (supportEmailIndex === -1) {
+    supportEmailIndex = lines.findIndex(line => line.trim() === "EMAIL_PLACEholder");
+    if (supportEmailIndex !== -1) {
+      lines[supportEmailIndex] = supportEmail;
+    }
+  }
+  const githubURLIndex = lines.findIndex(line => line.trim() === githubURL);
+
+  if (supportEmailIndex === -1 || githubURLIndex === -1 || githubURLIndex <= supportEmailIndex) return;
+
+  let licenseLineIndex = githubURLIndex - 1;
+  while (licenseLineIndex >= 0 && lines[licenseLineIndex].trim() === "") {
+    licenseLineIndex -= 1;
+  }
+
+  let footerHeadingIndex = licenseLineIndex - 1;
+  while (footerHeadingIndex >= 0 && lines[footerHeadingIndex].trim() === "") {
+    footerHeadingIndex -= 1;
+  }
+
+  if (footerHeadingIndex <= supportEmailIndex + 1) return;
+
+  const nextLines = [
+    ...lines.slice(0, supportEmailIndex + 1),
+    "",
+    ...lines.slice(footerHeadingIndex)
+  ];
+
+  writeFileSync(filePath, `${nextLines.join("\n").replace(/\n*$/, "")}\n`, "utf8");
 }
 
 function normalizeStoreListingFooter(filePath) {
@@ -780,45 +764,11 @@ function normalizeStoreListingFooter(filePath) {
     "",
     heading,
     "",
-    "GPL-3.0-only license:",
+    "GPL-3.0-only",
     githubURL
   ].filter((line, index) => index !== 0 || line !== "").join("\n");
 
   writeFileSync(filePath, `${normalized.replace(/\n*$/, "")}\n`, "utf8");
-}
-
-function normalizeWhatsNewEntry(entry) {
-  return {
-    heading: entry.heading.replace(/1\.5\.\d+/g, chromeReleaseNotes.version),
-    bullet1: chromeReleaseNotes.bullet1,
-    bullet2: chromeReleaseNotes.bullet2
-  };
-}
-
-function applyWhatsNewToListing(filePath, entry) {
-  const lines = readFileSync(filePath, "utf8").split(/\r?\n/);
-  let headingIndex = lines.findIndex(line => line.trim() === entry.heading);
-
-  if (headingIndex === -1) {
-    headingIndex = lines.findIndex(line => /1\.5\.\d+/.test(line));
-  }
-
-  if (headingIndex === -1) return;
-
-  const replacement = [
-    entry.heading,
-    "",
-    entry.bullet1,
-    entry.bullet2,
-    ""
-  ];
-  const nextLines = [
-    ...lines.slice(0, headingIndex),
-    ...replacement,
-    ...lines.slice(headingIndex + 5)
-  ];
-
-  writeFileSync(filePath, `${nextLines.join("\n").replace(/\n*$/, "")}\n`, "utf8");
 }
 
 const baseMessages = JSON.parse(readFileSync(path.join(chromeLocalesDirectory, "en/messages.json"), "utf8"));
@@ -844,35 +794,9 @@ if (existsSync(legacyHebrewListing)) {
   unlinkSync(legacyHebrewListing);
 }
 
-let whatsNew = JSON.parse(readFileSync(whatsNewPath, "utf8"));
-if (whatsNew.iw && !whatsNew.he) {
-  whatsNew.he = whatsNew.iw;
-}
-delete whatsNew.iw;
-
-for (const locale of sameAsEnglishLocales) {
-  whatsNew[locale] = { ...whatsNew.en };
-}
-for (const [locale, data] of Object.entries(translations)) {
-  whatsNew[locale] = {
-    heading: data.listing.whatsNewHead,
-    bullet1: data.listing.whatsNew1,
-    bullet2: data.listing.whatsNew2
-  };
-}
-for (const [locale, entry] of Object.entries(whatsNew)) {
-  whatsNew[locale] = normalizeWhatsNewEntry(entry);
-}
-
-whatsNew = Object.fromEntries(Object.entries(whatsNew).sort(([a], [b]) => a.localeCompare(b)));
-writeFileSync(whatsNewPath, `${JSON.stringify(whatsNew, null, 2)}\n`, "utf8");
-
 for (const fileName of readdirSync(listingDirectory).filter(fileName => fileName.endsWith(".txt"))) {
-  const locale = path.basename(fileName, ".txt");
   const filePath = path.join(listingDirectory, fileName);
-  if (whatsNew[locale]) {
-    applyWhatsNewToListing(filePath, whatsNew[locale]);
-  }
+  removeGeneratedReleaseNotes(filePath);
   normalizeStoreListingFooter(filePath);
 }
 

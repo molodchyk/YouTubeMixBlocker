@@ -18,12 +18,7 @@ Kjo shtesë funksionon vetëm në faqet e YouTube. Nuk mbledh, shet ose transmet
 Komentet janë të mirëpritura. Mund të lini një vlerësim, të hapni një çështje në GitHub, ose të shkruani te:
 molodchykr@gmail.com
 
-Çfarë ka të re në versionin 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Me burim të hapur
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

@@ -18,12 +18,7 @@ Toto rozšíření běží pouze na stránkách YouTube. Neshromažďuje, neprod
 Zpětná vazba je vítána. Můžete zanechat recenzi, otevřít problém na GitHubu nebo napsat na:
 molodchykr@gmail.com
 
-Co je nového ve verzi 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Open source
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

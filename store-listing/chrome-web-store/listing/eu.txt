@@ -18,12 +18,7 @@ Luzapen hau YouTube orrialdeetan bakarrik exekutatzen da. Ez du zure nabigazio-d
 Iritziak ongi etorriak dira. Balorazio bat utzi, GitHub-en arazo bat ireki edo hona idatz dezakezu:
 molodchykr@gmail.com
 
-1.5.3 bertsioan berria
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Kode irekia
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

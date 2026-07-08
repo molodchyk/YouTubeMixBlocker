@@ -18,12 +18,7 @@ Diese Erweiterung läuft nur auf YouTube-Seiten. Sie sammelt, verkauft oder übe
 Feedback ist willkommen. Du kannst eine Bewertung hinterlassen, ein Issue auf GitHub öffnen oder schreiben an:
 molodchykr@gmail.com
 
-Neu in Version 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Open Source
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

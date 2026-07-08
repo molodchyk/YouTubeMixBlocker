@@ -45,7 +45,7 @@ The extension is intended to:
 - `dist/manifest.json` parses as valid JSON.
 - Locale `messages.json` files parse as valid JSON.
 - `src/chrome/_locales/` is copied into `dist/_locales/` by the build script.
-- `npm run verify:locales` checks Chrome 66-locale coverage, Chrome listing coverage, and `whats_new.json` coverage.
+- `npm run verify:locales` checks Chrome 66-locale coverage and Chrome listing coverage.
 
 ## Needs Manual Testing
 

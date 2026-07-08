@@ -18,12 +18,7 @@ Privatumas
 Atsiliepimai laukiami. Galite palikti atsiliepimą, atidaryti problemą „GitHub“ arba parašyti adresu:
 molodchykr@gmail.com
 
-Kas naujo versijoje 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Atviras šaltinis
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

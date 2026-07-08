@@ -59,7 +59,7 @@ This was observed on:
 
 - Chrome runtime locales live under `src/chrome/_locales/`.
 - Chrome Web Store long descriptions live under `store-listing/chrome-web-store/listing/`.
-- Chrome Web Store what's-new text lives in `store-listing/chrome-web-store/whats_new.json`.
+- Chrome Web Store long descriptions do not include generated update-summary sections.
 - Run `npm run sync:chrome-locales` after changing generated locale text or store listing footer shape.
 
 ## Uninstall Feedback

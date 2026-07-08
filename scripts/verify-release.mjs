@@ -166,8 +166,8 @@ for (const fileName of listFiles(path.join(root, "store-listing/chrome-web-store
   const relativePath = `store-listing/chrome-web-store/listing/${fileName}`;
   const content = readText(relativePath);
 
-  if (!content.includes("GPL-3.0-only license:")) {
-    fail(`${relativePath} must include the GPL-3.0-only store listing footer`);
+  if (!content.includes("GPL-3.0-only")) {
+    fail(`${relativePath} must include the GPL-3.0-only store listing license`);
   }
 
   if (!content.includes("https://github.com/molodchyk/YouTubeMixBlocker")) {

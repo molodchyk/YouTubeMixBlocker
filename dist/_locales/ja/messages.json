@@ -96,15 +96,15 @@
     "description": "Button label for resetting all counters."
   },
   "popupCopyPageLog": {
-    "message": "Copy page log",
+    "message": "ページログをコピー",
     "description": "Button label for copying the current page debug log."
   },
   "popupCopied": {
-    "message": "Copied",
+    "message": "コピーしました",
     "description": "Temporary button label after copying the current page debug log."
   },
   "popupCopyFailed": {
-    "message": "Copy failed",
+    "message": "コピーに失敗しました",
     "description": "Temporary button label when copying the current page debug log fails."
   },
   "popupResetConfirm": {

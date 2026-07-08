@@ -18,12 +18,7 @@ Tämä laajennus toimii vain YouTube-sivuilla. Se ei kerää, myy tai lähetä s
 Palaute on tervetullutta. Voit jättää arvostelun, avata ongelman GitHubissa tai kirjoittaa osoitteeseen:
 molodchykr@gmail.com
 
-Mitä uutta versiossa 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Avoin lähdekoodi
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

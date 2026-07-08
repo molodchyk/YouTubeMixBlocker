@@ -18,12 +18,7 @@
 प्रतिक्रिया का स्वागत है. आप एक समीक्षा छोड़ सकते हैं, GitHub पर एक मुद्दा खोल सकते हैं, या यहां लिख सकते हैं:
 molodchykr@gmail.com
 
-संस्करण 1.5.3 में क्या नया है
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 खुला स्रोत
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

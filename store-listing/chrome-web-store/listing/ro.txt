@@ -18,12 +18,7 @@ Această extensie rulează numai pe paginile YouTube. Nu colectează, vinde și 
 Feedback-ul este binevenit. Puteți lăsa o recenzie, puteți deschide o problemă pe GitHub sau puteți scrie la:
 molodchykr@gmail.com
 
-Ce este nou în versiunea 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Sursă deschisă
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

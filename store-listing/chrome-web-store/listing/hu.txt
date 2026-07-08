@@ -18,12 +18,7 @@ Ez a bővítmény csak a YouTube-oldalakon fut. Nem gyűjti, értékesíti vagy 
 A visszajelzéseket szívesen fogadjuk. Írhat véleményt, megnyithat egy problémát a GitHubon, vagy írhat a következő címre:
 molodchykr@gmail.com
 
-Újdonságok az 1.5.3 verzióban
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Nyílt forráskódú
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

@@ -18,12 +18,7 @@ YouTube Mix Blocker ले YouTube पृष्ठहरूबाट YouTube Mix
 प्रतिक्रिया स्वागत छ। तपाईं समीक्षा छोड्न, GitHub मा issue खोल्न, वा यसमा लेख्न सक्नुहुन्छ:
 molodchykr@gmail.com
 
-संस्करण 1.5.3 मा नयाँ के छ
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 खुला स्रोत
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

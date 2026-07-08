@@ -18,12 +18,7 @@ YouTube Mix Blocker ги отстранува препораките YouTube Mix
 Повратните информации се добредојдени. Можете да оставите рецензија, да отворите issue на GitHub или да пишете на:
 molodchykr@gmail.com
 
-Што е ново во верзија 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Отворен код
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

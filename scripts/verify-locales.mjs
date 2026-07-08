@@ -85,7 +85,6 @@ function verifyMessages(localeDirectory, expectedLocales) {
 
 const chromeLocaleDirectory = path.join(root, "src/chrome/_locales");
 const listingDirectory = path.join(root, "store-listing/chrome-web-store/listing");
-const whatsNewPath = path.join(root, "store-listing/chrome-web-store/whats_new.json");
 
 if (existsSync(path.join(root, "src/_locales"))) {
   fail("src/_locales must not exist; use src/chrome/_locales");
@@ -113,19 +112,6 @@ for (const locale of listDirectories(chromeLocaleDirectory)) {
 }
 
 verifyMessages(chromeLocaleDirectory, chromeLocales);
-
-const whatsNew = parseJSON(whatsNewPath);
-if (whatsNew) {
-  assertSameSet("Chrome what's-new locales", Object.keys(whatsNew).sort(), chromeLocales);
-
-  for (const locale of chromeLocales) {
-    for (const field of ["heading", "bullet1", "bullet2"]) {
-      if (!whatsNew[locale] || typeof whatsNew[locale][field] !== "string" || whatsNew[locale][field].trim() === "") {
-        fail(`whats_new.json ${locale}.${field} is missing or empty`);
-      }
-    }
-  }
-}
 
 if (failures.length > 0) {
   console.error(failures.map(message => `- ${message}`).join("\n"));

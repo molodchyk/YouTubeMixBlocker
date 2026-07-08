@@ -18,12 +18,7 @@
 Повратне информације су добродошле. Можете оставити рецензију, отворити проблем на ГитХуб-у или писати на:
 molodchykr@gmail.com
 
-Шта је ново у верзији 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Опен соурце
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

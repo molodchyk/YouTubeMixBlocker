@@ -18,12 +18,7 @@ YouTube Mix Blocker پیشنهادهای YouTube Mix را از صفحه‌های
 بازخوردتان خوشحالمان می‌کند. می‌توانید نظر بگذارید، در GitHub یک issue باز کنید، یا بنویسید به:
 molodchykr@gmail.com
 
-تازه‌های نسخه 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 متن‌باز
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker

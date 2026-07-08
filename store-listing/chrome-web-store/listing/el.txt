@@ -18,12 +18,7 @@
 Τα σχόλια είναι ευπρόσδεκτα. Μπορείτε να αφήσετε μια κριτική, να ανοίξετε ένα θέμα στο GitHub ή να γράψετε στη διεύθυνση:
 molodchykr@gmail.com
 
-Τι νέο υπάρχει στην έκδοση 1.5.3
-
-Added an optional Chrome uninstall feedback page for voluntary issue and feature feedback.
-Kept the uninstall URL limited to source, version, and Chrome UI language parameters.
-
 Ανοιχτό κώδικα
 
-GPL-3.0-only license:
+GPL-3.0-only
 https://github.com/molodchyk/YouTubeMixBlocker
